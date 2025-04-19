@@ -1,0 +1,327 @@
+## SteelLongbowName ^
+Steel Longbow[X]
+
+## SteelLongbowDesc
+Extended attack range.[X]
+
+## CommandStaffName
+Command[X]
+
+## CommandStaffDesc
+Freezes an enemy for 1 turn.[N]
+If it isn't a boss, also steals[N]
+their equipped item.[X]
+
+## BookOfDeathName ^
+Book of Death[X]
+
+## BookOfDeathDesc
+[lock] Present Morbius. Summons 4[N]
+provoking NPC zombies. Turns Morbius[N]
+into his Future form, and removes[N]
+all others (including Rewrites).[X]
+
+## InevitableEndName ^
+Inevitable End[X]
+
+## InevitableEndDesc
+Reduces all the target's[N]
+stats by 2 after combat.[X]
+
+## EternalSoldierFangsName
+Fangs[X]
+
+## EternalSoldierFangsDesc
+ [X]
+
+## FlameLanceName
+Flame Lance[X]
+
+## FlameLanceDesc
+Attacks with half strength,[N]
+but targets resistence.[X]
+
+## OldwanesThornName ^
+Oldwane's Fang[X]
+
+## OldwanesThornDesc
+Cannot be countered.[N]
+Lose 10 max HP after combat.[N]
+0 max HP means instant death.[X]
+
+## RecapStaffName
+Recap[X]
+
+## RecapStaffDesc
+[lock] M. C. Illios. Teleports an[N]
+ally to an adjacent space.[X]
+
+## PistolName
+Pistol[X]
+
+## PistolDesc
+Useable by anyone. Deals 20[N]
+damage, ignoring status.[N]
+Press Use to reload.[X]
+
+## AcidFlaskName
+Acid Flask[X]
+
+## AcidFlaskDesc
+Useable by anyone. Inflicts Acid[N]
+until the end of the turn, which[N]
+doubles all damage taken.[X]
+
+## PirateQueenSummonItemName
+Pirate Queen[X]
+
+## PirateQueenSummonItemDesc
+A tale of greed and betrayal.[X]
+
+## MorbiusSummonItemName
+Dark Lord[X]
+
+## MorbiusSummonItemDesc
+A tale of ambition and death.[X]
+
+## EternalSoldierSummonItemName ^
+Eternal Soldier[X]
+
+## EternalSoldierSummonItemDesc
+A tale of loyalty and destruction.[X]
+
+## DragonSlayerSummonItemName ^
+Dragon Slayer[X]
+
+## DragonSlayerSummonItemDesc
+A tale of vengeance and loss.[X]
+
+## ProvokingName
+Provoking[X]
+
+## ProvokingDesc
+Enemies will target this unit[N]
+if able.[X]
+
+
+## FinishingTouchName ^
+Finishing Touch[X]
+
+## FinishingTouchDesc
+Always deals 1 damage, ignoring[N]
+stats/status. Cannot be doubled.[X]
+
+## PerfectReflectionName ^
+Perfect Reflect[X]
+
+## PerfectReflectionDesc
+All damage taken will be dealt to[N]
+the attacker as well. This damage[N]
+cannot be fatal. A killing blow won't[N]
+be reflected.[X]
+
+## DollcraftName
+Dollcraft[X]
+
+## DollcraftDesc
+Every 3 turns, create a Living Doll with[N]
+the stats of the most powerful summoned[N]
+player unit. Prioritizes future forms, then[N]
+total stat increases. Defeating a doll[N]
+deals 10 non-lethal damage to [hashtag]3811.[X]
+
+## DollcraftPlusName
+Dollcraft+[X]
+
+## DollcraftPlusDesc
+Every 2 turns, create a Living Doll with[N]
+the stats of the most powerful summoned[N]
+player unit. Prioritizes future forms, then[N]
+total stat increases.[X]
+
+## SoulLinkName
+Soul Link[X]
+
+## SoulLinkDesc
+Defeating a doll deals 10[N]
+non-lethal damage to [hashtag]3811.[X]
+
+## BlindingLightName
+Blinding Light[X]
+
+## BlindingLightDesc
+Gains +1 range, +20 hit per Fog[N]
+Level. Excess hit turns into crit.[X]
+
+## EncroachingFogName ^
+Encroaching Fog[X]
+
+## EncroachingFogDesc
+Every turn, increase the Fog Level by 1.[X]
+
+## EncroachingFogPlusName ^
+Encroaching Fog+[X]
+
+## EncroachingFogPlusDesc
+Every turn, increase the Fog Level by 2.[X]
+
+## FogLevelName
+Fog Level[X]
+
+## FogLevelDesc
+The current Fog Level. Each level reduces[N]
+the player's fog vision range by 1 tile.[N]
+Once this unit dies, the fog dissipates.[X]
+
+## EternalBladeName
+Eternal Blade[X]
+
+## EternalBladeDesc
+This unit takes no damage from ranged[N]
+attacks. Additional effects still apply.[X]
+
+## UnfinishedMasterworkName
+Self-Assembly[X]
+
+## UnfinishedMasterworkDesc
+Every 4 turns, promote this unit.[N]
+After 3 promotions, this unit gains[N]
+6 mov and loses this item.[X]
+
+## UnfinishedMasterworkPlusName
+Self-Assembly+[X]
+
+## UnfinishedMasterworkPlusDesc
+Every 3 turns, promote this unit.[N]
+After 3 promotions, this unit gains[N]
+6 mov and loses this item.[X]
+
+## MasterworkProgressName
+Promotion Tier[X]
+
+## MasterworkProgressDesc
+The amount of times this unit[N]
+has promoted.[X]
+
+## DethroneName
+Dethrone[X]
+
+## DethroneDesc
+Effective against Valoria. Enemies turn[N]
+into their Past form after combat (works[N]
+on Rewrites, Future Morbius is immune).[X]
+
+## TurnName
+Turn[X]
+
+## TurnDesc
+Effective against Morbius.[N]
+Galeforce.[X]
+
+## JudgeName
+Judge[X]
+
+## JudgeDesc
+Effective against Bill. Deals[N]
+additional damage equal to the[N]
+target's Wins count.[X]
+
+## SoultakerName
+Soul Sap[X]
+
+## SoultakerDesc
+Effective against Sintel.[N]
+Drains enemy HP into caster.[X]
+
+## EraseName
+Erase[X]
+
+## EraseDesc
+ [X]
+
+## RecurringName
+Recurring[X]
+
+## RecurringDesc
+If this unit is killed while other bosses[N]
+remain, it becomes an incorporeal spectre[N]
+instead. It cannot act nor be attacked in[N]
+this state.[X]
+
+## AvengerName
+Avenger[X]
+
+## AvengerDesc
+Whenever another boss is killed, this unit[N]
+teleports to their previous location and[N]
+replaces its weapon with one effective[N]
+against that boss' killer. It will revive[N]
+at the beginning of next turn.[X]
+
+## AvengerPlusName
+Avenger+[X]
+
+## AvengerPlusDesc
+Whenever another boss is killed, this unit[N]
+is revived, teleports to their previous[N]
+location, and replaces its weapon with one[N]
+effective against that boss' killer.[X]
+
+## SawName
+Saw[X]
+
+## SawDesc
+ [X]
+
+## IncorporealName
+Incorporeal[X]
+
+## IncorporealDesc
+This unit cannot act[N]
+nor be attacked.[X]
+
+## RegeneratingName
+Regenerating[X]
+
+## RegeneratingDesc
+This unit will revive next turn,[N]
+removing Incorporeal.[X]
+
+
+## EOC2136SummonItemName
+[hashtag]2136[X]
+
+## EOC2136SummonItemDesc
+You are unfamiliar with this tale.[X]
+
+## EOC3811SummonItemName
+[hashtag]3811[X]
+
+## EOC3811SummonItemDesc
+You are unfamiliar with this tale.[X]
+
+## EOC5397SummonItemName
+[hashtag]5397[X]
+
+## EOC5397SummonItemDesc
+You are unfamiliar with this tale.[X]
+
+## EOC6048SummonItemName
+[hashtag]6048[X]
+
+## EOC6048SummonItemDesc
+You are unfamiliar with this tale.[X]
+
+## ExpositionName
+Exposition[X]
+
+## ExpositionDesc
+This unit can summon characters[N]
+anywhere on the map.[X]
+
+
+## ArbalestName
+Arbalest[X]
+
+## ArbalestDesc
+Long-range weapon.[X]

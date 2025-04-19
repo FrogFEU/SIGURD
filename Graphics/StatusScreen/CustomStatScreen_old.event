@@ -1,0 +1,29 @@
+//Stat screen
+PUSH
+ORG $88620
+POIN RemoveGlowy
+ORG $88638
+POIN NewStatScreen
+//ORG $88640
+//POIN NewStatScreenPal
+//ORG $88644
+//POIN StatScreenTSA
+ORG 0xA06460
+#incext Png2Dmp "SaXor_2.png" --palette-only
+POP
+
+ALIGN 4
+NewStatScreen:
+#incext Png2Dmp "SaXor_2.png" --lz77
+
+ALIGN 4
+NewStatScreenPal:
+#incext Png2Dmp "SaXor_2.png" --palette-only
+
+ALIGN 4
+StatScreenTSA:
+#incbin "StatScreenTSA.dmp"
+
+ALIGN 4
+RemoveGlowy:
+#incext Png2Dmp "RemoveGlowy.png" --lz77

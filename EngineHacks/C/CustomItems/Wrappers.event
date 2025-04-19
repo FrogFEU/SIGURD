@@ -1,0 +1,43 @@
+// Command
+
+ALIGN 4
+ExecCommandStaffWrapper:
+SHORT 0x1C30
+BL(ExecCommandStaff)
+SHORT 0x46C0
+jumpToHack(0x2FF76)
+
+// Pistol
+
+ALIGN 4
+PistolUsabilityWrapper:
+SHORT 0x1C20
+BL(PistolUsability)
+SHORT 0xBC30 0xBC02 0x4708
+
+ALIGN 4
+ExecPistolWrapper:
+SHORT 0x1C30
+BL(ExecPistol)
+SHORT 0x46C0
+jumpToHack(0x2FF76)
+
+// Book of Death
+
+ALIGN 4
+BookOfDeathEventPointer:
+POIN BookOfDeathEvent
+
+ALIGN 4
+BookOfDeathUsabilityWrapper:
+SHORT 0x1C20
+BL(BookOfDeathUsability)
+SHORT 0xBC30 0xBC02 0x4708
+
+ALIGN 4
+ExecBookOfDeathWrapper:
+SHORT 0x1C30
+BL(ExecBookOfDeath)
+SHORT 0x46C0
+jumpToHack(0x2FF76)
+

@@ -1,0 +1,383 @@
+//Generated - do not edit
+//Copy paste the /* */ section into your definitions if desired.
+//Please copy the SetSMS and SetMMS section to change SMS size and MMS AP. 
+ 
+ 
+ 
+/* 
+//First free SMS is 107
+#define AdventurerFS 107 
+#define BardMS 108 
+#define BerserkerFS 109 
+#define BishopMS 110 
+#define DollS 111 
+#define DragonRiderS 112 
+#define DreadFighterFS 113 
+#define DruidMS 114 
+#define HalberdierMS 115 
+#define HunterFS 116 
+#define LichS 117 
+#define LivingArmourS 118 
+#define LivingBladeS 119 
+#define LivingMasterpieceS 120 
+#define LoreWeaverS 121 
+#define MechanistS 122 
+#define PirateFS 123 
+#define PriestMS 124 
+#define PrincessS 125 
+#define QueenS 126 
+#define RevenantUS 127 
+#define SceptreS 128 
+#define SentinelMS 129 
+#define SoldierS 130 
+#define SpiritS 131 
+#define VengeanceS 132 
+#define WerewolfMS 133 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define AdventurerFM 127 
+#define BardMM 128 
+#define BerserkerFM 129 
+#define BishopMM 130 
+#define DollM 131 
+#define DragonRiderM 132 
+#define DreadFighterFM 133 
+#define DruidMM 134 
+#define HalberdierMM 135 
+#define HunterFM 136 
+#define LichM 137 
+#define LivingArmourM 138 
+#define LivingBladeM 139 
+#define LivingMasterpieceM 140 
+#define LoreWeaverM 141 
+#define MageFM 142 
+#define MechanistM 143 
+#define MyrmidonMM 144 
+#define NecromancerMM 145 
+#define PirateFM 146 
+#define PriestMM 147 
+#define PrincessM 148 
+#define QueenM 149 
+#define RevenantUM 150 
+#define SceptreM 151 
+#define SentinelMM 152 
+#define SoldierM 153 
+#define SpiritM 154 
+#define SwordmasterMM 155 
+#define VengeanceM 156 
+#define WerewolfMM 157 
+ 
+*/ 
+ 
+ 
+ 
+/* 
+//Copy from here 
+PUSH 
+ 
+SetSMS(AdventurerFS, 1, AdventurerFS_Data) 
+SetSMS(BardMS, 1, BardMS_Data) 
+SetSMS(BerserkerFS, 1, BerserkerFS_Data) 
+SetSMS(BishopMS, 1, BishopMS_Data) 
+SetSMS(DollS, 1, DollS_Data) 
+SetSMS(DragonRiderS, 1, DragonRiderS_Data) 
+SetSMS(DreadFighterFS, 1, DreadFighterFS_Data) 
+SetSMS(DruidMS, 1, DruidMS_Data) 
+SetSMS(HalberdierMS, 1, HalberdierMS_Data) 
+SetSMS(HunterFS, 1, HunterFS_Data) 
+SetSMS(LichS, 1, LichS_Data) 
+SetSMS(LivingArmourS, 1, LivingArmourS_Data) 
+SetSMS(LivingBladeS, 1, LivingBladeS_Data) 
+SetSMS(LivingMasterpieceS, 1, LivingMasterpieceS_Data) 
+SetSMS(LoreWeaverS, 1, LoreWeaverS_Data) 
+SetSMS(MechanistS, 1, MechanistS_Data) 
+SetSMS(PirateFS, 1, PirateFS_Data) 
+SetSMS(PriestMS, 1, PriestMS_Data) 
+SetSMS(PrincessS, 1, PrincessS_Data) 
+SetSMS(QueenS, 1, QueenS_Data) 
+SetSMS(RevenantUS, 1, RevenantUS_Data) 
+SetSMS(SceptreS, 1, SceptreS_Data) 
+SetSMS(SentinelMS, 1, SentinelMS_Data) 
+SetSMS(SoldierS, 1, SoldierS_Data) 
+SetSMS(SpiritS, 1, SpiritS_Data) 
+SetSMS(VengeanceS, 1, VengeanceS_Data) 
+SetSMS(WerewolfMS, 1, WerewolfMS_Data) 
+ 
+ 
+SetMMS(AdventurerFM, AdventurerFM_Data, DemonKingAP) 
+SetMMS(BardMM, BardMM_Data, DemonKingAP) 
+SetMMS(BerserkerFM, BerserkerFM_Data, DemonKingAP) 
+SetMMS(BishopMM, BishopMM_Data, DemonKingAP) 
+SetMMS(DollM, DollM_Data, DemonKingAP) 
+SetMMS(DragonRiderM, DragonRiderM_Data, DemonKingAP) 
+SetMMS(DreadFighterFM, DreadFighterFM_Data, DemonKingAP) 
+SetMMS(DruidMM, DruidMM_Data, DemonKingAP) 
+SetMMS(HalberdierMM, HalberdierMM_Data, DemonKingAP) 
+SetMMS(HunterFM, HunterFM_Data, DemonKingAP) 
+SetMMS(LichM, LichM_Data, DemonKingAP) 
+SetMMS(LivingArmourM, LivingArmourM_Data, DemonKingAP) 
+SetMMS(LivingBladeM, LivingBladeM_Data, DemonKingAP) 
+SetMMS(LivingMasterpieceM, LivingMasterpieceM_Data, DemonKingAP) 
+SetMMS(LoreWeaverM, LoreWeaverM_Data, DemonKingAP) 
+SetMMS(MageFM, MageFM_Data, DemonKingAP) 
+SetMMS(MechanistM, MechanistM_Data, DemonKingAP) 
+SetMMS(MyrmidonMM, MyrmidonMM_Data, DemonKingAP) 
+SetMMS(NecromancerMM, NecromancerMM_Data, DemonKingAP) 
+SetMMS(PirateFM, PirateFM_Data, DemonKingAP) 
+SetMMS(PriestMM, PriestMM_Data, DemonKingAP) 
+SetMMS(PrincessM, PrincessM_Data, DemonKingAP) 
+SetMMS(QueenM, QueenM_Data, DemonKingAP) 
+SetMMS(RevenantUM, RevenantUM_Data, DemonKingAP) 
+SetMMS(SceptreM, SceptreM_Data, DemonKingAP) 
+SetMMS(SentinelMM, SentinelMM_Data, DemonKingAP) 
+SetMMS(SoldierM, SoldierM_Data, DemonKingAP) 
+SetMMS(SpiritM, SpiritM_Data, DemonKingAP) 
+SetMMS(SwordmasterMM, SwordmasterMM_Data, DemonKingAP) 
+SetMMS(VengeanceM, VengeanceM_Data, DemonKingAP) 
+SetMMS(WerewolfMM, WerewolfMM_Data, DemonKingAP) 
+ 
+POP 
+//Copy until here 
+*/ 
+ 
+ 
+//SMS Image Data 
+ 
+ALIGN 4 
+AdventurerFS_Data: 
+#incbin "dmp/AdventurerFS.dmp" 
+ 
+ALIGN 4 
+BardMS_Data: 
+#incbin "dmp/BardMS.dmp" 
+ 
+ALIGN 4 
+BerserkerFS_Data: 
+#incbin "dmp/BerserkerFS.dmp" 
+ 
+ALIGN 4 
+BishopMS_Data: 
+#incbin "dmp/BishopMS.dmp" 
+ 
+ALIGN 4 
+DollS_Data: 
+#incbin "dmp/DollS.dmp" 
+ 
+ALIGN 4 
+DragonRiderS_Data: 
+#incbin "dmp/DragonRiderS.dmp" 
+ 
+ALIGN 4 
+DreadFighterFS_Data: 
+#incbin "dmp/DreadFighterFS.dmp" 
+ 
+ALIGN 4 
+DruidMS_Data: 
+#incbin "dmp/DruidMS.dmp" 
+ 
+ALIGN 4 
+HalberdierMS_Data: 
+#incbin "dmp/HalberdierMS.dmp" 
+ 
+ALIGN 4 
+HunterFS_Data: 
+#incbin "dmp/HunterFS.dmp" 
+ 
+ALIGN 4 
+LichS_Data: 
+#incbin "dmp/LichS.dmp" 
+ 
+ALIGN 4 
+LivingArmourS_Data: 
+#incbin "dmp/LivingArmourS.dmp" 
+ 
+ALIGN 4 
+LivingBladeS_Data: 
+#incbin "dmp/LivingBladeS.dmp" 
+ 
+ALIGN 4 
+LivingMasterpieceS_Data: 
+#incbin "dmp/LivingMasterpieceS.dmp" 
+ 
+ALIGN 4 
+LoreWeaverS_Data: 
+#incbin "dmp/LoreWeaverS.dmp" 
+ 
+ALIGN 4 
+MechanistS_Data: 
+#incbin "dmp/MechanistS.dmp" 
+ 
+ALIGN 4 
+PirateFS_Data: 
+#incbin "dmp/PirateFS.dmp" 
+ 
+ALIGN 4 
+PriestMS_Data: 
+#incbin "dmp/PriestMS.dmp" 
+ 
+ALIGN 4 
+PrincessS_Data: 
+#incbin "dmp/PrincessS.dmp" 
+ 
+ALIGN 4 
+QueenS_Data: 
+#incbin "dmp/QueenS.dmp" 
+ 
+ALIGN 4 
+RevenantUS_Data: 
+#incbin "dmp/RevenantUS.dmp" 
+ 
+ALIGN 4 
+SceptreS_Data: 
+#incbin "dmp/SceptreS.dmp" 
+ 
+ALIGN 4 
+SentinelMS_Data: 
+#incbin "dmp/SentinelMS.dmp" 
+ 
+ALIGN 4 
+SoldierS_Data: 
+#incbin "dmp/SoldierS.dmp" 
+ 
+ALIGN 4 
+SpiritS_Data: 
+#incbin "dmp/SpiritS.dmp" 
+ 
+ALIGN 4 
+VengeanceS_Data: 
+#incbin "dmp/VengeanceS.dmp" 
+ 
+ALIGN 4 
+WerewolfMS_Data: 
+#incbin "dmp/WerewolfMS.dmp" 
+ 
+ 
+ 
+ 
+//MMS Image Data 
+ 
+ALIGN 4 
+AdventurerFM_Data: 
+#incbin "dmp/AdventurerFM.dmp" 
+ 
+ALIGN 4 
+BardMM_Data: 
+#incbin "dmp/BardMM.dmp" 
+ 
+ALIGN 4 
+BerserkerFM_Data: 
+#incbin "dmp/BerserkerFM.dmp" 
+ 
+ALIGN 4 
+BishopMM_Data: 
+#incbin "dmp/BishopMM.dmp" 
+ 
+ALIGN 4 
+DollM_Data: 
+#incbin "dmp/DollM.dmp" 
+ 
+ALIGN 4 
+DragonRiderM_Data: 
+#incbin "dmp/DragonRiderM.dmp" 
+ 
+ALIGN 4 
+DreadFighterFM_Data: 
+#incbin "dmp/DreadFighterFM.dmp" 
+ 
+ALIGN 4 
+DruidMM_Data: 
+#incbin "dmp/DruidMM.dmp" 
+ 
+ALIGN 4 
+HalberdierMM_Data: 
+#incbin "dmp/HalberdierMM.dmp" 
+ 
+ALIGN 4 
+HunterFM_Data: 
+#incbin "dmp/HunterFM.dmp" 
+ 
+ALIGN 4 
+LichM_Data: 
+#incbin "dmp/LichM.dmp" 
+ 
+ALIGN 4 
+LivingArmourM_Data: 
+#incbin "dmp/LivingArmourM.dmp" 
+ 
+ALIGN 4 
+LivingBladeM_Data: 
+#incbin "dmp/LivingBladeM.dmp" 
+ 
+ALIGN 4 
+LivingMasterpieceM_Data: 
+#incbin "dmp/LivingMasterpieceM.dmp" 
+ 
+ALIGN 4 
+LoreWeaverM_Data: 
+#incbin "dmp/LoreWeaverM.dmp" 
+ 
+ALIGN 4 
+MageFM_Data: 
+#incbin "dmp/MageFM.dmp" 
+ 
+ALIGN 4 
+MechanistM_Data: 
+#incbin "dmp/MechanistM.dmp" 
+ 
+ALIGN 4 
+MyrmidonMM_Data: 
+#incbin "dmp/MyrmidonMM.dmp" 
+ 
+ALIGN 4 
+NecromancerMM_Data: 
+#incbin "dmp/NecromancerMM.dmp" 
+ 
+ALIGN 4 
+PirateFM_Data: 
+#incbin "dmp/PirateFM.dmp" 
+ 
+ALIGN 4 
+PriestMM_Data: 
+#incbin "dmp/PriestMM.dmp" 
+ 
+ALIGN 4 
+PrincessM_Data: 
+#incbin "dmp/PrincessM.dmp" 
+ 
+ALIGN 4 
+QueenM_Data: 
+#incbin "dmp/QueenM.dmp" 
+ 
+ALIGN 4 
+RevenantUM_Data: 
+#incbin "dmp/RevenantUM.dmp" 
+ 
+ALIGN 4 
+SceptreM_Data: 
+#incbin "dmp/SceptreM.dmp" 
+ 
+ALIGN 4 
+SentinelMM_Data: 
+#incbin "dmp/SentinelMM.dmp" 
+ 
+ALIGN 4 
+SoldierM_Data: 
+#incbin "dmp/SoldierM.dmp" 
+ 
+ALIGN 4 
+SpiritM_Data: 
+#incbin "dmp/SpiritM.dmp" 
+ 
+ALIGN 4 
+SwordmasterMM_Data: 
+#incbin "dmp/SwordmasterMM.dmp" 
+ 
+ALIGN 4 
+VengeanceM_Data: 
+#incbin "dmp/VengeanceM.dmp" 
+ 
+ALIGN 4 
+WerewolfMM_Data: 
+#incbin "dmp/WerewolfMM.dmp" 
+ 

@@ -1,0 +1,22 @@
+#include "GeneratedInstaller.event"
+
+// #define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+// 
+// #define VillagerClassCard 0xA9
+// #define LordClassCard 0xAA
+// 
+// ALIGN 4
+// VillagerClassCardData:
+// #incbin "Dmp/Villager.dmp"
+// ALIGN 4
+// VillagerClassCardPal:
+// #incbin "Dmp/Villager.png_pal.dmp"
+// setCardEntry(VillagerClassCard, VillagerClassCardData, VillagerClassCardPal)
+// 
+// ALIGN 4
+// LordClassCardData:
+// #incbin "Dmp/Lord.dmp"
+// ALIGN 4
+// LordClassCardPal:
+// #incbin "Dmp/Lord.png_pal.dmp"
+// setCardEntry(LordClassCard, LordClassCardData, LordClassCardPal)

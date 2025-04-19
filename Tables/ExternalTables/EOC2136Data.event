@@ -1,0 +1,33 @@
+#define EOC2136UnitToFlagListItem(unitID, flagID) "BYTE unitID flagID 0 0;"
+#define EOC2136UnitToFlagListTerminator "BYTE 0 0 0 0;"
+
+EOC2136UnitToFlagList:
+EOC2136UnitToFlagListItem(0xFF, FlagEOCKillerOther)
+EOC2136UnitToFlagListItem(PirateQueenPast, FlagEOCKillerValoria)
+EOC2136UnitToFlagListItem(PirateQueenPresent, FlagEOCKillerValoria)
+EOC2136UnitToFlagListItem(PirateQueenFuture, FlagEOCKillerValoria)
+EOC2136UnitToFlagListItem(PirateQueenFanFic, FlagEOCKillerValoria)
+EOC2136UnitToFlagListItem(MorbiusPast, FlagEOCKillerMorbius)
+EOC2136UnitToFlagListItem(MorbiusPresent, FlagEOCKillerMorbius)
+EOC2136UnitToFlagListItem(MorbiusFuture, FlagEOCKillerMorbius)
+EOC2136UnitToFlagListItem(MorbiusFanFic, FlagEOCKillerMorbius)
+EOC2136UnitToFlagListItem(EternalSoldierPast, FlagEOCKillerBill)
+EOC2136UnitToFlagListItem(EternalSoldierPresent, FlagEOCKillerBill)
+EOC2136UnitToFlagListItem(EternalSoldierFuture, FlagEOCKillerBill)
+EOC2136UnitToFlagListItem(EternalSoldierFanFic, FlagEOCKillerBill)
+EOC2136UnitToFlagListItem(DragonSlayerPast, FlagEOCKillerSintel)
+EOC2136UnitToFlagListItem(DragonSlayerPresent, FlagEOCKillerSintel)
+EOC2136UnitToFlagListItem(DragonSlayerFuture, FlagEOCKillerSintel)
+EOC2136UnitToFlagListItem(DragonSlayerFanFic, FlagEOCKillerSintel)
+EOC2136UnitToFlagListTerminator
+
+#define EOC2136FlagToWeaponListItem(flagID, weaponID) "BYTE flagID weaponID 0 0;"
+#define EOC2136FlagToWeaponListTerminator "BYTE 0 0 0 0;"
+
+EOC2136FlagToWeaponList:
+EOC2136FlagToWeaponListItem(FlagEOCKillerOther, Erase)
+EOC2136FlagToWeaponListItem(FlagEOCKillerValoria, Dethrone)
+EOC2136FlagToWeaponListItem(FlagEOCKillerMorbius, Turn)
+EOC2136FlagToWeaponListItem(FlagEOCKillerBill, Judge)
+EOC2136FlagToWeaponListItem(FlagEOCKillerSintel, Soultaker)
+EOC2136FlagToWeaponListTerminator

@@ -1,0 +1,2596 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	Moderato2009Fin_FINAL_grp  voicegroup000
+	#define	Moderato2009Fin_FINAL_pri  0
+	#define	Moderato2009Fin_FINAL_rev  0
+	#define	Moderato2009Fin_FINAL_mvl  95
+	#define	Moderato2009Fin_FINAL_key  0
+	#define	Moderato2009Fin_FINAL_tbs  1
+	#define	Moderato2009Fin_FINAL_exg  0
+	#define	Moderato2009Fin_FINAL_cmp  1
+
+	// .rodata
+	//	Moderato2009Fin_FINAL
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+Moderato2009Fin_FINAL_1:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   112*Moderato2009Fin_FINAL_tbs/2
+	BYTE		VOICE   23
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v-8
+	BYTE		VOL     91*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		N06     Gs0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gs0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gs0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gs0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+// 001   ----------------------------------------
+Moderato2009Fin_FINAL_1_001:
+	BYTE		N06     Gs0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gs0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gs0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gs0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 004   ----------------------------------------
+Moderato2009Fin_FINAL_1_004:
+	BYTE		N06     Gn0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 007   ----------------------------------------
+Moderato2009Fin_FINAL_1_007:
+	BYTE		N06     Gn0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Fs0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Fs0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+Moderato2009Fin_FINAL_1_B1:
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 015   ----------------------------------------
+Moderato2009Fin_FINAL_1_015:
+	BYTE		N06     Gn0   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn0   v060
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N48     Fs0   v127
+	BYTE	W48
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_007
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_015
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_015
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_001
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_004
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_1_015
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_1_B1
+Moderato2009Fin_FINAL_1_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+Moderato2009Fin_FINAL_2:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   93
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     103*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		N12     Ds3   v088
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+// 001   ----------------------------------------
+Moderato2009Fin_FINAL_2_001:
+	BYTE	W12
+	BYTE		N12     Bn3   v088
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+Moderato2009Fin_FINAL_2_002:
+	BYTE	W12
+	BYTE		N12     Ds3   v088
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+Moderato2009Fin_FINAL_2_003:
+	BYTE	W12
+	BYTE		N12     En4   v088
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+Moderato2009Fin_FINAL_2_004:
+	BYTE	W12
+	BYTE		N12     Dn3   v088
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+Moderato2009Fin_FINAL_2_005:
+	BYTE	W12
+	BYTE		N12     As3   v088
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 007   ----------------------------------------
+Moderato2009Fin_FINAL_2_007:
+	BYTE	W12
+	BYTE		N12     As3   v088
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE	PEND
+Moderato2009Fin_FINAL_2_B1:
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 015   ----------------------------------------
+Moderato2009Fin_FINAL_2_015:
+	BYTE	W12
+	BYTE		N12     As3   v088
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N48     Ds4 
+	BYTE	W48
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_007
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_015
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_001
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_015
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_001
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_004
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_2_015
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_2_B1
+Moderato2009Fin_FINAL_2_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+Moderato2009Fin_FINAL_3:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   20
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     105*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W12
+	BYTE		N12     Ds3   v088
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+// 001   ----------------------------------------
+Moderato2009Fin_FINAL_3_001:
+	BYTE	W12
+	BYTE		N12     Bn3   v088
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+Moderato2009Fin_FINAL_3_002:
+	BYTE	W12
+	BYTE		N12     Ds3   v088
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+Moderato2009Fin_FINAL_3_003:
+	BYTE	W12
+	BYTE		N12     En4   v088
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+Moderato2009Fin_FINAL_3_004:
+	BYTE	W12
+	BYTE		N12     Dn3   v088
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+Moderato2009Fin_FINAL_3_005:
+	BYTE	W12
+	BYTE		N12     As3   v088
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 007   ----------------------------------------
+Moderato2009Fin_FINAL_3_007:
+	BYTE	W12
+	BYTE		N12     As3   v088
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE	PEND
+Moderato2009Fin_FINAL_3_B1:
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 015   ----------------------------------------
+Moderato2009Fin_FINAL_3_015:
+	BYTE	W12
+	BYTE		N12     As3   v088
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		N48     Ds4 
+	BYTE	W48
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_007
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_015
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_001
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_005
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_015
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_001
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_002
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_003
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_004
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_3_015
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_3_B1
+Moderato2009Fin_FINAL_3_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+Moderato2009Fin_FINAL_4:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     25*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		TIE     Ds4   v127
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 004   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Ds4 
+	BYTE	W48
+Moderato2009Fin_FINAL_4_B1:
+// 008   ----------------------------------------
+	BYTE		TIE     Ds4   v127
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 012   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Ds4 
+	BYTE	W48
+// 016   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 020   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Ds4 
+	BYTE	W48
+// 024   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 028   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Ds4 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 036   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Ds4 
+	BYTE	W48
+// 040   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 044   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Ds4 
+	BYTE	W48
+// 048   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 052   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Ds4 
+	BYTE	W48
+// 056   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 060   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Ds4 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_4_B1
+Moderato2009Fin_FINAL_4_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+Moderato2009Fin_FINAL_5:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   100
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     60*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v-64
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Moderato2009Fin_FINAL_5_B1:
+// 008   ----------------------------------------
+	BYTE		N48     Gs3   v127
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE		        Gn3 
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_5_B1
+Moderato2009Fin_FINAL_5_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+Moderato2009Fin_FINAL_6:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   100
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     64*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+63
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Moderato2009Fin_FINAL_6_B1:
+// 008   ----------------------------------------
+	BYTE	W48
+	BYTE		N48     Cs4   v127
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 010   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 011   ----------------------------------------
+	BYTE	W36
+	BYTE		N60     En4 
+	BYTE	W60
+// 012   ----------------------------------------
+	BYTE	W48
+	BYTE		N48     Cn4 
+	BYTE	W48
+// 013   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 014   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 015   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs4 
+	BYTE	W48
+// 025   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 026   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 027   ----------------------------------------
+	BYTE	W36
+	BYTE		N60     En4 
+	BYTE	W60
+// 028   ----------------------------------------
+	BYTE	W48
+	BYTE		N48     Cn4 
+	BYTE	W48
+// 029   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 030   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs4 
+	BYTE	W48
+// 041   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 042   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 043   ----------------------------------------
+	BYTE	W36
+	BYTE		N60     En4 
+	BYTE	W60
+// 044   ----------------------------------------
+	BYTE	W48
+	BYTE		N48     Cn4 
+	BYTE	W48
+// 045   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 046   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 047   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W48
+	BYTE		        Cs4 
+	BYTE	W48
+// 057   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 058   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 059   ----------------------------------------
+	BYTE	W36
+	BYTE		N60     En4 
+	BYTE	W60
+// 060   ----------------------------------------
+	BYTE	W48
+	BYTE		N48     Cn4 
+	BYTE	W48
+// 061   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 062   ----------------------------------------
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W48
+// 063   ----------------------------------------
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_6_B1
+Moderato2009Fin_FINAL_6_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+Moderato2009Fin_FINAL_7:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   2
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     90*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Moderato2009Fin_FINAL_7_B1:
+// 008   ----------------------------------------
+Moderato2009Fin_FINAL_7_008:
+	BYTE		TIE     Ds2   v127
+	BYTE		TIE     Gs2 
+	BYTE		TIE     Bn2 
+	BYTE	W96
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds2 
+	BYTE		        Gs2 
+	BYTE		        Bn2 
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_008
+// 011   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds2 
+	BYTE		        Gs2 
+	BYTE		        Bn2 
+// 012   ----------------------------------------
+Moderato2009Fin_FINAL_7_012:
+	BYTE		TIE     Dn2   v127
+	BYTE		TIE     Gn2 
+	BYTE		TIE     As2 
+	BYTE	W96
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+	BYTE		        As2 
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_012
+// 015   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+	BYTE		        As2 
+	BYTE		N48     As1   v127
+	BYTE		N48     Ds2 
+	BYTE		N48     Fs2 
+	BYTE	W48
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_008
+// 025   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds2 
+	BYTE		        Gs2 
+	BYTE		        Bn2 
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_008
+// 027   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds2 
+	BYTE		        Gs2 
+	BYTE		        Bn2 
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_012
+// 029   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+	BYTE		        As2 
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_012
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+	BYTE		        As2 
+	BYTE		N48     As1   v127
+	BYTE		N48     Ds2 
+	BYTE		N48     Fs2 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_008
+// 041   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds2 
+	BYTE		        Gs2 
+	BYTE		        Bn2 
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_008
+// 043   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds2 
+	BYTE		        Gs2 
+	BYTE		        Bn2 
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_012
+// 045   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+	BYTE		        As2 
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_012
+// 047   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+	BYTE		        As2 
+	BYTE		N48     As1   v127
+	BYTE		N48     Ds2 
+	BYTE		N48     Fs2 
+	BYTE	W48
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_008
+// 057   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds2 
+	BYTE		        Gs2 
+	BYTE		        Bn2 
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_008
+// 059   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds2 
+	BYTE		        Gs2 
+	BYTE		        Bn2 
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_012
+// 061   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+	BYTE		        As2 
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_7_012
+// 063   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT     Dn2 
+	BYTE		        Gn2 
+	BYTE		        As2 
+	BYTE		N48     As1   v127
+	BYTE		N48     Ds2 
+	BYTE		N48     Fs2 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_7_B1
+Moderato2009Fin_FINAL_7_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+Moderato2009Fin_FINAL_8:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     80*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Moderato2009Fin_FINAL_8_B1:
+// 008   ----------------------------------------
+	BYTE		TIE     Gs1   v127
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 010   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 012   ----------------------------------------
+	BYTE		TIE     Gn1 
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 014   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Fs1 
+	BYTE	W48
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE		TIE     Gs1 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 026   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 028   ----------------------------------------
+	BYTE		TIE     Gn1 
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 030   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Fs1 
+	BYTE	W48
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE		TIE     Gs1 
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 042   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 044   ----------------------------------------
+	BYTE		TIE     Gn1 
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 046   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Fs1 
+	BYTE	W48
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE		TIE     Gs1 
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 058   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 060   ----------------------------------------
+	BYTE		TIE     Gn1 
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 062   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N48     Fs1 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_8_B1
+Moderato2009Fin_FINAL_8_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.9) ****************//
+
+Moderato2009Fin_FINAL_9:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   29
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     82*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Moderato2009Fin_FINAL_9_B1:
+// 008   ----------------------------------------
+	BYTE		N96     Gs4   v127
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE		        Gn4 
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE		        Gs4 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE		        Gn4 
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE		        Gs4 
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE		        Gn4 
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE		        Gs4 
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE		        Gn4 
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_9_B1
+Moderato2009Fin_FINAL_9_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.11) ****************//
+
+Moderato2009Fin_FINAL_10:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   42
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     41*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Moderato2009Fin_FINAL_10_B1:
+// 008   ----------------------------------------
+	BYTE		VOL     41*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+Moderato2009Fin_FINAL_10_015:
+	BYTE	W48
+	BYTE		VOL     42*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		N48     Fs3   v127
+	BYTE		N48     As3 
+	BYTE		N48     Ds4 
+	BYTE	W01
+	BYTE		VOL     43*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        44*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        46*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        47*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        48*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        50*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        52*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        53*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        54*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        56*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        58*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        60*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        61*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        63*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        64*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        66*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        68*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        69*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        72*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        73*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        74*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        76*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        78*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        80*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        82*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        84*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        85*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        87*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        90*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        91*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        92*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        95*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        97*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        98*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        100*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        103*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        105*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        108*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        109*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        111*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        112*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        116*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        117*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        119*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        122*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        124*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE		        125*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W01
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE		        127*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_10_015
+// 032   ----------------------------------------
+	BYTE		VOL     127*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_10_015
+// 048   ----------------------------------------
+	BYTE		VOL     127*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	W96
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_10_015
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_10_B1
+Moderato2009Fin_FINAL_10_B2:
+// 064   ----------------------------------------
+	BYTE		VOL     127*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE	FINE
+
+//**************** Track 11 (Midi-Chn.12) ****************//
+
+Moderato2009Fin_FINAL_11:
+	BYTE	KEYSH   Moderato2009Fin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   121
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v+3
+	BYTE		VOL     81*Moderato2009Fin_FINAL_mvl/mxv
+	BYTE		N12     An3   v127
+	BYTE	W12
+	BYTE		        An3   v080
+	BYTE	W12
+	BYTE		        An3   v044
+	BYTE	W12
+	BYTE		        An3   v016
+	BYTE	W12
+	BYTE		        An3   v127
+	BYTE	W12
+	BYTE		        An3   v080
+	BYTE	W12
+	BYTE		        An3   v044
+	BYTE	W12
+	BYTE		        An3   v016
+	BYTE	W12
+// 001   ----------------------------------------
+Moderato2009Fin_FINAL_11_001:
+	BYTE		N12     An3   v127
+	BYTE	W12
+	BYTE		        An3   v080
+	BYTE	W12
+	BYTE		        An3   v044
+	BYTE	W12
+	BYTE		        An3   v016
+	BYTE	W12
+	BYTE		        An3   v127
+	BYTE	W12
+	BYTE		        An3   v080
+	BYTE	W12
+	BYTE		        An3   v044
+	BYTE	W12
+	BYTE		        An3   v016
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+Moderato2009Fin_FINAL_11_B1:
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 015   ----------------------------------------
+Moderato2009Fin_FINAL_11_015:
+	BYTE		N12     An3   v127
+	BYTE	W12
+	BYTE		        An3   v080
+	BYTE	W12
+	BYTE		        An3   v044
+	BYTE	W12
+	BYTE		        An3   v016
+	BYTE	W60
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_015
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_015
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_001
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Moderato2009Fin_FINAL_11_015
+	BYTE	GoTo
+	 POIN2	Moderato2009Fin_FINAL_11_B1
+Moderato2009Fin_FINAL_11_B2:
+// 064   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+Moderato2009Fin_FINAL:
+	BYTE	11	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	Moderato2009Fin_FINAL_pri	// Priority
+	BYTE	Moderato2009Fin_FINAL_rev	// Reverb.
+
+	POIN2	Moderato2009Fin_FINAL_grp
+
+	POIN2	Moderato2009Fin_FINAL_1
+	POIN2	Moderato2009Fin_FINAL_2
+	POIN2	Moderato2009Fin_FINAL_3
+	POIN2	Moderato2009Fin_FINAL_4
+	POIN2	Moderato2009Fin_FINAL_5
+	POIN2	Moderato2009Fin_FINAL_6
+	POIN2	Moderato2009Fin_FINAL_7
+	POIN2	Moderato2009Fin_FINAL_8
+	POIN2	Moderato2009Fin_FINAL_9
+	POIN2	Moderato2009Fin_FINAL_10
+	POIN2	Moderato2009Fin_FINAL_11
+
+	

@@ -1,0 +1,27 @@
+PUSH
+ORG $0C5808
+POIN NewTitle
+//ORG $AADBA8
+//POIN NewTitlePal
+//#incext Png2Dmp "Title.png" --palette-only
+ORG $0C5830
+POIN NewSub
+//ORG $0C5790
+//POIN NewSubPal
+POP
+
+ALIGN 4
+NewTitle:
+#incext Png2Dmp "Title.png" --lz77
+
+ALIGN 4
+NewTitlePal:
+#incext Png2Dmp "Title.png" --palette-only
+
+ALIGN 4
+NewSub:
+#incext Png2Dmp "Sub.png" --lz77
+
+ALIGN 4
+NewSubPal:
+#incext Png2Dmp "Sub.png" --palette-only

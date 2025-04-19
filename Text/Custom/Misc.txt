@@ -1,0 +1,77 @@
+## UM_Past
+ Past[X]
+
+## UM_PastDesc
+Turn this unit into[N]
+its Past version.[X]
+
+## UM_Present
+ Present[X]
+
+## UM_PresentDesc
+Turn this unit into[N]
+its Present version.[X]
+
+## UM_Future
+ Future[X]
+
+## UM_FutureDesc
+Turn this unit into[N]
+its Future version.[X]
+
+## UM_FanFic
+ Rewrite[X]
+
+## UM_FanFicDesc
+Refresh a character and[N]
+switch its forms.[X]
+
+## UM_SummonOC
+ Summon[X]
+
+## UM_SummonOCDesc
+Summon two tales to[N]
+aid you in battle.[X]
+
+## ObjectiveShort
+Defeat Bosses[X]
+
+## ObjectiveLong
+Defeat all four[N]
+summoned bosses[X]
+
+# 0x149 NormalDifficultyDesc
+Many boss abilities[N]
+are weaker/slower.[N]
+Start with a Hoplon[N]
+Guard and an Elixir.[X]
+
+# 0x14A NormalDifficultyDescAgain
+Many boss abilities[N]
+are weaker/slower.[N]
+Start with a Hoplon[N]
+Guard and an Elixir.[X]
+
+# 0x14B HardDifficultyDesc
+No mercy.[X]
+
+# 0x851 LockedFormText
+This form is locked.[X]
+
+# 0x0068
+acid[X]
+
+# 0x0070
+freeze[X]
+
+# 0x0514
+Acid[X]
+
+# 0x0518
+Freeze[X]
+
+# 0x0553
+Ouch! All damage[N]
+taken is doubled.[X]
+
+

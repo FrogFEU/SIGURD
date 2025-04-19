@@ -1,0 +1,106 @@
+//Generated - do not edit!
+//Copy paste the /* */ section into your definitions if desired.
+ 
+ 
+ 
+/* 
+//First free icon past vanilla is 222 / 0xDE 
+ 
+#define AcidFlaskIcon 222 
+#define AvengerIcon 223 
+#define BlindingLightIcon 224 
+#define BookOfDeathIcon 225 
+#define CharacterScrollIcon 226 
+#define CommandStaffIcon 227 
+#define DollcraftIcon 228 
+#define EncroachingFogIcon 229 
+#define EOC2136WeaponsIcon 230 
+#define EternalBladeIcon 231 
+#define FinishingTouchIcon 232 
+#define FlameLanceIcon 233 
+#define InevitableEndIcon 234 
+#define OldwanesThornIcon 235 
+#define PerfectReflectionIcon 236 
+#define PistolIcon 237 
+#define PromotionTierIcon 238 
+#define RecapIcon 239 
+#define RecurringIcon 240 
+#define SawIcon 241 
+#define SteelLongbowIcon 242 
+#define UnfinishedMasterworkIcon 243 
+*/ 
+ 
+ 
+ 
+ 
+//Image Data 
+ 
+PUSH 
+ 
+ItemIconEntry(AcidFlaskIcon) 
+#incbin "dmp/AcidFlask.dmp" 
+ 
+ItemIconEntry(AvengerIcon) 
+#incbin "dmp/Avenger.dmp" 
+ 
+ItemIconEntry(BlindingLightIcon) 
+#incbin "dmp/BlindingLight.dmp" 
+ 
+ItemIconEntry(BookOfDeathIcon) 
+#incbin "dmp/BookOfDeath.dmp" 
+ 
+ItemIconEntry(CharacterScrollIcon) 
+#incbin "dmp/CharacterScroll.dmp" 
+ 
+ItemIconEntry(CommandStaffIcon) 
+#incbin "dmp/CommandStaff.dmp" 
+ 
+ItemIconEntry(DollcraftIcon) 
+#incbin "dmp/Dollcraft.dmp" 
+ 
+ItemIconEntry(EncroachingFogIcon) 
+#incbin "dmp/EncroachingFog.dmp" 
+ 
+ItemIconEntry(EOC2136WeaponsIcon) 
+#incbin "dmp/EOC2136Weapons.dmp" 
+ 
+ItemIconEntry(EternalBladeIcon) 
+#incbin "dmp/EternalBlade.dmp" 
+ 
+ItemIconEntry(FinishingTouchIcon) 
+#incbin "dmp/FinishingTouch.dmp" 
+ 
+ItemIconEntry(FlameLanceIcon) 
+#incbin "dmp/FlameLance.dmp" 
+ 
+ItemIconEntry(InevitableEndIcon) 
+#incbin "dmp/InevitableEnd.dmp" 
+ 
+ItemIconEntry(OldwanesThornIcon) 
+#incbin "dmp/OldwanesThorn.dmp" 
+ 
+ItemIconEntry(PerfectReflectionIcon) 
+#incbin "dmp/PerfectReflection.dmp" 
+ 
+ItemIconEntry(PistolIcon) 
+#incbin "dmp/Pistol.dmp" 
+ 
+ItemIconEntry(PromotionTierIcon) 
+#incbin "dmp/PromotionTier.dmp" 
+ 
+ItemIconEntry(RecapIcon) 
+#incbin "dmp/Recap.dmp" 
+ 
+ItemIconEntry(RecurringIcon) 
+#incbin "dmp/Recurring.dmp" 
+ 
+ItemIconEntry(SawIcon) 
+#incbin "dmp/Saw.dmp" 
+ 
+ItemIconEntry(SteelLongbowIcon) 
+#incbin "dmp/SteelLongbow.dmp" 
+ 
+ItemIconEntry(UnfinishedMasterworkIcon) 
+#incbin "dmp/UnfinishedMasterwork.dmp" 
+ 
+POP 

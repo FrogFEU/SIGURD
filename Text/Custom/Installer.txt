@@ -1,0 +1,10 @@
+## TextStart
+Custom text starts here.[X]
+
+#include "Events/Installer.txt"
+
+#include "Characters.txt"
+#include "Classes.txt"
+#include "Items.txt"
+#include "SongNames.txt"
+#include "Misc.txt"

@@ -1,0 +1,94 @@
+## ErrorFanFicText
+[Left][LoadApprentice]
+I am error.[A][X]
+
+## PirateQueenSummonTaleReactionText
+[Left][LoadApprentice][ToggleSmile]
+Woah, talk about ungrateful.[AN]
+I mean, how could she forget[N]
+[ToggleRed]her own people[ToggleRed] like this?[AN][ToggleSmile]
+I'd better fix that.[A][X]
+
+## PirateQueenFanFicText
+Valoria quickly realized that there's only[N]
+one thing better than one royal pirate:[AN]
+two royal pirates.[AN]
+And where there's two, there's a dozen.[AN]
+And so, in short order, all pirates in the[N]
+kingdom were declared royalty,[A] until there[N]
+was nobody left but pirates -[A] and Valoria[N]
+became the true Queen of Pirates![A][X]
+
+## PirateQueenFanFicReactionText
+[Left][LoadMC]
+An entire kingdom filled with pirates?[AN]
+What would they even plunder?[.4] Their[N]
+own ships?[.4][MLeft] This is ridiculous![A][X]
+
+## MorbiusSummonTaleReactionText
+[Left][LoadApprentice][ToggleSmile]
+Oof, that's pretty mean,[N]
+even for an evil goddess.[AN]
+Actually, [ToggleRed]does she really[N]
+have to be evil?[ToggleRed][A][ToggleSmile] Hm[Beat][A][X]
+
+## MorbiusFanFicText
+But once Morbius revived her, the Goddess[N]
+of Death became the Goddess of Life -[AN]
+for she was no longer dead![AN]
+She and Morbius quickly explained the[N]
+misunderstanding to the church,[AN]
+and set out to spread her holy teachings[N]
+of love and mercy throughout the world.[A][X]
+
+## MorbiusFanFicReactionText
+[Left][LoadMC]
+What? No, this is absurd![AN]
+Would the God of Food become the God[N]
+of Stomach Aches should I eat him?[AN][CloseEyes]
+Preposterous[Beat][A][X]
+
+## EternalSoldierSummonTaleReactionText
+[Left][LoadApprentice][ToggleSmile]
+Huh.[.5] Uh.[.5] Hm.[.5][N]
+Nope, I've got nothing.[AN][ToggleSmile]
+Well, if there are no twists, [ToggleRed]that just[N]
+means I get to make up my own one![ToggleRed][A][X]
+
+## EternalSoldierFanFicText
+And then Bill was a werewolf.[AN]
+After getting over the initial shock,[N]
+he found some other werewolf friends,[AN]
+and they founded Werewolf Village[N]
+together, where everyone was a werewolf,[AN]
+and they all lived together[N]
+happily ever after.[A][X]
+
+## EternalSoldierFanFicReactionText
+[Left][LoadMC]
+What.[A][X]
+
+## DragonSlayerSummonTaleReactionText
+[Left][LoadApprentice]
+I mean, I think it's pretty obvious[N]
+who is the real villain here.[AN]
+And if there's one thing villains[N]
+are good for,[A] it's [ToggleRed]forging new[N]
+friendships.[ToggleRed][A][X]
+
+## DragonSlayerFanFicText
+Before Sintel could strike the dragon down[N]
+with her evil sword,[A] she realized that it was,[N]
+well, evil.[A] So she attacked it, and the[N]
+dragon quickly followed her,[A] turning the[N]
+sword into a flaming wreck.[AN]
+Having won their first battle together,[N]
+Sintel and the dragon joined forces -[AN]
+and set out on an epic adventure to[N]
+destroy all swords![A][X]
+
+## DragonSlayerFanFicReactionText
+[Left][LoadMC]
+Fighting.[.5] A sword.[.5] An inanimate object.[AN]
+How, pray tell, could such a battle[N]
+be considered exhilarating?[A][X]

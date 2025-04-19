@@ -1,0 +1,62 @@
+//First free icon past vanilla is 222 / 0xDE 
+ 
+#define AcidFlaskIcon 222 
+#define AvengerIcon 223 
+#define BlindingLightIcon 224 
+#define BookOfDeathIcon 225 
+#define CharacterScrollIcon 226 
+#define CommandStaffIcon 227 
+#define DollcraftIcon 228 
+#define EncroachingFogIcon 229 
+#define EOC2136WeaponsIcon 230 
+#define EternalBladeIcon 231 
+#define FinishingTouchIcon 232 
+#define FlameLanceIcon 233 
+#define InevitableEndIcon 234 
+#define OldwanesThornIcon 235 
+#define PerfectReflectionIcon 236 
+#define PistolIcon 237 
+#define PromotionTierIcon 238 
+#define RecapIcon 239 
+#define RecurringIcon 240 
+#define SawIcon 241 
+#define SteelLongbowIcon 242 
+#define UnfinishedMasterworkIcon 243 
+
+// Ran out of space...
+
+// #define BlessedMemoryIcon 0xCA 
+// #define BrokenMemoryIcon 0xCB 
+// #define ClassCoreIcon 0xCC 
+// #define IronMemoryIcon 0xCD 
+// #define KillerMemoryIcon 0xCE 
+// #define RangedMemoryIcon 0xAD 
+// #define RoyalMemoryIcon 0xAE
+// #define SilverMemoryIcon 0xAF
+// #define SteelMemoryIcon 0xFA
+// #define RoyalClawIcon 0xFB
+
+
+
+
+ALIGN 4
+NewItemIcons:
+// Sheet with all icons goes here 
+#incbin "dmp/vanilla_icons.dmp" // Expanded to 255 icons. 
+
+#define ItemIconEntry(ItemIconID) "ORG NewItemIcons + (ItemIconID*128)"
+
+#include "GeneratedInstaller.event"
+
+
+
+PUSH
+ORG $36B4
+POIN NewItemIcons
+ORG $3788
+POIN NewItemIcons
+POP
+
+
+
+

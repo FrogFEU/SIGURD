@@ -1,0 +1,47 @@
+PistolRefreshEvent:
+RestoreItemUsesEvent(0, Pistol, 1)
+NoFade
+ENDA
+
+BookOfDeathEvent:
+SilentRemoveItemEvent(MorbiusPresent, BookOfDeath)
+LOAD1 0 BookOfDeathSummonsUnitPlacement
+MoveToSummonPositionEvent(MorbiusPresent, MorbiusSummon1)
+MoveMemorySlot(sB, sC)
+WARPIN [-1, -1]
+STAL(30)
+MoveToSummonPositionEvent(MorbiusPresent, MorbiusSummon2)
+MoveMemorySlot(sB, sC)
+WARPIN [-1, -1]
+STAL(30)
+MoveToSummonPositionEvent(MorbiusPresent, MorbiusSummon3)
+MoveMemorySlot(sB, sC)
+WARPIN [-1, -1]
+STAL(30)
+MoveToSummonPositionEvent(MorbiusPresent, MorbiusSummon4)
+MoveMemorySlot(sB, sC)
+WARPIN [-1, -1]
+STAL(30)
+EARTHQUAKE 0 1
+SOUN 0x2F5
+ReplaceUnitIDEvent(MorbiusPresent, MorbiusFuture)
+AssignFormsEvent(MorbiusFuture, 0, 0)
+ASMC ASMC_HealBadStatusLikeBoon|1 // HealBadStatusLikeBoon()
+EARTHQUAKE_END
+NoFade
+ENDA
+
+FadingMaxHPDeadEvent:
+MoveMemorySlot(s2, s1)
+KILL -3
+AWAIT_KILL -3
+NoFade
+ENDA
+
+DollDeadEvent:
+BranchIfDead(EOC3811, 120)
+BranchIfMissingItem(EOC3811, Dollcraft, 120)
+TakeNonLethalDamageEvent(EOC3811, 10)
+LABEL 120
+NoFade
+ENDA

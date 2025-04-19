@@ -1,0 +1,43 @@
+
+#ifndef tilesetAnimation
+    #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+#endif
+
+    ALIGN 4
+    VillageRemakeAnimation0:
+    #incbin "dmp/VillageRemakeAnimation_0.dmp"
+    ALIGN 4
+    VillageRemakeAnimation1:
+    #incbin "dmp/VillageRemakeAnimation_1.dmp"
+    ALIGN 4
+    VillageRemakeAnimation2:
+    #incbin "dmp/VillageRemakeAnimation_2.dmp"
+    ALIGN 4
+    VillageRemakeAnimation3:
+    #incbin "dmp/VillageRemakeAnimation_3.dmp"
+    ALIGN 4
+    VillageRemakeAnimation4:
+    #incbin "dmp/VillageRemakeAnimation_4.dmp"
+    ALIGN 4
+    VillageRemakeAnimation5:
+    #incbin "dmp/VillageRemakeAnimation_5.dmp"
+    ALIGN 4
+    VillageRemakeAnimation6:
+    #incbin "dmp/VillageRemakeAnimation_6.dmp"
+    ALIGN 4
+    VillageRemakeAnimation7:
+    #incbin "dmp/VillageRemakeAnimation_7.dmp"
+
+ALIGN 4
+VillageRemakeAnimation:
+tilesetAnimation(16, 4096, VillageRemakeAnimation0)
+tilesetAnimation(16, 4096, VillageRemakeAnimation1)
+tilesetAnimation(16, 4096, VillageRemakeAnimation2)
+tilesetAnimation(16, 4096, VillageRemakeAnimation3)
+tilesetAnimation(16, 4096, VillageRemakeAnimation4)
+tilesetAnimation(16, 4096, VillageRemakeAnimation5)
+tilesetAnimation(16, 4096, VillageRemakeAnimation6)
+tilesetAnimation(16, 4096, VillageRemakeAnimation7)
+WORD 0 0
+
+EventPointerTable(VillageRemakeAnimationID, VillageRemakeAnimation)

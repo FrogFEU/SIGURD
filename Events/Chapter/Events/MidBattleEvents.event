@@ -1,0 +1,30 @@
+AthenaSummonsTurn2:
+BranchIfDead(MA, 120)
+CAMERA MA
+Text(AthenaTextPreSummon12)
+CALL Summon3811Event
+CALL Summon6048Event
+LABEL 120
+NoFade
+ENDA
+
+AthenaSummonsTurn3:
+BranchIfDead(MA, 120)
+CAMERA MA
+Text(AthenaTextPreSummon3)
+CALL Summon5397Event
+CAMERA MA
+Text(AthenaTextPostSummon3)
+LABEL 120
+NoFade
+ENDA
+
+AthenaSummonsVengeance:
+BranchIfDead(MA, 120)
+CAMERA MA
+Text(AthenaTextPreSummon4)
+CALL Summon2136Event
+LABEL 120
+NoFade
+ENDA
+

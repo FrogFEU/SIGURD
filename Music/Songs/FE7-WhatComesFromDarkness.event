@@ -1,0 +1,4563 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	what_comes_from_darkness_grp  voicegroup000
+	#define	what_comes_from_darkness_pri  10
+	#define	what_comes_from_darkness_rev  128
+	#define	what_comes_from_darkness_mvl  127
+	#define	what_comes_from_darkness_key  0
+	#define	what_comes_from_darkness_tbs  1
+	#define	what_comes_from_darkness_exg  0
+	#define	what_comes_from_darkness_cmp  1
+
+	// .rodata
+	//	what_comes_from_darkness
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+what_comes_from_darkness_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   what_comes_from_darkness_key+0
+Label_01086DCE:
+ BYTE   TEMPO   96*what_comes_from_darkness_tbs/2
+ BYTE   VOICE   6
+ BYTE   VOL   36*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-40
+ BYTE   N05  Fs2  v080
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Bn2  v080
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Cs3  v080
+ BYTE   W08
+ BYTE   Fs2
+ BYTE   W08
+ BYTE   Dn3
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Cs3  v080
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Bn2  v080
+ BYTE   W08
+//  #01 //001   ----------------------------------------
+Label_01086DF8:
+ BYTE   N05  Fs2  v080
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Gs2  v080
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   An2  v080
+ BYTE   W08
+ BYTE   Fs2
+ BYTE   W08
+ BYTE   Bn2
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   An2  v080
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Gs2  v080
+ BYTE   W08
+ BYTE   PEND 
+//  #01 //002   ----------------------------------------
+Label_01086E1B:
+ BYTE   N05  Fs2  v080
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Bn2  v080
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Cs3  v080
+ BYTE   W08
+ BYTE   Fs2
+ BYTE   W08
+ BYTE   Dn3
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Cs3  v080
+ BYTE   W08
+ BYTE   Fs2  v060
+ BYTE   W08
+ BYTE   Bn2  v080
+ BYTE   W08
+ BYTE   PEND 
+//  #01 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086DF8
+//  #01 //004   ----------------------------------------
+Label_01086E43:
+ BYTE   N05  Gn2  v080
+ BYTE   W08
+ BYTE   As2
+ BYTE   W08
+ BYTE   Gn2  v060
+ BYTE   W08
+ BYTE   Cn3  v080
+ BYTE   W08
+ BYTE   Gn2  v060
+ BYTE   W08
+ BYTE   Dn3  v080
+ BYTE   W08
+ BYTE   Gn2
+ BYTE   W08
+ BYTE   Ds3
+ BYTE   W08
+ BYTE   Gn2  v060
+ BYTE   W08
+ BYTE   Dn3  v080
+ BYTE   W08
+ BYTE   Gn2  v060
+ BYTE   W08
+ BYTE   Cn3  v080
+ BYTE   W08
+ BYTE   PEND 
+//  #01 //005   ----------------------------------------
+Label_01086E66:
+ BYTE   N05  Dn3  v080
+ BYTE   W08
+ BYTE   As2
+ BYTE   W08
+ BYTE   Gn2
+ BYTE   W08
+ BYTE   Cn3
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   Fn2
+ BYTE   W08
+ BYTE   As2
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   Gn2
+ BYTE   W08
+ BYTE   Fn2
+ BYTE   W08
+ BYTE   Gn2
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   PEND 
+//  #01 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086E43
+//  #01 //007   ----------------------------------------
+Label_01086E86:
+ BYTE   N05  As2  v080
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   As2
+ BYTE   W08
+ BYTE   Cn3
+ BYTE   W08
+ BYTE   As2
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   Gn2
+ BYTE   W08
+ BYTE   As2
+ BYTE   W08
+ BYTE   An2
+ BYTE   W08
+ BYTE   Gn2
+ BYTE   W08
+ BYTE   Fn2
+ BYTE   W08
+ BYTE   Gn2
+ BYTE   W08
+ BYTE   PEND 
+//  #01 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086E1B
+//  #01 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086DF8
+//  #01 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086E1B
+//  #01 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086DF8
+//  #01 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086E43
+//  #01 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086E66
+//  #01 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086E43
+//  #01 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01086E86
+//  #01 //016   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_01086DCE
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+what_comes_from_darkness_002:
+//  #02 //000   ----------------------------------------
+ BYTE   KEYSH   what_comes_from_darkness_key+0
+Label_01086ED2:
+ BYTE   VOICE   54
+ BYTE   PAN   c_v+63
+ BYTE   W02
+ BYTE   PAN   c_v+62
+ BYTE   W01
+ BYTE   PAN   c_v+61
+ BYTE   W01
+ BYTE   PAN   c_v+60
+ BYTE   W01
+ BYTE   PAN   c_v+59
+ BYTE   W01
+ BYTE   PAN   c_v+58
+ BYTE   W01
+ BYTE   PAN   c_v+57
+ BYTE   W01
+ BYTE   PAN   c_v+56
+ BYTE   W01
+ BYTE   PAN   c_v+55
+ BYTE   W01
+ BYTE   PAN   c_v+54
+ BYTE   W01
+ BYTE   PAN   c_v+53
+ BYTE   W01
+ BYTE   PAN   c_v+52
+ BYTE   W01
+ BYTE   PAN   c_v+51
+ BYTE   W01
+ BYTE   PAN   c_v+50
+ BYTE   W01
+ BYTE   PAN   c_v+49
+ BYTE   W01
+ BYTE   PAN   c_v+48
+ BYTE   W01
+ BYTE   PAN   c_v+47
+ BYTE   W01
+ BYTE   PAN   c_v+46
+ BYTE   W01
+ BYTE   PAN   c_v+45
+ BYTE   W01
+ BYTE   PAN   c_v+44
+ BYTE   W01
+ BYTE   PAN   c_v+43
+ BYTE   W01
+ BYTE   PAN   c_v+42
+ BYTE   W01
+ BYTE   PAN   c_v+41
+ BYTE   W01
+ BYTE   PAN   c_v+40
+ BYTE   W01
+ BYTE   PAN   c_v+39
+ BYTE   W01
+ BYTE   PAN   c_v+38
+ BYTE   W01
+ BYTE   PAN   c_v+37
+ BYTE   W01
+ BYTE   PAN   c_v+36
+ BYTE   W01
+ BYTE   PAN   c_v+35
+ BYTE   W01
+ BYTE   PAN   c_v+34
+ BYTE   W01
+ BYTE   PAN   c_v+33
+ BYTE   W01
+ BYTE   PAN   c_v+32
+ BYTE   W01
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   PAN   c_v+30
+ BYTE   W01
+ BYTE   PAN   c_v+29
+ BYTE   W01
+ BYTE   PAN   c_v+28
+ BYTE   W01
+ BYTE   PAN   c_v+27
+ BYTE   W01
+ BYTE   PAN   c_v+26
+ BYTE   W01
+ BYTE   PAN   c_v+25
+ BYTE   W02
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   PAN   c_v+23
+ BYTE   W01
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   PAN   c_v+21
+ BYTE   W01
+ BYTE   PAN   c_v+20
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   W01
+ BYTE   PAN   c_v+18
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+17
+ BYTE   N48  Fs3  v108
+ BYTE   W01
+ BYTE   PAN   c_v+16
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+15
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   PAN   c_v+13
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+12
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+11
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+9
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+8
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+5
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+4
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+3
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-2
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-4
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-5
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-6
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-8
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-9
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-10
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-12
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-13
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-15
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-16
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-17
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-18
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-19
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-20
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-21
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-22
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-23
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-24
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-26
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-27
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-28
+ BYTE   W01
+//  #02 //001   ----------------------------------------
+ BYTE   PAN   c_v-29
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Gs3
+ BYTE   W01
+ BYTE   PAN   c_v-30
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-31
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-32
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-33
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-34
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-35
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-36
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-37
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-38
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-39
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-40
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-41
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-42
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-43
+ BYTE   W01
+ BYTE   PAN   c_v-44
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-45
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-46
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-47
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-48
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-49
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-50
+ BYTE   W01
+ BYTE   PAN   c_v-51
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-52
+ BYTE   W01
+ BYTE   PAN   c_v-53
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-54
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-55
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-56
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-57
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-58
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-59
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-60
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-61
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-62
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-63
+ BYTE   W01
+ BYTE   PAN   c_v-64
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-63
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-62
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-61
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-60
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-59
+ BYTE   N48  An3
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-58
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-57
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-56
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-55
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-54
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-53
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-52
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-51
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-50
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-49
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-48
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-47
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-46
+ BYTE   W02
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-45
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-44
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v-43
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-42
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-41
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-40
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-39
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-38
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-37
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //002   ----------------------------------------
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-36
+ BYTE   W03
+ BYTE   PAN   c_v-35
+ BYTE   W02
+ BYTE   PAN   c_v-34
+ BYTE   W02
+ BYTE   PAN   c_v-33
+ BYTE   W02
+ BYTE   PAN   c_v-32
+ BYTE   W02
+ BYTE   PAN   c_v-31
+ BYTE   W02
+ BYTE   PAN   c_v-30
+ BYTE   W02
+ BYTE   PAN   c_v-29
+ BYTE   W02
+ BYTE   PAN   c_v-28
+ BYTE   W02
+ BYTE   PAN   c_v-27
+ BYTE   W02
+ BYTE   PAN   c_v-26
+ BYTE   W03
+ BYTE   PAN   c_v-25
+ BYTE   W02
+ BYTE   PAN   c_v-24
+ BYTE   W02
+ BYTE   PAN   c_v-23
+ BYTE   W02
+ BYTE   PAN   c_v-22
+ BYTE   W02
+ BYTE   PAN   c_v-21
+ BYTE   W02
+ BYTE   PAN   c_v-20
+ BYTE   W02
+ BYTE   PAN   c_v-19
+ BYTE   W02
+ BYTE   PAN   c_v-18
+ BYTE   W02
+ BYTE   PAN   c_v-17
+ BYTE   W02
+ BYTE   PAN   c_v-16
+ BYTE   W03
+ BYTE   PAN   c_v-15
+ BYTE   W02
+ BYTE   PAN   c_v-14
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   N48
+ BYTE   W01
+ BYTE   PAN   c_v-13
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-10
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-8
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-6
+ BYTE   W02
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-5
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-4
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-3
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-2
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-1
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+3
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+4
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+5
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+8
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+9
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //003   ----------------------------------------
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Bn3
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+11
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+12
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+13
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+15
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+16
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+18
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+20
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+21
+ BYTE   W02
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+23
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+25
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+26
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+27
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+28
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+29
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+30
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+32
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Cs4
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+33
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+35
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+36
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+37
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+38
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+39
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+40
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+41
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+42
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+43
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+44
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+45
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+46
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+47
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+48
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+49
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+50
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+51
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+52
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+53
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+54
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //004   ----------------------------------------
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+55
+ BYTE   W02
+ BYTE   PAN   c_v+56
+ BYTE   W02
+ BYTE   PAN   c_v+57
+ BYTE   W02
+ BYTE   PAN   c_v+58
+ BYTE   W02
+ BYTE   PAN   c_v+59
+ BYTE   W02
+ BYTE   PAN   c_v+60
+ BYTE   W02
+ BYTE   PAN   c_v+61
+ BYTE   W02
+ BYTE   PAN   c_v+62
+ BYTE   W02
+ BYTE   PAN   c_v+63
+ BYTE   W03
+ BYTE   PAN   c_v+62
+ BYTE   W01
+ BYTE   PAN   c_v+61
+ BYTE   W01
+ BYTE   PAN   c_v+60
+ BYTE   W01
+ BYTE   PAN   c_v+59
+ BYTE   W02
+ BYTE   PAN   c_v+58
+ BYTE   W01
+ BYTE   PAN   c_v+57
+ BYTE   W01
+ BYTE   PAN   c_v+56
+ BYTE   W01
+ BYTE   PAN   c_v+55
+ BYTE   W01
+ BYTE   PAN   c_v+54
+ BYTE   W02
+ BYTE   PAN   c_v+53
+ BYTE   W01
+ BYTE   PAN   c_v+52
+ BYTE   W01
+ BYTE   PAN   c_v+51
+ BYTE   W01
+ BYTE   PAN   c_v+50
+ BYTE   W01
+ BYTE   PAN   c_v+49
+ BYTE   W02
+ BYTE   PAN   c_v+48
+ BYTE   W01
+ BYTE   PAN   c_v+47
+ BYTE   W01
+ BYTE   PAN   c_v+46
+ BYTE   W01
+ BYTE   PAN   c_v+45
+ BYTE   W01
+ BYTE   PAN   c_v+44
+ BYTE   W02
+ BYTE   PAN   c_v+43
+ BYTE   W01
+ BYTE   PAN   c_v+42
+ BYTE   W01
+ BYTE   PAN   c_v+41
+ BYTE   W01
+ BYTE   PAN   c_v+40
+ BYTE   W01
+ BYTE   PAN   c_v+39
+ BYTE   W02
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+38
+ BYTE   N48  As3
+ BYTE   W01
+ BYTE   PAN   c_v+37
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+36
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+35
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+33
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+32
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+31
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+30
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+29
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+28
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+27
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+26
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+23
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+22
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+21
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+20
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+19
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+18
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+16
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+15
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+13
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+12
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+11
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+10
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+9
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+8
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+5
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+4
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+3
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //005   ----------------------------------------
+ BYTE   PAN   c_v-2
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Cn4
+ BYTE   W01
+ BYTE   PAN   c_v-3
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-4
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-5
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-6
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-7
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-8
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-9
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-10
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-13
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   PAN   c_v-15
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-16
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-17
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-18
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-19
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-20
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-21
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-22
+ BYTE   W01
+ BYTE   PAN   c_v-23
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-24
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-26
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-27
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-28
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-29
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-30
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-31
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-32
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-33
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-34
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-35
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-36
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-37
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-38
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-39
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-40
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-41
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Dn4
+ BYTE   W01
+ BYTE   PAN   c_v-42
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-43
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-44
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-45
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-46
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-47
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-48
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-49
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-50
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-51
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-52
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-53
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-54
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-55
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-56
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-57
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-58
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-59
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-60
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-61
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-62
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-64
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-63
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-62
+ BYTE   W02
+ BYTE   PAN   c_v-61
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-60
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-59
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-58
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-57
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-56
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-55
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-54
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //006   ----------------------------------------
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-53
+ BYTE   W02
+ BYTE   PAN   c_v-52
+ BYTE   W01
+ BYTE   PAN   c_v-51
+ BYTE   W02
+ BYTE   PAN   c_v-50
+ BYTE   W02
+ BYTE   PAN   c_v-49
+ BYTE   W02
+ BYTE   PAN   c_v-48
+ BYTE   W02
+ BYTE   PAN   c_v-47
+ BYTE   W02
+ BYTE   PAN   c_v-46
+ BYTE   W02
+ BYTE   PAN   c_v-45
+ BYTE   W02
+ BYTE   PAN   c_v-44
+ BYTE   W01
+ BYTE   PAN   c_v-43
+ BYTE   W02
+ BYTE   PAN   c_v-42
+ BYTE   W02
+ BYTE   PAN   c_v-41
+ BYTE   W02
+ BYTE   PAN   c_v-40
+ BYTE   W02
+ BYTE   PAN   c_v-39
+ BYTE   W02
+ BYTE   PAN   c_v-38
+ BYTE   W02
+ BYTE   PAN   c_v-37
+ BYTE   W02
+ BYTE   PAN   c_v-36
+ BYTE   W01
+ BYTE   PAN   c_v-35
+ BYTE   W02
+ BYTE   PAN   c_v-34
+ BYTE   W02
+ BYTE   PAN   c_v-33
+ BYTE   W02
+ BYTE   PAN   c_v-32
+ BYTE   W02
+ BYTE   PAN   c_v-31
+ BYTE   W02
+ BYTE   PAN   c_v-30
+ BYTE   W02
+ BYTE   PAN   c_v-29
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-28
+ BYTE   N48
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-27
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-26
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-25
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-24
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-23
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-22
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-21
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-20
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-19
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-18
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-17
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-16
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-15
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-14
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-13
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-10
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-8
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-6
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-5
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-4
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //007   ----------------------------------------
+ BYTE   PAN   c_v-2
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Ds4
+ BYTE   W02
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+2
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+3
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+4
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+5
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+6
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+7
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+8
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+9
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+11
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+12
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+13
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+15
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+16
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+17
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+18
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+20
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+21
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+23
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Dn4
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+25
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+26
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+27
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+28
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+29
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+30
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+32
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+33
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+35
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+36
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+37
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+38
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+39
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+40
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+41
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+42
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+43
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+44
+ BYTE   W02
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+45
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+46
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+47
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //008   ----------------------------------------
+ BYTE   PAN   c_v+48
+ BYTE   W02
+ BYTE   PAN   c_v+49
+ BYTE   W02
+ BYTE   PAN   c_v+50
+ BYTE   W02
+ BYTE   PAN   c_v+51
+ BYTE   W01
+ BYTE   PAN   c_v+52
+ BYTE   W02
+ BYTE   PAN   c_v+53
+ BYTE   W02
+ BYTE   PAN   c_v+54
+ BYTE   W02
+ BYTE   PAN   c_v+55
+ BYTE   W02
+ BYTE   PAN   c_v+56
+ BYTE   W02
+ BYTE   PAN   c_v+57
+ BYTE   W02
+ BYTE   PAN   c_v+58
+ BYTE   W02
+ BYTE   PAN   c_v+59
+ BYTE   W01
+ BYTE   PAN   c_v+60
+ BYTE   W02
+ BYTE   PAN   c_v+61
+ BYTE   W02
+ BYTE   PAN   c_v+62
+ BYTE   W01
+ BYTE   PAN   c_v+63
+ BYTE   W03
+ BYTE   PAN   c_v+62
+ BYTE   W02
+ BYTE   PAN   c_v+61
+ BYTE   W01
+ BYTE   PAN   c_v+60
+ BYTE   W02
+ BYTE   PAN   c_v+59
+ BYTE   W01
+ BYTE   PAN   c_v+58
+ BYTE   W02
+ BYTE   PAN   c_v+57
+ BYTE   W01
+ BYTE   PAN   c_v+56
+ BYTE   W02
+ BYTE   PAN   c_v+55
+ BYTE   W02
+ BYTE   PAN   c_v+54
+ BYTE   W01
+ BYTE   PAN   c_v+53
+ BYTE   W02
+ BYTE   PAN   c_v+52
+ BYTE   W01
+ BYTE   PAN   c_v+51
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Fs2  v112
+ BYTE   W01
+ BYTE   PAN   c_v+50
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+49
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+48
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+47
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+46
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+45
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+44
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+43
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+42
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+41
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+40
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+39
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+38
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+37
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+36
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+35
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+34
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+33
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+32
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+30
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+29
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+28
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+27
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+26
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+25
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+23
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+21
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //009   ----------------------------------------
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+20
+ BYTE   N48  Gs2
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+18
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+16
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+15
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+13
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+12
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+11
+ BYTE   W02
+ BYTE   PAN   c_v+10
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+9
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+8
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+5
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+4
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+3
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+1
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-2
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-4
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-5
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-6
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-8
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-10
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  An2
+ BYTE   W01
+ BYTE   PAN   c_v-11
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-13
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-15
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-16
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-17
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-18
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-19
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-20
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-21
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-22
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-23
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-24
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-25
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-26
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-27
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-28
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-29
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-30
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-31
+ BYTE   W02
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-32
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-33
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-34
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-35
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-36
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-37
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-38
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-39
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-40
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //010   ----------------------------------------
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-41
+ BYTE   W02
+ BYTE   PAN   c_v-42
+ BYTE   W01
+ BYTE   PAN   c_v-43
+ BYTE   W02
+ BYTE   PAN   c_v-44
+ BYTE   W01
+ BYTE   PAN   c_v-45
+ BYTE   W02
+ BYTE   PAN   c_v-46
+ BYTE   W02
+ BYTE   PAN   c_v-47
+ BYTE   W01
+ BYTE   PAN   c_v-48
+ BYTE   W02
+ BYTE   PAN   c_v-49
+ BYTE   W01
+ BYTE   PAN   c_v-50
+ BYTE   W02
+ BYTE   PAN   c_v-51
+ BYTE   W02
+ BYTE   PAN   c_v-52
+ BYTE   W01
+ BYTE   PAN   c_v-53
+ BYTE   W02
+ BYTE   PAN   c_v-54
+ BYTE   W01
+ BYTE   PAN   c_v-55
+ BYTE   W02
+ BYTE   PAN   c_v-56
+ BYTE   W01
+ BYTE   PAN   c_v-57
+ BYTE   W02
+ BYTE   PAN   c_v-58
+ BYTE   W02
+ BYTE   PAN   c_v-59
+ BYTE   W01
+ BYTE   PAN   c_v-60
+ BYTE   W02
+ BYTE   PAN   c_v-61
+ BYTE   W01
+ BYTE   PAN   c_v-62
+ BYTE   W02
+ BYTE   PAN   c_v-64
+ BYTE   W02
+ BYTE   PAN   c_v-63
+ BYTE   W02
+ BYTE   PAN   c_v-62
+ BYTE   W01
+ BYTE   PAN   c_v-61
+ BYTE   W01
+ BYTE   PAN   c_v-60
+ BYTE   W01
+ BYTE   PAN   c_v-59
+ BYTE   W01
+ BYTE   PAN   c_v-58
+ BYTE   W01
+ BYTE   PAN   c_v-57
+ BYTE   W01
+ BYTE   PAN   c_v-56
+ BYTE   W01
+ BYTE   PAN   c_v-55
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-54
+ BYTE   W01
+ BYTE   PAN   c_v-53
+ BYTE   N48
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-52
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-51
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-50
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-49
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-48
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-47
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-46
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-45
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-44
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-43
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-42
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-41
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-40
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-39
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-38
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-37
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-36
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-35
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-34
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-33
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-32
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-31
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-30
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-29
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-28
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-27
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-26
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-24
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-23
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-22
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-21
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-20
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-19
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-18
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-17
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-16
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-15
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-13
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-11
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //011   ----------------------------------------
+ BYTE   PAN   c_v-10
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Bn2
+ BYTE   W01
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-8
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-6
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-5
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-4
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-2
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-1
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+0
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+3
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+4
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+5
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+6
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+7
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+8
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+9
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+11
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+12
+ BYTE   W01
+ BYTE   PAN   c_v+13
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+15
+ BYTE   W01
+ BYTE   PAN   c_v+16
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+18
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+20
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+21
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+23
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   W01
+ BYTE   PAN   c_v+26
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+27
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+28
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+29
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+30
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+32
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+33
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+34
+ BYTE   N48  Cs3
+ BYTE   W01
+ BYTE   PAN   c_v+35
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+36
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+37
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+38
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+39
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+40
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+41
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+42
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+43
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+44
+ BYTE   W01
+ BYTE   PAN   c_v+45
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+46
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+47
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+48
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+49
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+50
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+51
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+52
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+53
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+54
+ BYTE   W01
+ BYTE   PAN   c_v+55
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+56
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+57
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+58
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+59
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+60
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+61
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+63
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+62
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+61
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+60
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+59
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+58
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+57
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //012   ----------------------------------------
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+56
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+55
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+54
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+53
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+52
+ BYTE   W02
+ BYTE   PAN   c_v+51
+ BYTE   W02
+ BYTE   PAN   c_v+50
+ BYTE   W03
+ BYTE   PAN   c_v+49
+ BYTE   W02
+ BYTE   PAN   c_v+48
+ BYTE   W02
+ BYTE   PAN   c_v+47
+ BYTE   W02
+ BYTE   PAN   c_v+46
+ BYTE   W02
+ BYTE   PAN   c_v+45
+ BYTE   W02
+ BYTE   PAN   c_v+44
+ BYTE   W02
+ BYTE   PAN   c_v+43
+ BYTE   W02
+ BYTE   PAN   c_v+42
+ BYTE   W02
+ BYTE   PAN   c_v+41
+ BYTE   W02
+ BYTE   PAN   c_v+40
+ BYTE   W03
+ BYTE   PAN   c_v+39
+ BYTE   W02
+ BYTE   PAN   c_v+38
+ BYTE   W02
+ BYTE   PAN   c_v+37
+ BYTE   W02
+ BYTE   PAN   c_v+36
+ BYTE   W02
+ BYTE   PAN   c_v+35
+ BYTE   W02
+ BYTE   PAN   c_v+34
+ BYTE   W02
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+33
+ BYTE   N48  As2
+ BYTE   W02
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+32
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+30
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+29
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+28
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+27
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+26
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+23
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+22
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+21
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+20
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+19
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+18
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+17
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+16
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+15
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+14
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+13
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+12
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+11
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //013   ----------------------------------------
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+10
+ BYTE   N48  Cn3
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+9
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+8
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+5
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+4
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+3
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-2
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-3
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-4
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-5
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-6
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-8
+ BYTE   W01
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-9
+ BYTE   W01
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-10
+ BYTE   W02
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-11
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-12
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Dn3
+ BYTE   W01
+ BYTE   PAN   c_v-13
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-14
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-15
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-16
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-17
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-18
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-19
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-20
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-21
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-22
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-23
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-24
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-25
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-26
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-27
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-28
+ BYTE   W02
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-29
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-30
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-31
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-32
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-33
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-34
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-35
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //014   ----------------------------------------
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-36
+ BYTE   W02
+ BYTE   PAN   c_v-37
+ BYTE   W02
+ BYTE   PAN   c_v-38
+ BYTE   W02
+ BYTE   PAN   c_v-39
+ BYTE   W02
+ BYTE   PAN   c_v-40
+ BYTE   W03
+ BYTE   PAN   c_v-41
+ BYTE   W02
+ BYTE   PAN   c_v-42
+ BYTE   W02
+ BYTE   PAN   c_v-43
+ BYTE   W02
+ BYTE   PAN   c_v-44
+ BYTE   W02
+ BYTE   PAN   c_v-45
+ BYTE   W02
+ BYTE   PAN   c_v-46
+ BYTE   W02
+ BYTE   PAN   c_v-47
+ BYTE   W02
+ BYTE   PAN   c_v-48
+ BYTE   W02
+ BYTE   PAN   c_v-49
+ BYTE   W02
+ BYTE   PAN   c_v-50
+ BYTE   W03
+ BYTE   PAN   c_v-51
+ BYTE   W02
+ BYTE   PAN   c_v-52
+ BYTE   W02
+ BYTE   PAN   c_v-53
+ BYTE   W02
+ BYTE   PAN   c_v-54
+ BYTE   W02
+ BYTE   PAN   c_v-55
+ BYTE   W02
+ BYTE   PAN   c_v-56
+ BYTE   W02
+ BYTE   PAN   c_v-57
+ BYTE   W02
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-58
+ BYTE   W01
+ BYTE   N48
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-59
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-60
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-61
+ BYTE   W01
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-62
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-63
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-64
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-63
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-62
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-61
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-60
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-59
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-58
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-57
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-56
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-55
+ BYTE   W01
+ BYTE   PAN   c_v-54
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-53
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-52
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-51
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-50
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-49
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-48
+ BYTE   W01
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-47
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-46
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-45
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-44
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-43
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-42
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-41
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-40
+ BYTE   W01
+ BYTE   PAN   c_v-39
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-38
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-37
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-36
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-35
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-34
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-33
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-32
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-31
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #02 //015   ----------------------------------------
+ BYTE   PAN   c_v-30
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   N48  Ds3
+ BYTE   W01
+ BYTE   PAN   c_v-29
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-28
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-27
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-26
+ BYTE   W01
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   W01
+ BYTE   PAN   c_v-24
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-23
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-22
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-21
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-20
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-19
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-18
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-17
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-16
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-15
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-13
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-12
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-11
+ BYTE   W01
+ BYTE   PAN   c_v-10
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-9
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-8
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-7
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-6
+ BYTE   W01
+ BYTE   VOL   81*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-5
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-4
+ BYTE   W01
+ BYTE   VOL   80*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-3
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-2
+ BYTE   W01
+ BYTE   VOL   79*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-1
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+1
+ BYTE   W01
+ BYTE   VOL   78*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+2
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+3
+ BYTE   W01
+ BYTE   VOL   77*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+4
+ BYTE   W01
+ BYTE   PAN   c_v+5
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+6
+ BYTE   VOL   76*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+7
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+8
+ BYTE   VOL   75*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+9
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+10
+ BYTE   VOL   74*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+11
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+12
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+13
+ BYTE   VOL   73*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+15
+ BYTE   W01
+ BYTE   VOL   72*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+16
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+17
+ BYTE   N48  Dn3
+ BYTE   W01
+ BYTE   VOL   71*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+18
+ BYTE   W01
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+19
+ BYTE   W01
+ BYTE   PAN   c_v+20
+ BYTE   VOL   70*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+21
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+22
+ BYTE   VOL   69*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+23
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+24
+ BYTE   W01
+ BYTE   VOL   68*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+26
+ BYTE   W01
+ BYTE   VOL   67*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+27
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+28
+ BYTE   W01
+ BYTE   VOL   66*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+29
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+30
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+31
+ BYTE   W01
+ BYTE   VOL   65*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+32
+ BYTE   W01
+ BYTE   PAN   c_v+33
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+34
+ BYTE   VOL   64*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+35
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+36
+ BYTE   W01
+ BYTE   VOL   63*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+37
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+38
+ BYTE   W01
+ BYTE   VOL   62*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+39
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+40
+ BYTE   W01
+ BYTE   VOL   61*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+41
+ BYTE   W01
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+42
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+43
+ BYTE   VOL   60*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+44
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+45
+ BYTE   W01
+ BYTE   VOL   59*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+46
+ BYTE   W01
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+47
+ BYTE   W01
+ BYTE   PAN   c_v+48
+ BYTE   VOL   58*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+49
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+50
+ BYTE   VOL   57*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+51
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+52
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+53
+ BYTE   VOL   56*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+54
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+55
+ BYTE   VOL   55*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v+56
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+57
+ BYTE   W01
+ BYTE   VOL   54*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+58
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+59
+ BYTE   W01
+ BYTE   VOL   53*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+60
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+61
+ BYTE   W01
+ BYTE   VOL   52*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+62
+ BYTE   W01
+//  #02 //016   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_01086ED2
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+what_comes_from_darkness_003:
+//  #03 //000   ----------------------------------------
+ BYTE   KEYSH   what_comes_from_darkness_key+0
+Label_0102556E:
+ BYTE   VOICE   30
+ BYTE   VOL   36*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+10
+ BYTE   N07  Fs1  v127
+ BYTE   W08
+ BYTE   N84
+ BYTE   W88
+//  #03 //001   ----------------------------------------
+Label_0102557A:
+ BYTE   N36  Fs1  v127
+ BYTE   W40
+ BYTE   N07
+ BYTE   W08
+ BYTE   N44
+ BYTE   W48
+ BYTE   PEND 
+//  #03 //002   ----------------------------------------
+Label_01025583:
+ BYTE   N07  Fs1  v127
+ BYTE   W08
+ BYTE   N84
+ BYTE   W88
+ BYTE   PEND 
+//  #03 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102557A
+//  #03 //004   ----------------------------------------
+Label_0102558F:
+ BYTE   N07  Gn1  v120
+ BYTE   W08
+ BYTE   N54
+ BYTE   W56
+ BYTE   N30
+ BYTE   W32
+ BYTE   PEND 
+//  #03 //005   ----------------------------------------
+Label_01025598:
+ BYTE   N36  Gn1  v120
+ BYTE   W40
+ BYTE   N07
+ BYTE   W08
+ BYTE   N30
+ BYTE   W32
+ BYTE   N15
+ BYTE   W16
+ BYTE   PEND 
+//  #03 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102558F
+//  #03 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01025598
+//  #03 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01025583
+//  #03 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102557A
+//  #03 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01025583
+//  #03 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102557A
+//  #03 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102558F
+//  #03 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01025598
+//  #03 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0102558F
+//  #03 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01025598
+//  #03 //016   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_0102556E
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+what_comes_from_darkness_004:
+//  #04 //000   ----------------------------------------
+ BYTE   KEYSH   what_comes_from_darkness_key+0
+Label_01088472:
+ BYTE   VOICE   52
+ BYTE   MOD 0
+ BYTE   VOL   8*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+20
+ BYTE   TIE  Fs4  v088
+ BYTE   W03
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   10*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   10*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   MOD 0
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 1
+ BYTE   W01
+ BYTE   VOL   13*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   14*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 2
+ BYTE   VOL   14*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   15*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 3
+ BYTE   W01
+ BYTE   VOL   15*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*what_comes_from_darkness_mvl/mxv
+ BYTE   MOD 4
+ BYTE   W02
+ BYTE   VOL   16*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   MOD 5
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 6
+ BYTE   W01
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   18*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 8
+ BYTE   W01
+ BYTE   VOL   18*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   19*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   19*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   26*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   27*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   27*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   28*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   28*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   PEND 
+//  #04 //001   ----------------------------------------
+Label_01088523:
+ BYTE   VOL   31*what_comes_from_darkness_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   28*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   28*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   27*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   27*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   26*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   26*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   24*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   19*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   18*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   18*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   15*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   14*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   14*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   MOD 8
+ BYTE   VOL   11*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 6
+ BYTE   VOL   10*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   10*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 4
+ BYTE   W01
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   PEND 
+ BYTE   EOT
+ BYTE   Fs4
+ BYTE   MOD 1
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #04 //002   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088472
+//  #04 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088523
+//  #04 //004   ----------------------------------------
+ BYTE   EOT
+ BYTE   Fs4
+ BYTE   MOD 1
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+Label_010885D6:
+ BYTE   VOICE   52
+ BYTE   MOD 0
+ BYTE   VOL   8*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v+20
+ BYTE   TIE  Gn4  v088
+ BYTE   W03
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   10*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   10*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   MOD 0
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 1
+ BYTE   W01
+ BYTE   VOL   13*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   14*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 2
+ BYTE   VOL   14*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   15*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 3
+ BYTE   W01
+ BYTE   VOL   15*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*what_comes_from_darkness_mvl/mxv
+ BYTE   MOD 4
+ BYTE   W02
+ BYTE   VOL   16*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   MOD 5
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 6
+ BYTE   W01
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   18*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 8
+ BYTE   W01
+ BYTE   VOL   18*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   19*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   19*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   20*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   26*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   26*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   27*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   27*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   28*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   28*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   PEND 
+//  #04 //005   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088523
+//  #04 //006   ----------------------------------------
+ BYTE   EOT
+ BYTE   Gn4
+ BYTE   MOD 1
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #04 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010885D6
+//  #04 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088523
+//  #04 //009   ----------------------------------------
+ BYTE   EOT
+ BYTE   Gn4
+ BYTE   MOD 1
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #04 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088472
+//  #04 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088523
+//  #04 //012   ----------------------------------------
+ BYTE   EOT
+ BYTE   Fs4
+ BYTE   MOD 1
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #04 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088472
+//  #04 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088523
+//  #04 //015   ----------------------------------------
+ BYTE   EOT
+ BYTE   Fs4
+ BYTE   MOD 1
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #04 //016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010885D6
+//  #04 //017   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088523
+//  #04 //018   ----------------------------------------
+ BYTE   EOT
+ BYTE   Gn4
+ BYTE   MOD 1
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+//  #04 //019   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010885D6
+//  #04 //020   ----------------------------------------
+ BYTE   VOL   31*what_comes_from_darkness_mvl/mxv
+ BYTE   W04
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   30*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   29*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   28*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   28*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   27*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   27*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   26*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   26*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   25*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   24*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   21*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   19*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   19*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   18*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   18*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   17*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   15*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   15*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   14*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   14*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   MOD 8
+ BYTE   VOL   12*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   MOD 6
+ BYTE   W01
+ BYTE   VOL   11*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   MOD 4
+ BYTE   VOL   10*what_comes_from_darkness_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   9*what_comes_from_darkness_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   Gn4
+ BYTE   MOD 1
+ BYTE   W01
+//  #04 //021   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_01088472
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+what_comes_from_darkness_005:
+//  #05 //000   ----------------------------------------
+ BYTE   KEYSH   what_comes_from_darkness_key+0
+Label_01088782:
+ BYTE   VOICE   50
+ BYTE   VOL   33*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-20
+ BYTE   TIE  Cs2  v092
+ BYTE   TIE  An2
+ BYTE   W96
+//  #05 //001   ----------------------------------------
+ BYTE   W92
+ BYTE   EOT
+ BYTE   Cs2  v057
+ BYTE   W04
+//  #05 //002   ----------------------------------------
+Label_01088793:
+ BYTE   TIE  Cs2  v092
+ BYTE   TIE  An2
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //003   ----------------------------------------
+ BYTE   W92
+ BYTE   EOT
+ BYTE   Cs2  v057
+ BYTE   W04
+//  #05 //004   ----------------------------------------
+Label_0108879F:
+ BYTE   TIE  Dn2  v092
+ BYTE   TIE  As2
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //005   ----------------------------------------
+ BYTE   W92
+ BYTE   EOT
+ BYTE   Dn2  v058
+ BYTE   W04
+//  #05 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0108879F
+//  #05 //007   ----------------------------------------
+ BYTE   W92
+ BYTE   EOT
+ BYTE   Dn2  v058
+ BYTE   W04
+//  #05 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088793
+//  #05 //009   ----------------------------------------
+ BYTE   W92
+ BYTE   EOT
+ BYTE   Cs2  v057
+ BYTE   W04
+//  #05 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088793
+//  #05 //011   ----------------------------------------
+ BYTE   W92
+ BYTE   EOT
+ BYTE   Cs2  v057
+ BYTE   W04
+//  #05 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0108879F
+//  #05 //013   ----------------------------------------
+ BYTE   W92
+ BYTE   EOT
+ BYTE   Dn2  v058
+ BYTE   W04
+//  #05 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0108879F
+//  #05 //015   ----------------------------------------
+ BYTE   W92
+ BYTE   EOT
+ BYTE   Dn2  v058
+ BYTE   W04
+//  #05 //016   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_01088782
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+what_comes_from_darkness_006:
+//  #06 //000   ----------------------------------------
+ BYTE   KEYSH   what_comes_from_darkness_key+0
+Label_010887E6:
+ BYTE   VOICE   124
+ BYTE   VOL   50*what_comes_from_darkness_mvl/mxv
+ BYTE   PAN   c_v-15
+ BYTE   N07  Cn1  v100
+ BYTE   W08
+ BYTE   N15
+ BYTE   W88
+//  #06 //001   ----------------------------------------
+Label_010887F2:
+ BYTE   N15  Cn1  v100
+ BYTE   W40
+ BYTE   N07
+ BYTE   W08
+ BYTE   N15
+ BYTE   W48
+ BYTE   PEND 
+//  #06 //002   ----------------------------------------
+Label_010887FB:
+ BYTE   N07  Cn1  v100
+ BYTE   W08
+ BYTE   N15
+ BYTE   W88
+ BYTE   PEND 
+//  #06 //003   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010887F2
+//  #06 //004   ----------------------------------------
+Label_01088807:
+ BYTE   N07  Cn1  v100
+ BYTE   W08
+ BYTE   N15
+ BYTE   W56
+ BYTE   N15
+ BYTE   W32
+ BYTE   PEND 
+//  #06 //005   ----------------------------------------
+Label_01088810:
+ BYTE   N15  Cn1  v100
+ BYTE   W40
+ BYTE   N07
+ BYTE   W08
+ BYTE   N15
+ BYTE   W32
+ BYTE   N15
+ BYTE   W16
+ BYTE   PEND 
+//  #06 //006   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088807
+//  #06 //007   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088810
+//  #06 //008   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010887FB
+//  #06 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010887F2
+//  #06 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010887FB
+//  #06 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010887F2
+//  #06 //012   ----------------------------------------
+Label_01088839:
+ BYTE   N07  Cn1  v100
+ BYTE   W08
+ BYTE   N15
+ BYTE   W56
+ BYTE   N07
+ BYTE   W32
+ BYTE   PEND 
+//  #06 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088810
+//  #06 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088839
+//  #06 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_01088810
+//  #06 //016   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_010887E6
+ BYTE   FINE
+
+//**************** Track 7 (Midi-Chn.6) ****************//
+
+what_comes_from_darkness_007:
+//  #07 //000   ----------------------------------------
+ BYTE   KEYSH   what_comes_from_darkness_key+0
+Label_010256A2:
+ BYTE   W96
+//  #07 //001   ----------------------------------------
+ BYTE   W96
+//  #07 //002   ----------------------------------------
+ BYTE   W96
+//  #07 //003   ----------------------------------------
+ BYTE   W96
+//  #07 //004   ----------------------------------------
+ BYTE   W96
+//  #07 //005   ----------------------------------------
+ BYTE   W96
+//  #07 //006   ----------------------------------------
+ BYTE   W96
+//  #07 //007   ----------------------------------------
+ BYTE   VOICE   121
+ BYTE   W24
+ BYTE   VOL   51*what_comes_from_darkness_mvl/mxv
+ BYTE   W24
+ BYTE   PAN   c_v+0
+ BYTE   W48
+//  #07 //008   ----------------------------------------
+Label_010256B2:
+ BYTE   W24
+ BYTE   N07  Fs1  v052
+ BYTE   W48
+ BYTE   N07
+ BYTE   W24
+ BYTE   PEND 
+//  #07 //009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010256B2
+//  #07 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010256B2
+//  #07 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010256B2
+//  #07 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010256B2
+//  #07 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010256B2
+//  #07 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010256B2
+//  #07 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_010256B2
+//  #07 //016   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_010256A2
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+what_comes_from_darkness:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	what_comes_from_darkness_pri	// Priority
+	BYTE	what_comes_from_darkness_rev	// Reverb.
+    
+	POIN2	what_comes_from_darkness_grp
+    
+	POIN2	what_comes_from_darkness_001
+	POIN2	what_comes_from_darkness_002
+	POIN2	what_comes_from_darkness_003
+	POIN2	what_comes_from_darkness_004
+	POIN2	what_comes_from_darkness_005
+	POIN2	what_comes_from_darkness_006
+	POIN2	what_comes_from_darkness_007
+
+	

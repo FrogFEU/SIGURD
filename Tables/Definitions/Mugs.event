@@ -1,0 +1,8 @@
+#define MCMug 0x1
+#define ApprenticeMug 0x2
+#define MAMug 0x3
+#define EvilApprenticeMug 0x4
+#define EmceeMug 0x5
+#define GameMasterMug 0x6
+#define ButlerMug 0x7
+#define MCMirroredMug 0x8

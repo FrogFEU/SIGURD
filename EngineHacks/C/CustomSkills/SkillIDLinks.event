@@ -1,0 +1,63 @@
+// True Damage
+
+ALIGN 4 
+TrueDamageID_Link: 
+WORD TrueDamageID
+
+// Inevitable End tome
+
+ALIGN 4 
+InevitableEndTomeID_Link: 
+WORD InevitableEndTomeID
+
+// Blinding Light
+
+ALIGN 4 
+BlindingLightSkillID_Link: 
+WORD BlindingLightSkillID
+
+// Half Strength
+
+ALIGN 4 
+HalfStrengthID_Link: 
+WORD HalfStrengthID
+
+// Judge
+
+ALIGN 4 
+JudgeSkillID_Link: 
+WORD JudgeSkillID
+
+// Dethrone
+
+ALIGN 4 
+DethroneSkillID_Link: 
+WORD DethroneSkillID
+
+// Incorporeal
+
+ALIGN 4 
+IncorporealSkillID_Link: 
+WORD IncorporealSkillID
+
+// Soul Link
+
+ALIGN 4 
+SoulLinkSkillID_Link: 
+WORD SoulLinkSkillID
+
+// Crit Damaged Foes
+
+ALIGN 4 
+CritDamagedFoesSkillID_Link: 
+WORD CritDamagedFoesSkillID
+
+// Fading max HP
+
+ALIGN 4 
+FadingMaxHPID_Link: 
+WORD FadingMaxHPID
+
+ALIGN 4
+FadingMaxHPDeadEventPointer:
+POIN FadingMaxHPDeadEvent

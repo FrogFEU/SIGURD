@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="26" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="3C00683E" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../Tilesets/desert bastion but wide/3C00683E.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="26" height="18">
+  <properties>
+   <property name="Anims1" value="5"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="0"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="6"/>
+   <property name="MapID" value="4"/>
+   <property name="ObjectType" value="1"/>
+   <property name="PaletteID" value="2"/>
+   <property name="TileConfig" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJx1lEtrU0EUxydzcaG0Pr6AUIqkxVqbbnVtddGHWfhYuchSRVofFR+rNlJQtA0I3RtroRFNCKQEFFofSVrFx1oKbqypFb+B+D/O/5DTa138mJlz7nnP3ELCuTp4HjnXB+axL3vnGlhXQA5MQd4FGpBvkB1RkFegT4M2yAZ9+L4GVsEI9NPgcxR8fcD6DmsTvAUlMMsY4qMG/Sp8vAT3sF/D2vRBLnGWnHM9OO/n949BEbpnIAX5OejvY19gTTnGmBcZaPfBx036fgGGwB4fzrcgr9J3zqxvpD/QF32Q9Zj+pE39dakPXGQfbkStGJrDMPa3mUuZtiXjJ806S7E8RPYQbNK/5PAIjHIOx0CvyWGAcq07Rx/qU3q3F/J94LLfmof41tmW+F2Kc5hiTYqca4wjeVXNnamwd3IXhnF+ELXy0Lp++vBdkTMU+Tf6XALL4BXP6+BpFO7Zb7fVXuxkJguJMH+tR3u5aOqzvZVYHeyn5C9nvWdVF+5aLmb/14cP78TeE+tbfMxso5deXkKMj3wXcf3/Vut7zLdmp/5kr/pP4pf9LPp/cxuh7RXf6o+sY0auNfb58GZX2N+68dXP/Ppjd0vXBmdvfU4zZ9VJD0qmn2rbBdZAL5iE718urIdwTsbqKfGeyX9FfEj9+j8rm3c744LPpN5rcB26I+AASIKjPJ/yIV43Y3w3extb/wNS/wY4if0mcxXWXbCdhDyD9Q6Yc2GfBWe2iV+RmfGNSM5Nt7Uvi7TpdOH7cbDMeK+hn8A6CIYYaxQcZzyJez4R8jgLu4PYpwScd5r5if/TPthf4Aw0V4l5DdyFrA0UXIi/AJ6AXYz1FewGV01P37OuL5yt5JOn/QTza6ddnvl3M0aWZ60jy5o7xBd7m2E87ec456i2Ga4S4zDoZG0DsR5pP+dML60uz3g/wAn4mGVf/gDdfPCL
+  </data>
+ </layer>
+</map>

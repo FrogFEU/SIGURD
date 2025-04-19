@@ -1,0 +1,27 @@
+//Stat screen
+PUSH
+ORG $88620
+POIN RemoveGlowy
+ORG $88638
+POIN NewStatScreen
+ORG $88640
+POIN NewStatScreenPal
+ORG $88644
+POIN StatScreenTSA
+POP
+
+ALIGN 4
+RemoveGlowy:
+#incext Png2Dmp "RemoveGlowy.png" --lz77
+
+ALIGN 4
+NewStatScreen:
+#incbin "8BB11FC.bin"
+
+ALIGN 4
+NewStatScreenPal:
+#incbin "8A06460.bin"
+
+ALIGN 4
+StatScreenTSA:
+#incbin "8A05F10.bin"

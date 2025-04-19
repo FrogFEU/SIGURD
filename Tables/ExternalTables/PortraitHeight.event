@@ -1,0 +1,29 @@
+#define Raise 		"WORD $08005C98"
+#define DontRaise 	"WORD $08005C9C"
+
+PUSH
+ORG $5C3C
+DontRaise
+Raise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+DontRaise
+POP

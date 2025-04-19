@@ -1,0 +1,52 @@
+#define CharacterEndingsWithdrawalListEntry(unitID, retreat) "BYTE unitID 0 0 retreat"
+#define CharacterEndingsWithdrawalListTerminator "BYTE 0 0 0 0"
+
+#define CharacterEndingsTitleListEntry(unitID, title) "BYTE unitID 0 0 0; WORD title;"
+#define CharacterEndingsTitleListTerminator "WORD 0 0"
+
+// 1 - Alone, 2 - A Support
+#define CharacterEndingsCardListEntryAlone(unitID, content) "BYTE 1 unitID 0 0; WORD content;"
+#define CharacterEndingsCardListEntryPaired(unitID, pairID, content) "BYTE 2 unitID pairID 0; WORD content;"
+#define CharacterEndingsCardListTerminator "WORD 0 0"
+
+// Withdrawal list
+PUSH
+ORG $A3D2C0
+//0x19 - Emcee
+//0x1a - Game Master
+//0x1b - Butler
+CharacterEndingsWithdrawalListEntry(MC, 0x0)
+CharacterEndingsWithdrawalListEntry(Apprentice, 0x0)
+CharacterEndingsWithdrawalListEntry(MA, 0x0)
+CharacterEndingsWithdrawalListEntry(EvilApprentice, 0x0)
+CharacterEndingsWithdrawalListEntry(0x19, 0x0)
+CharacterEndingsWithdrawalListEntry(0x1a, 0x0)
+CharacterEndingsWithdrawalListEntry(0x1b, 0x0)
+CharacterEndingsWithdrawalListTerminator
+POP
+
+// Title list
+PUSH
+ORG $A3D1B0
+CharacterEndingsTitleListEntry(MC, CharacterEndingTextMCTitle)
+CharacterEndingsTitleListEntry(Apprentice, CharacterEndingTextKenriTitle)
+CharacterEndingsTitleListEntry(MA, CharacterEndingTextAthenaTitle)
+CharacterEndingsTitleListEntry(EvilApprentice, CharacterEndingTextNogistTitle)
+CharacterEndingsTitleListEntry(0x19, CharacterEndingTextEmceeTitle)
+CharacterEndingsTitleListEntry(0x1a, CharacterEndingTextGameMasterTitle)
+CharacterEndingsTitleListEntry(0x1b, CharacterEndingTextButlerTitle)
+CharacterEndingsTitleListTerminator
+POP
+
+// Card list (Eirika route)
+PUSH
+ORG $A3CD68
+CharacterEndingsCardListEntryAlone(MC, CharacterEndingTextMCCard)
+CharacterEndingsCardListEntryAlone(Apprentice, CharacterEndingTextKenriCard)
+CharacterEndingsCardListEntryAlone(MA, CharacterEndingTextAthenaCard)
+CharacterEndingsCardListEntryAlone(EvilApprentice, CharacterEndingTextNogistCard)
+CharacterEndingsCardListEntryAlone(0x19, CharacterEndingTextEmceeCard)
+CharacterEndingsCardListEntryAlone(0x1a, CharacterEndingTextGameMasterCard)
+CharacterEndingsCardListEntryAlone(0x1b, CharacterEndingTextButlerCard)
+CharacterEndingsCardListTerminator
+POP

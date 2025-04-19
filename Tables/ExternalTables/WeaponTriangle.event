@@ -1,0 +1,23 @@
+
+#define AtkUp 0x2 // 2
+#define AtkDown 0xFE // 2
+#define HitUp 0x1E // 30
+#define HitDown 0xE2 // -30
+
+#define defLTRWTAAdvantage(attackingType, defendingType) "defWTAAdvantageMine(attackingType, defendingType); defWTADisadvantageMine(attackingType, defendingType)"
+#define defWTAAdvantageMine(attackingType, defendingType) "BYTE attackingType defendingType HitUp AtkUp"
+#define defWTADisadvantageMine(attackingType, defendingType) "BYTE defendingType attackingType HitDown AtkDown"
+//#define endWTATable "BYTE 0xFF 0xFF"
+
+PUSH
+ORG $59BA90
+
+defLTRWTAAdvantage(Lances, Swords)
+defLTRWTAAdvantage(Swords, Axes)
+defLTRWTAAdvantage(Axes, Lances)
+
+defLTRWTAAdvantage(Anima, Light)
+defLTRWTAAdvantage(Light, Dark)
+defLTRWTAAdvantage(Dark, Anima)
+
+POP

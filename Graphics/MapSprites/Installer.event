@@ -1,0 +1,144 @@
+
+#include "Internals.event"
+#include "GeneratedInstaller.event"
+
+//First free SMS is 107
+#define AdventurerFS 107 
+#define BardMS 108 
+#define BerserkerFS 109 
+#define BishopMS 110 
+#define DollS 111 
+#define DragonRiderS 112 
+#define DreadFighterFS 113 
+#define DruidMS 114 
+#define HalberdierMS 115 
+#define HunterFS 116 
+#define LichS 117 
+#define LivingArmourS 118 
+#define LivingBladeS 119 
+#define LivingMasterpieceS 120 
+#define LoreWeaverS 121 
+#define MechanistS 122 
+#define PirateFS 123 
+#define PriestMS 124 
+#define PrincessS 125 
+#define QueenS 126 
+#define RevenantUS 127 
+#define SceptreS 128 
+#define SentinelMS 129 
+#define SoldierS 130 
+#define SpiritS 131 
+#define VengeanceS 132 
+#define WerewolfMS 133 
+ 
+ 
+//First free MMS is 127 and will show up if you've expanded classes.
+#define AdventurerFM OCCAdventurer 
+#define BerserkerFM OCCBerserker 
+#define BishopMM OCCBishop 
+#define DragonRiderM OCCDragonRider 
+#define DreadFighterFM OCCDreadFighter 
+#define DruidMM OCCDruid 
+#define HalberdierMM OCCHalberdier 
+#define HunterFM OCCHunter 
+#define LichM OCCLich
+#define PirateFM OCCPirate 
+#define PriestMM OCCPriest 
+#define PrincessM OCCPrincess
+#define QueenM OCCQueen
+#define SentinelMM OCCSentinel 
+#define SoldierM OCCSoldier
+#define WerewolfMM OCCWerewolf 
+#define LoreWeaverM LoreWeaver 
+#define BardMM Bard 
+#define RevenantUM Revenant 
+
+#define MechanistM EOCCMechanist
+#define VengeanceM EOCCVengeance
+#define SpiritM EOCCSpirit
+#define SceptreM EOCCSceptre
+#define LivingBladeM EOCCLivingBlade
+#define LivingArmourM EOCCLivingArmour
+#define LivingMasterpieceM EOCCLivingMasterpiece
+#define DollM EOCCDoll
+ 
+PUSH
+SetSMS(AdventurerFS, 0, AdventurerFS_Data) 
+SetSMS(BardMS, 0, BardMS_Data) 
+SetSMS(BerserkerFS, 1, BerserkerFS_Data) 
+SetSMS(BishopMS, 0, BishopMS_Data) 
+SetSMS(DollS, 0, DollS_Data) 
+SetSMS(DragonRiderS, 1, DragonRiderS_Data) 
+SetSMS(DreadFighterFS, 0, DreadFighterFS_Data) 
+SetSMS(DruidMS, 0, DruidMS_Data) 
+SetSMS(HalberdierMS, 0, HalberdierMS_Data) 
+SetSMS(HunterFS, 0, HunterFS_Data) 
+SetSMS(LichS, 0, LichS_Data) 
+SetSMS(LivingArmourS, 1, LivingArmourS_Data) 
+SetSMS(LivingBladeS, 1, LivingBladeS_Data) 
+SetSMS(LivingMasterpieceS, 1, LivingMasterpieceS_Data) 
+SetSMS(LoreWeaverS, 0, LoreWeaverS_Data) 
+SetSMS(MechanistS, 1, MechanistS_Data) 
+SetSMS(PirateFS, 0, PirateFS_Data) 
+SetSMS(PriestMS, 0, PriestMS_Data) 
+SetSMS(PrincessS, 0, PrincessS_Data) 
+SetSMS(QueenS, 0, QueenS_Data) 
+SetSMS(RevenantUS, 0, RevenantUS_Data) 
+SetSMS(SceptreS, 0, SceptreS_Data) 
+SetSMS(SentinelMS, 1, SentinelMS_Data) 
+SetSMS(SoldierS, 0, SoldierS_Data) 
+SetSMS(SpiritS, 1, SpiritS_Data) 
+SetSMS(VengeanceS, 1, VengeanceS_Data) 
+SetSMS(WerewolfMS, 0, WerewolfMS_Data) 
+ 
+ 
+SetMMS(AdventurerFM - 1, AdventurerFM_Data, NormalAP) 
+SetMMS(BardMM - 1, BardMM_Data, NormalAP) 
+SetMMS(BerserkerFM - 1, BerserkerFM_Data, NormalAP) 
+SetMMS(BishopMM - 1, BishopMM_Data, GreatLordAP) 
+SetMMS(DragonRiderM - 1, DragonRiderM_Data, WyvernLordAP) 
+SetMMS(DreadFighterFM - 1, DreadFighterFM_Data, NormalAP) 
+SetMMS(DruidMM - 1, DruidMM_Data, NormalAP) 
+SetMMS(HalberdierMM - 1, HalberdierMM_Data, NormalAP) 
+SetMMS(HunterFM - 1, HunterFM_Data, NormalAP) 
+SetMMS(LichM - 1, LichM_Data, NormalAP) 
+SetMMS(LoreWeaverM - 1, LoreWeaverM_Data, NormalAP) 
+SetMMS(PirateFM - 1, PirateFM_Data, NormalAP) 
+SetMMS(PriestMM - 1, PriestMM_Data, NormalAP) 
+SetMMS(PrincessM - 1, PrincessM_Data, NormalAP) 
+SetMMS(QueenM - 1, QueenM_Data, NormalAP) 
+SetMMS(SentinelMM - 1, SentinelMM_Data, NormalAP) 
+SetMMS(SoldierM - 1, SoldierM_Data, NormalAP) 
+SetMMS(WerewolfMM - 1, WerewolfMM_Data, NormalAP) 
+SetMMS(RevenantUM - 1, RevenantUM_Data, NormalAP) 
+
+SetMMS(MechanistM - 1, MechanistM_Data, NormalAP) 
+SetMMS(VengeanceM - 1, VengeanceM_Data, NormalAP) 
+SetMMS(SpiritM - 1, SpiritM_Data, NormalAP) 
+SetMMS(SceptreM - 1, SceptreM_Data, NormalAP) 
+SetMMS(LivingBladeM - 1, LivingBladeM_Data, NormalAP) 
+SetMMS(LivingArmourM - 1, LivingArmourM_Data, NormalAP) 
+SetMMS(LivingMasterpieceM - 1, LivingMasterpieceM_Data, NormalAP) 
+SetMMS(DollM - 1, DollM_Data, NormalAP) 
+
+// Generic enemies
+
+SetMMS(Adventurer - 1, AdventurerFM_Data, NormalAP) 
+SetMMS(Berserker - 1, BerserkerFM_Data, NormalAP) 
+SetMMS(Bishop - 1, BishopMM_Data, GreatLordAP) 
+SetMMS(WyvernLord - 1, DragonRiderM_Data, WyvernLordAP) 
+SetMMS(DreadFighter - 1, DreadFighterFM_Data, NormalAP) 
+SetMMS(Druid - 1, DruidMM_Data, NormalAP) 
+SetMMS(Halberdier - 1, HalberdierMM_Data, NormalAP) 
+SetMMS(Hunter - 1, HunterFM_Data, NormalAP) 
+SetMMS(Pirate - 1, PirateFM_Data, NormalAP) 
+SetMMS(Cleric - 1, PriestMM_Data, NormalAP) 
+SetMMS(Sentinel - 1, SentinelMM_Data, NormalAP) 
+SetMMS(Soldier - 1, SoldierM_Data, NormalAP) 
+
+SetMMS(Myrmidon - 1, MyrmidonMM_Data, ArcherAP) 
+SetMMS(Mage - 1, MageFM_Data, MageAP) 
+SetMMS(Swordmaster - 1, SwordmasterMM_Data, SwordmasterAP) 
+SetMMS(Necromancer - 1, NecromancerMM_Data, NormalAP) 
+
+POP

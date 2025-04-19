@@ -1,0 +1,19 @@
+#define FanFicListItem(unitID, fanFicFormID, event) "BYTE unitID fanFicFormID 0 0; POIN event;"
+#define FanFicListTerminator "BYTE 0 0 0 0; WORD 0xFFFFFFFF;"
+
+ALIGN 4
+FanFicList:
+FanFicListItem(0xFF, 0xFF, ErrorFanFicEvent)
+FanFicListItem(PirateQueenPast, PirateQueenFanFic, PirateQueenFanFicEvent)
+FanFicListItem(PirateQueenPresent, PirateQueenFanFic, PirateQueenFanFicEvent)
+FanFicListItem(PirateQueenFuture, PirateQueenFanFic, PirateQueenFanFicEvent)
+FanFicListItem(MorbiusPast, MorbiusFanFic, MorbiusFanFicEvent)
+FanFicListItem(MorbiusPresent, MorbiusFanFic, MorbiusFanFicEvent)
+// FanFicListItem(MorbiusFuture, MorbiusFanFic, MorbiusFanFicEvent)
+FanFicListItem(EternalSoldierPast, EternalSoldierFanFic, EternalSoldierFanFicEvent)
+FanFicListItem(EternalSoldierPresent, EternalSoldierFanFic, EternalSoldierFanFicEvent)
+FanFicListItem(EternalSoldierFuture, EternalSoldierFanFic, EternalSoldierFanFicEvent)
+FanFicListItem(DragonSlayerPast, DragonSlayerFanFic, DragonSlayerFanFicEvent)
+FanFicListItem(DragonSlayerPresent, DragonSlayerFanFic, DragonSlayerFanFicEvent)
+FanFicListItem(DragonSlayerFuture, DragonSlayerFanFic, DragonSlayerFanFicEvent)
+FanFicListTerminator

@@ -1,0 +1,22 @@
+ALIGN 4
+//#include "Debugger/Installer.event"
+#include "HandaxeWildcard/Installer.event"
+#include "UseItemEffect/Installer.event"
+#include "ExtendWeaponDesc/Installer.event"
+#include "SilentGiveItem/Installer.event"
+#include "GetKillerUnitID/Installer.event"
+#include "GetDeathUnitCoords/Installer.event"
+#include "NoEasyMode/Installer.event"
+#include "Autosave/Installer.event"
+#include "GroupAI/GroupAI.event"
+#include "AlwaysShowTilesInFog/Installer.event"
+#include "ChangeBattleBGM/Installer.event"
+#include "ChangeMapBGM/Installer.event"
+#include "ContinueBattleBGM/Installer.event"
+#include "PreventAttacking/Installer.event"
+#include "SendInventoryOnDeath/Installer.event"
+#include "ModularMinimugBox/Installers/MMBInstallerMine.event"
+#include "MugExceed/EA.txt"
+
+ALIGN 4
+#include "ExtendCGText/FixCGText.lyn.event"

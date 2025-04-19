@@ -1,0 +1,14 @@
+#define BossBGMEntry(unitID, songID)    "BYTE unitID 0 0 0; WORD songID;"
+#define BossBGMTerminator               "BYTE 0 0 0 0; WORD 0;" // Doesn't actually terminate but whatevs
+
+PUSH
+ORG $758A60
+BossBGMEntry(EOC2136, SongBloodyTearsID)
+BossBGMEntry(EOC3811, SongOrganJawsID)
+BossBGMEntry(EOC6048, SongFF4BossID)
+BossBGMEntry(EOC5397Phase1, SongABleedingFightID)
+BossBGMEntry(EOC5397Phase2, SongABleedingFightID)
+BossBGMEntry(EOC5397Phase3, SongABleedingFightID)
+BossBGMEntry(EOC5397Phase4, SongABleedingFightID)
+BossBGMTerminator
+POP

@@ -1,0 +1,198 @@
+
+## OCCPirateName
+Pirate[X]
+
+## OCCPirateDesc
+Tough brawlers who call the[N]
+sea their home. Equip: [axe][X]
+
+## OCCPrincessName
+Princess[X]
+
+## OCCPrincessDesc
+A noble attached to a ruling house.[N]
+Has great potential. Equip: [axe], [sword][X]
+
+## OCCQueenName
+Queen[X]
+
+## OCCQueenDesc
+The kingdom's highest authority. None[N]
+can disobey her command. Equip: [staff][X]
+
+## OCCBerserkerName
+Berserker[X]
+
+## OCCBerserkerDesc
+Fighters at home both in mountains[N]
+and at sea. Equip: [axe].[X]
+
+## OCCPriestName
+Cleric[X]
+
+## OCCPriestDesc
+Spiritual guides who use sacred[N]
+staves to heal allies. Equip: [staff][X]
+
+## OCCDruidName 
+Druid[X]
+
+## OCCDruidDesc 
+Wielders of deep and ancient[N]
+magic. Equip: [dark], [staff][X]
+
+## OCCLichName
+Lich[X]
+
+## OCCLichDesc
+The reanimated bones[N]
+of a fallen wizard. Equip: [dark][X]
+
+## OCCBishopName
+Bishop[X]
+
+## OCCBishopDesc
+An honorific bestowed upon devout[N]
+monks and clerics. Equip: [light], [staff][X]
+
+## OCCSoldierName
+Soldier[X]
+
+## OCCSoldierDesc
+Average soldiers possessing[N]
+no special abilities. Equip: [lance][X]
+
+## OCCHalberdierName
+Halberdier[X]
+
+## OCCHalberdierDesc
+Veteran soldiers who wield lances and[N]
+possess superior abilities. Equip: [lance][X]
+
+## OCCSentinelName
+Sentinel[X]
+
+## OCCSentinelDesc
+Knights whose mastery of the lance[N]
+is the stuff of legends. Equip: [lance][X]
+
+## OCCWerewolfName 
+Werewolf[X]
+
+## OCCWerewolfDesc 
+Humans who transform[N]
+into wolves.[X]
+
+## OCCHunterName
+Hunter[X]
+
+## OCCHunterDesc
+Bow wielders in light armour who[N]
+fight best in the wild. Equip: [bow][X]
+
+## OCCAdventurerName 
+Adventurer[X]
+
+## OCCAdventurerDesc 
+Skilled treasure seekers with[N]
+lightning-fast attacks. Equip: [bow], [sword][X]
+
+## OCCDreadFighterName ^
+Dread Fighter[X]
+
+## OCCDreadFighterDesc 
+Peerless swordsmen whose total mastery[N]
+of the blade fascinates all. Equip: [sword][X]
+
+## OCCDragonRiderName 
+Dragon Rider[X]
+
+## OCCDragonRiderDesc 
+Former enemies riding together[N]
+as one. Equip: [lance], [bow][X]
+
+## LoreWeaverName
+Lore Weaver[X]
+
+## LoreWeaverDesc
+Summoners specializing in bringing[N]
+their written word to life.[X]
+
+## BardName
+Bard[X]
+
+## BardDesc
+Storytellers who inspire joy[N]
+and hope in all.[X]
+
+## EOCCMechanistName
+Mechanist[X]
+
+## EOCCMechanistDesc
+The creator of a near-infinite[N]
+amount of life-like dolls.[X]
+
+## EOCCVengeanceName
+Vengeance[X]
+
+## EOCCVengeanceDesc
+The charred remains of a beast,[N]
+with nothing left but hatred. Equip: [dark][X]
+
+## EOCCSpiritName
+Spirit[X]
+
+## EOCCSpiritDesc
+A mischievous, child-like fey[N]
+with great power. Equip: [light][X]
+
+## EOCCSceptreName
+Sceptre[X]
+
+## EOCCSceptreDesc
+A barely-tangible whisper of[N]
+something bigger and darker.[X]
+
+## EOCCLivingBladeName
+Living Blade[X]
+
+## EOCCLivingBladeDesc
+A magical sword fighting[N]
+without a wielder. Equip: [sword][X]
+
+## EOCCLivingArmourName
+Living Armour[X]
+
+## EOCCLivingArmourDesc
+An animated piece of metal[N]
+intent on destruction. Equip: [sword][X]
+
+## EOCCLivingMasterpieceName
+Living Mecha[X]
+
+## EOCCLivingMasterpieceDesc
+The ultimate mechanical life form.[N]
+None can resist its attacks. Equip: [sword][X]
+
+## EOCCDollName
+Doll[X]
+
+## EOCCDollDesc
+Animated dolls, with an uncanny[N]
+resemblance to a certain person.[X]
+
+## MyrmidonDesc
+Talented swordsmen skilled in[N]
+swift killing strokes. Equip: [sword][X]
+
+## MageDesc
+Magic wielders with solid skills but[N]
+low physical strength. Equip: [anima].[X]
+
+## WyvernLordDesc
+Wyvern-mounted knights of[N]
+superior skill. Equip: [lance], [bow][X]
+
+## RevenantDesc
+Walking corpses that move slowly[N]
+but attack with sharp claws.[X]

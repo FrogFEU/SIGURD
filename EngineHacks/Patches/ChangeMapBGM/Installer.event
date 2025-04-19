@@ -1,0 +1,16 @@
+PUSH
+//ORG 0x15FDC	//{J}
+ORG 0x15FD0	//{U}
+jumpToHack(HookGetMapBGM);
+POP
+
+ALIGN 4
+HookGetMapBGM:
+#incbin "HookGetMapBGM.dmp"
+
+ALIGN 4
+SetChapterSong:
+#incbin "SetChapterSong.dmp"
+
+// 40050100XXXX000040050200YYYY000040050300ZZZZ000040050400TT000000400D0000{$L1:SetChapterSong.dmp}	Change Dynamic ChapterBGM[XX:MAPMUSIC:Player][YY:MAPMUSIC:Enemy][ZZ:MAPMUSIC:NPC][TT:BOOL:Override VictoryBGM]	{MUSIC}	If you set Override VictoryBGM to 0 (Flase), the victory background music will be played when the enemy count is low.\r\nIf Override VictoryBGM is set to 1 (True), victory background music will not be played.
+#define SetChapterSong(player, enemy, npc, overrideVitory)      "BYTE $40 $05 $01 $00;      SHORT player;      BYTE $00 $00 $40 $05 $02 $00;      SHORT enemy;      BYTE $00 $00 $40 $05 $03 $00;      SHORT npc;      BYTE $00 $00 $40 $05 $04 $00;      BYTE overrideVitory;      BYTE $00 $00 $00;  ASMC SetChapterSong|1; "

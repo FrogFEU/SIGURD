@@ -1,0 +1,24 @@
+PUSH
+ORG 0x000AC28E
+#incbin "000AC28E.bin"
+POP
+
+PUSH
+ORG 0x000AC29A
+#incbin "000AC29A.bin"
+POP
+
+PUSH
+ORG 0x000AC144
+#incbin "000AC144.bin"
+POP
+
+PUSH
+ORG 0x008B40E1
+#incbin "008B40E1.bin"
+POP
+
+PUSH
+ORG 0x008B41BC
+#incbin "008B41BC.bin"
+POP

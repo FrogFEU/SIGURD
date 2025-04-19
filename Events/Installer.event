@@ -1,0 +1,7 @@
+#include "Extra/WorldMapEvents.event"
+#include "Extra/REDAs.event"
+#include "Extra/Definitions.event"
+#include "Extra/MiscFixes.event"
+{ ; #include "Extra/Ch2Killer.event" ; }
+
+#include "Chapter/Installer.event"

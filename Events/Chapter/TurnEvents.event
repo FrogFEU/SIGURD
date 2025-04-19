@@ -1,0 +1,12 @@
+
+TurnEventPlayer(0, BeginTurn2136, 1, 255)
+TurnEventPlayer(FlagEOC2136SpawnBlocker, AthenaSummonsVengeance, 1, 255)
+
+TurnEventPlayer(0, BeginTurn5397, 1, 255)
+TurnEventPlayer(0, AthenaSummonsTurn3, 3, 1)
+
+TurnEventPlayer(0, BeginTurn3811, 1, 255)
+TurnEventPlayer(0, BeginTurn6048, 1, 255)
+TurnEventPlayer(0, AthenaSummonsTurn2, 2, 1)
+
+TurnEventPlayer(0, FanFicRevertEvent, 1, 255)

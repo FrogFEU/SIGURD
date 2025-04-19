@@ -1,0 +1,164 @@
+PlayerSummonOCEvent:
+CLEAN
+CALL PlayerSummonOneOCEvent
+CALL PlayerSummonOneOCEvent
+NoFade
+ENDA
+
+PlayerSummonOneOCEvent:
+HasSummonItemsEvent(MC)
+BEQ 11 sC s0
+SummonItemsToSplitMenuChoicesEvent(MC)
+ShowSplitMenuEvent
+MoveMemorySlot(s2, sC)
+SplitMenuChoiceToSummonUnitIDEvent(MC)
+SVAL s1 PirateQueenPresent
+BEQ 21 s1 sC
+SVAL s1 MorbiusPresent
+BEQ 22 s1 sC
+SVAL s1 EternalSoldierPresent
+BEQ 23 s1 sC
+SVAL s1 DragonSlayerPresent
+BEQ 24 s1 sC
+GOTO 11
+LABEL 21
+CALL SummonPirateQueenEvent
+GOTO 10
+LABEL 22
+CALL SummonMorbiusEvent
+GOTO 10
+LABEL 23
+CALL SummonEternalSoldierEvent
+GOTO 10
+LABEL 24
+CALL SummonDragonSlayerEvent
+GOTO 10
+LABEL 11
+STAL(15)
+Text(ErrorFanFicText)
+LABEL 10
+NoFade
+ENDA
+
+SummonPirateQueenEvent:
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSC SongPowerHungryFoolID
+SetBackground(ValoriaPastEdit_BG)
+CGText(PirateQueenSummonTalePast)
+SetBackground(ValoriaPresentEdit_BG)
+CGText(PirateQueenSummonTalePresent)
+SetBackground(ValoriaFutureEdit_BG)
+CGText(PirateQueenSummonTaleFuture)
+EndConvo
+LABEL 10
+LOAD1 0 PirateQueenUnitPlacement
+ENUN
+SVAL s2 PirateQueenPresent
+SVAL s3 PirateQueenSummonItem
+CALL CommonPlayerSummonOCEvent
+BranchIfFlagOn(FlagSkipTales, 18)
+CHECK_ALIVE Apprentice
+BEQ 18 sC s0
+CAMERA Apprentice
+Text(PirateQueenSummonTaleReactionText)
+CAMERA MC
+LABEL 18
+NoFade
+ENDA
+
+SummonMorbiusEvent:
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSC SongWhatComesFromDarknessID
+SetBackground(MorbiusPastEdit_BG)
+CGText(MorbiusSummonTalePast)
+SetBackground(MorbiusPresentEdit_BG)
+CGText(MorbiusSummonTalePresent)
+SetBackground(MorbiusFutureEdit_BG)
+CGText(MorbiusSummonTaleFuture)
+EndConvo
+LABEL 10
+LOAD1 0 MorbiusUnitPlacement
+ENUN
+SVAL s2 MorbiusPresent
+SVAL s3 MorbiusSummonItem
+CALL CommonPlayerSummonOCEvent
+BranchIfFlagOn(FlagSkipTales, 18)
+CHECK_ALIVE Apprentice
+BEQ 18 sC s0
+CAMERA Apprentice
+Text(MorbiusSummonTaleReactionText)
+CAMERA MC
+LABEL 18
+NoFade
+ENDA
+
+SummonEternalSoldierEvent:
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSC SongEmperorArvisID
+SetBackground(BillPastEdit_BG)
+CGText(EternalSoldierSummonTalePast)
+SetBackground(BillPresentEdit_BG)
+CGText(EternalSoldierSummonTalePresent)
+SetBackground(BillFutureEdit_BG)
+CGText(EternalSoldierSummonTaleFuture)
+EndConvo
+LABEL 10
+LOAD1 0 EternalSoldierUnitPlacement
+ENUN
+SVAL s2 EternalSoldierPresent
+SVAL s3 EternalSoldierSummonItem
+CALL CommonPlayerSummonOCEvent
+BranchIfFlagOn(FlagSkipTales, 18)
+CHECK_ALIVE Apprentice
+BEQ 18 sC s0
+CAMERA Apprentice
+Text(EternalSoldierSummonTaleReactionText)
+CAMERA MC
+LABEL 18
+NoFade
+ENDA
+
+SummonDragonSlayerEvent:
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSC SongSceneryAtDuskyBridgeID
+SetBackground(SintelPastEdit_BG)
+CGText(DragonSlayerSummonTalePast)
+SetBackground(SintelPresentEdit_BG)
+CGText(DragonSlayerSummonTalePresent)
+SetBackground(SintelFutureEdit_BG)
+CGText(DragonSlayerSummonTaleFuture)
+EndConvo
+LABEL 10
+LOAD1 0 DragonSlayerUnitPlacement
+ENUN
+SVAL s2 DragonSlayerPresent
+SVAL s3 DragonSlayerSummonItem
+CALL CommonPlayerSummonOCEvent
+BranchIfFlagOn(FlagSkipTales, 18)
+CHECK_ALIVE Apprentice
+BEQ 18 sC s0
+CAMERA Apprentice
+Text(DragonSlayerSummonTaleReactionText)
+CAMERA MC
+LABEL 18
+NoFade
+ENDA
+
+CommonPlayerSummonOCEvent:
+SVAL s1 MC
+MoveToSummonPositionEventNoArgs
+MoveMemorySlot(sB, sC)
+WARPIN [-1, -1]
+ENDWARP
+SVAL s1 MC
+MoveMemorySlot(s2, s3)
+SilentRemoveItemEventNoArgs
+
+AssignFormsEvent(PirateQueenPresent, PirateQueenPast, PirateQueenFuture)
+AssignFormsEvent(MorbiusPresent, MorbiusPast, 0x00) // MorbiusFuture
+AssignFormsEvent(EternalSoldierPresent, EternalSoldierPast, EternalSoldierFuture)
+AssignFormsEvent(DragonSlayerPresent, DragonSlayerPast, DragonSlayerFuture)
+
+COUNTER_INC CounterPlayerOCs
+NoFade
+ENDA

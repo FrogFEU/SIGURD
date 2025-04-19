@@ -1,0 +1,2090 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	FF4BossFin_FINAL_grp  voicegroup000
+	#define	FF4BossFin_FINAL_pri  0
+	#define	FF4BossFin_FINAL_rev  0
+	#define	FF4BossFin_FINAL_mvl  95
+	#define	FF4BossFin_FINAL_key  0
+	#define	FF4BossFin_FINAL_tbs  1
+	#define	FF4BossFin_FINAL_exg  0
+	#define	FF4BossFin_FINAL_cmp  1
+
+	// .rodata
+	//	FF4BossFin_FINAL
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+FF4BossFin_FINAL_1:
+	BYTE	KEYSH   FF4BossFin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   170*FF4BossFin_FINAL_tbs/2
+	BYTE		VOICE   40
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     82*FF4BossFin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W56
+	BYTE		N04     Cs2   v112
+	BYTE	W04
+	BYTE		        En2   v104
+	BYTE	W04
+	BYTE		        Gn2   v100
+	BYTE	W04
+	BYTE		        As2 
+	BYTE	W04
+	BYTE		        Cs3   v104
+	BYTE	W04
+	BYTE		        En3   v100
+	BYTE	W04
+	BYTE		        Gn3 
+	BYTE	W04
+	BYTE		        As3 
+	BYTE	W04
+	BYTE		        Cs4 
+	BYTE	W04
+	BYTE		        En4 
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE		N06     Gn4 
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W48
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+FF4BossFin_FINAL_1_B1:
+// 003   ----------------------------------------
+FF4BossFin_FINAL_1_003:
+	BYTE		N24     Gn3   v127
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		N72     Fs4 
+	BYTE	W48
+	BYTE	PEND
+// 004   ----------------------------------------
+FF4BossFin_FINAL_1_004:
+	BYTE	W24
+	BYTE		N12     Dn4   v127
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		N24     Fn4 
+	BYTE	W24
+	BYTE		N12     Ds4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+FF4BossFin_FINAL_1_005:
+	BYTE		N12     Ds4   v127
+	BYTE	W12
+	BYTE		N84     Cn4 
+	BYTE	W84
+	BYTE	PEND
+// 006   ----------------------------------------
+FF4BossFin_FINAL_1_006:
+	BYTE		N24     Cn4   v127
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE		        As4 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		TIE     An4 
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE	W12
+	BYTE		N12     Fs4 
+	BYTE	W12
+	BYTE		N06     Gn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+// 011   ----------------------------------------
+FF4BossFin_FINAL_1_011:
+	BYTE		N12     Dn4   v127
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W84
+	BYTE	PEND
+// 012   ----------------------------------------
+FF4BossFin_FINAL_1_012:
+	BYTE	W60
+	BYTE		N12     Fs3   v112
+	BYTE	W12
+	BYTE		N06     Gn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+FF4BossFin_FINAL_1_013:
+	BYTE		N24     Dn3   v112
+	BYTE	W24
+	BYTE		N12     Cn3 
+	BYTE	W72
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_1_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_1_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_1_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_1_006
+// 019   ----------------------------------------
+	BYTE		TIE     An4   v127
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE	W12
+	BYTE		N12     Fs4 
+	BYTE	W12
+	BYTE		N06     Gn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_1_011
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_1_012
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_1_013
+// 026   ----------------------------------------
+	BYTE	W48
+	BYTE		N06     Ds3   v100
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+// 027   ----------------------------------------
+	BYTE		N24     Fn4   v127
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		        Gs4 
+	BYTE	W24
+// 028   ----------------------------------------
+	BYTE		N12     Cn5 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		N24     Gn4 
+	BYTE	W24
+	BYTE		        Fn4 
+	BYTE	W24
+// 029   ----------------------------------------
+	BYTE		N12     As3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		N60     Cs4 
+	BYTE	W60
+	BYTE		N12     Ds4 
+	BYTE	W12
+// 030   ----------------------------------------
+	BYTE		N36     Fn4 
+	BYTE	W36
+	BYTE		N12     Fs4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+// 031   ----------------------------------------
+	BYTE		N24     Gs4 
+	BYTE	W24
+	BYTE		TIE     Cn5 
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 035   ----------------------------------------
+	BYTE		TIE     Fs4   v100
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 037   ----------------------------------------
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 039   ----------------------------------------
+	BYTE		TIE     Dn4 
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W24
+// 041   ----------------------------------------
+	BYTE		TIE     Fn4 
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+// 043   ----------------------------------------
+	BYTE		TIE     Gs4 
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 045   ----------------------------------------
+	BYTE		N08     Gn4   v127
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W24
+// 046   ----------------------------------------
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	FF4BossFin_FINAL_1_B1
+FF4BossFin_FINAL_1_B2:
+// 047   ----------------------------------------
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+FF4BossFin_FINAL_2:
+	BYTE	KEYSH   FF4BossFin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   34
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     72*FF4BossFin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+FF4BossFin_FINAL_2_001:
+	BYTE		N12     Gn1   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_001
+FF4BossFin_FINAL_2_B1:
+// 003   ----------------------------------------
+FF4BossFin_FINAL_2_003:
+	BYTE		N12     Cn1   v127
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_003
+// 027   ----------------------------------------
+FF4BossFin_FINAL_2_027:
+	BYTE		N12     Cs1   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W36
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_027
+// 029   ----------------------------------------
+FF4BossFin_FINAL_2_029:
+	BYTE		N36     Fs1   v127
+	BYTE	W36
+	BYTE		N24     Cs2 
+	BYTE	W24
+	BYTE		N12     Fs2 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_029
+// 031   ----------------------------------------
+FF4BossFin_FINAL_2_031:
+	BYTE		N36     Fn1   v127
+	BYTE	W36
+	BYTE		N24     Cn2 
+	BYTE	W24
+	BYTE		N12     Fn2 
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE	PEND
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_031
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_031
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_031
+// 035   ----------------------------------------
+	BYTE		N12     Fs1   v127
+	BYTE	W12
+	BYTE		N06     Fs2 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N06     Fs2 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N06     Fs2 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N06     Fs2 
+	BYTE	W12
+// 036   ----------------------------------------
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N06     Fs2 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N06     Fs2 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N06     Fs2 
+	BYTE	W12
+	BYTE		N12     Fn1 
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W12
+// 037   ----------------------------------------
+FF4BossFin_FINAL_2_037:
+	BYTE		N12     Ds1   v127
+	BYTE	W12
+	BYTE		N06     Ds2 
+	BYTE	W12
+	BYTE		N12     Ds1 
+	BYTE	W12
+	BYTE		N06     Ds2 
+	BYTE	W12
+	BYTE		N12     Ds1 
+	BYTE	W12
+	BYTE		N06     Ds2 
+	BYTE	W12
+	BYTE		N12     Ds1 
+	BYTE	W12
+	BYTE		N06     Ds2 
+	BYTE	W12
+	BYTE	PEND
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_037
+// 039   ----------------------------------------
+	BYTE		N12     Dn1   v127
+	BYTE	W12
+	BYTE		N06     Dn2 
+	BYTE	W12
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		N06     Dn2 
+	BYTE	W12
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		N06     Dn2 
+	BYTE	W12
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		N06     Dn2 
+	BYTE	W12
+// 040   ----------------------------------------
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		N06     Dn2 
+	BYTE	W12
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		N06     Dn2 
+	BYTE	W12
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		N06     Dn2 
+	BYTE	W12
+	BYTE		N12     En1 
+	BYTE	W12
+	BYTE		N06     En2 
+	BYTE	W12
+// 041   ----------------------------------------
+	BYTE		N12     Fn1 
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W12
+	BYTE		N12     Fn1 
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W12
+	BYTE		N12     Fn1 
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W12
+	BYTE		N12     Fn1 
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W12
+// 042   ----------------------------------------
+	BYTE		N12     Fn1 
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W12
+	BYTE		N12     Fn1 
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W12
+	BYTE		N12     Fn1 
+	BYTE	W12
+	BYTE		N06     Fn2 
+	BYTE	W12
+	BYTE		N12     Gn1 
+	BYTE	W12
+	BYTE		N06     Gn2 
+	BYTE	W12
+// 043   ----------------------------------------
+FF4BossFin_FINAL_2_043:
+	BYTE		N12     Gs1   v127
+	BYTE	W12
+	BYTE		N06     Gs2 
+	BYTE	W12
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N06     Gs2 
+	BYTE	W12
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N06     Gs2 
+	BYTE	W12
+	BYTE		N12     Gs1 
+	BYTE	W12
+	BYTE		N06     Gs2 
+	BYTE	W12
+	BYTE	PEND
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_2_043
+// 045   ----------------------------------------
+	BYTE		N24     Gn1   v127
+	BYTE	W24
+	BYTE		N12     Dn2 
+	BYTE	W12
+	BYTE		N24     Gn2 
+	BYTE	W24
+	BYTE		N12     Gs2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        Dn2 
+	BYTE	W12
+// 046   ----------------------------------------
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        Dn2 
+	BYTE	W12
+	BYTE		N24     Gn2 
+	BYTE	W24
+	BYTE		N12     Gs2 
+	BYTE	W12
+	BYTE		N24     Gn2 
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	FF4BossFin_FINAL_2_B1
+FF4BossFin_FINAL_2_B2:
+// 047   ----------------------------------------
+	BYTE		VOICE   34
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+FF4BossFin_FINAL_3:
+	BYTE	KEYSH   FF4BossFin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     127*FF4BossFin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE		N24     Cn2   v084
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N12     As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+	BYTE		        As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+FF4BossFin_FINAL_3_B1:
+// 003   ----------------------------------------
+FF4BossFin_FINAL_3_003:
+	BYTE		N24     Cn2   v084
+	BYTE	W24
+	BYTE		        As1   v060
+	BYTE	W24
+	BYTE		        Cn2   v084
+	BYTE	W24
+	BYTE		        As1   v060
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_003
+// 027   ----------------------------------------
+FF4BossFin_FINAL_3_027:
+	BYTE		N12     Cn2   v084
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24     As1   v060
+	BYTE	W24
+	BYTE		N12     Cn2   v084
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24     As1   v060
+	BYTE	W24
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_027
+// 029   ----------------------------------------
+FF4BossFin_FINAL_3_029:
+	BYTE		N24     Cn2   v084
+	BYTE	W24
+	BYTE		N12     As1   v060
+	BYTE	W12
+	BYTE		N24     Cn2   v084
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24     As1   v060
+	BYTE	W24
+	BYTE	PEND
+// 030   ----------------------------------------
+FF4BossFin_FINAL_3_030:
+	BYTE		N24     Cn2   v084
+	BYTE	W24
+	BYTE		N12     As1   v060
+	BYTE	W12
+	BYTE		N24     Cn2   v084
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+	BYTE	PEND
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_029
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_030
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_029
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_030
+// 035   ----------------------------------------
+FF4BossFin_FINAL_3_035:
+	BYTE		N24     Cn2   v084
+	BYTE	W24
+	BYTE		        As1   v060
+	BYTE	W24
+	BYTE		N12     Cn2   v084
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24     As1   v060
+	BYTE	W24
+	BYTE	PEND
+// 036   ----------------------------------------
+FF4BossFin_FINAL_3_036:
+	BYTE		N12     Cn2   v084
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As1   v060
+	BYTE	W12
+	BYTE		N24     Cn2   v084
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24     As1   v060
+	BYTE	W24
+	BYTE	PEND
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_035
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_036
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_035
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_036
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_035
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_036
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_035
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_3_036
+// 045   ----------------------------------------
+	BYTE		N12     As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+// 046   ----------------------------------------
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+	BYTE		        As1   v060
+	BYTE	W12
+	BYTE		        Cn2   v084
+	BYTE	W12
+	BYTE	GoTo
+	 POIN2	FF4BossFin_FINAL_3_B1
+FF4BossFin_FINAL_3_B2:
+// 047   ----------------------------------------
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BENDR   12
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+FF4BossFin_FINAL_4:
+	BYTE	KEYSH   FF4BossFin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		PAN     c_v-19
+	BYTE		VOL     73*FF4BossFin_FINAL_mvl/mxv
+	BYTE		BENDR   12
+	BYTE		        12
+	BYTE		        12
+	BYTE		BEND    c_v+0
+	BYTE	W56
+	BYTE		N04     Gn1   v112
+	BYTE	W04
+	BYTE		        An1 
+	BYTE	W04
+	BYTE		        Cs2 
+	BYTE	W04
+	BYTE		        En2 
+	BYTE	W04
+	BYTE		        Gn2 
+	BYTE	W04
+	BYTE		        As2 
+	BYTE	W04
+	BYTE		        Cs3 
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W04
+	BYTE		        Gs3 
+	BYTE	W04
+	BYTE		        As3 
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+FF4BossFin_FINAL_4_B1:
+// 003   ----------------------------------------
+FF4BossFin_FINAL_4_003:
+	BYTE		N08     Ds3   v112
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+FF4BossFin_FINAL_4_004:
+	BYTE		N08     Ds3   v112
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_4_003
+// 006   ----------------------------------------
+FF4BossFin_FINAL_4_006:
+	BYTE		N24     Ds3   v112
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		N96     Cn4 
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		        An3 
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+FF4BossFin_FINAL_4_013:
+	BYTE		N24     Cn3   v112
+	BYTE	W24
+	BYTE		N06     Bn2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		N24     Dn3 
+	BYTE	W24
+	BYTE		N06     Cn3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+FF4BossFin_FINAL_4_014:
+	BYTE		N24     Ds3   v112
+	BYTE	W24
+	BYTE		N06     Dn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N24     Fn3 
+	BYTE	W24
+	BYTE		N06     Ds3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_4_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_4_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_4_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_4_006
+// 019   ----------------------------------------
+	BYTE		N96     Cn4   v112
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        An3 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_4_013
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_4_014
+// 027   ----------------------------------------
+FF4BossFin_FINAL_4_027:
+	BYTE		N06     Cs3   v112
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W36
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_4_027
+// 029   ----------------------------------------
+	BYTE		N96     As2   v112
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE		N48     Cs3 
+	BYTE	W48
+	BYTE		N24     As2 
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE	W24
+// 031   ----------------------------------------
+	BYTE		TIE     Fn3 
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 034   ----------------------------------------
+	BYTE		N24     Gs4   v092
+	BYTE	W24
+	BYTE		N72     Cn5 
+	BYTE	W72
+// 035   ----------------------------------------
+	BYTE		N24     Fs3   v127
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+// 036   ----------------------------------------
+	BYTE		N12     Cs4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		N24     Gs3 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+// 037   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+// 038   ----------------------------------------
+	BYTE		N12     As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		N24     Fn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W24
+// 039   ----------------------------------------
+	BYTE		N12     Fs3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		TIE     An3 
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE	W24
+// 041   ----------------------------------------
+	BYTE		TIE     Cn4 
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W24
+// 043   ----------------------------------------
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 045   ----------------------------------------
+	BYTE		N08     Gn3 
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W24
+// 046   ----------------------------------------
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	FF4BossFin_FINAL_4_B1
+FF4BossFin_FINAL_4_B2:
+// 047   ----------------------------------------
+	BYTE		BENDR   12
+	BYTE		        12
+	BYTE		        12
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+FF4BossFin_FINAL_5:
+	BYTE	KEYSH   FF4BossFin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   59
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     54*FF4BossFin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+2
+	BYTE		BENDR   12
+	BYTE		        12
+	BYTE		        12
+	BYTE		BEND    c_v+0
+	BYTE	W56
+	BYTE		N04     En1   v112
+	BYTE	W04
+	BYTE		        Gn1 
+	BYTE	W04
+	BYTE		        As1 
+	BYTE	W04
+	BYTE		        Cs2 
+	BYTE	W04
+	BYTE		        En2 
+	BYTE	W04
+	BYTE		        Gn2 
+	BYTE	W04
+	BYTE		        As2 
+	BYTE	W04
+	BYTE		        Cs3 
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W04
+	BYTE		        Gn3 
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+FF4BossFin_FINAL_5_B1:
+// 003   ----------------------------------------
+FF4BossFin_FINAL_5_003:
+	BYTE		N08     Cn3   v112
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+FF4BossFin_FINAL_5_004:
+	BYTE		N08     Cn3   v112
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_003
+// 006   ----------------------------------------
+FF4BossFin_FINAL_5_006:
+	BYTE		N24     Cn3   v127
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE	W24
+	BYTE		        Cn3 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		N96     Fs3 
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+FF4BossFin_FINAL_5_013:
+	BYTE		N48     Gn2   v112
+	BYTE	W48
+	BYTE		        Fn2 
+	BYTE	W48
+	BYTE	PEND
+// 014   ----------------------------------------
+FF4BossFin_FINAL_5_014:
+	BYTE		N48     Ds2   v112
+	BYTE	W48
+	BYTE		        Dn2 
+	BYTE	W48
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_006
+// 019   ----------------------------------------
+	BYTE		N96     Fs3   v127
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_013
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_014
+// 027   ----------------------------------------
+	BYTE		N06     Ds2   v112
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W36
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W36
+// 028   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W36
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W36
+// 029   ----------------------------------------
+	BYTE		N96     Fs2 
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE		N48   
+	BYTE	W48
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 031   ----------------------------------------
+	BYTE		TIE     Gs2 
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 033   ----------------------------------------
+	BYTE		N24     Cn5   v127
+	BYTE	W24
+	BYTE		TIE     Fn5 
+	BYTE	W72
+// 034   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 035   ----------------------------------------
+FF4BossFin_FINAL_5_035:
+	BYTE		N03     Fs3   v127
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W07
+	BYTE		N03   
+	BYTE	W11
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE	PEND
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_035
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_035
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_035
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_5_035
+// 040   ----------------------------------------
+	BYTE		N03     Fs3   v127
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W12
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 041   ----------------------------------------
+	BYTE		TIE     Fn3 
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+// 043   ----------------------------------------
+	BYTE		TIE     Ds3 
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N06   
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+// 045   ----------------------------------------
+	BYTE		N08     Gn4 
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W24
+// 046   ----------------------------------------
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	FF4BossFin_FINAL_5_B1
+FF4BossFin_FINAL_5_B2:
+// 047   ----------------------------------------
+	BYTE		BENDR   12
+	BYTE		        12
+	BYTE		        12
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+FF4BossFin_FINAL_6:
+	BYTE	KEYSH   FF4BossFin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   71
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     60*FF4BossFin_FINAL_mvl/mxv
+	BYTE		PAN     c_v+20
+	BYTE		BENDR   12
+	BYTE		        12
+	BYTE		        12
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+FF4BossFin_FINAL_6_B1:
+// 003   ----------------------------------------
+FF4BossFin_FINAL_6_003:
+	BYTE		N08     Cn3   v088
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+FF4BossFin_FINAL_6_004:
+	BYTE		N08     Cn3   v088
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_6_003
+// 006   ----------------------------------------
+FF4BossFin_FINAL_6_006:
+	BYTE		N18     Cn3   v088
+	BYTE	W24
+	BYTE		N24     Fn3 
+	BYTE	W24
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		N96   
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W96
+// 011   ----------------------------------------
+FF4BossFin_FINAL_6_011:
+	BYTE		N12     Fs3   v088
+	BYTE	W12
+	BYTE		N06     Gn3 
+	BYTE	W84
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+FF4BossFin_FINAL_6_013:
+	BYTE		N24     Gn2   v068
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W72
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_6_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_6_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_6_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_6_006
+// 019   ----------------------------------------
+	BYTE		N96     Ds4   v088
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_6_011
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_6_013
+// 026   ----------------------------------------
+	BYTE	W48
+	BYTE		N06     Cn3   v068
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+// 027   ----------------------------------------
+	BYTE		N48     Cs4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 028   ----------------------------------------
+	BYTE		        Fn4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 029   ----------------------------------------
+	BYTE		N96     Fs3 
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE		N24     Fn4   v092
+	BYTE	W24
+	BYTE		TIE     Gs4 
+	BYTE	W72
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 035   ----------------------------------------
+	BYTE		TIE     As3   v068
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 037   ----------------------------------------
+	BYTE		TIE     Fs3 
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 039   ----------------------------------------
+	BYTE		TIE     An3 
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE	W24
+// 041   ----------------------------------------
+	BYTE		TIE     Cn4 
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W48
+	BYTE		EOT   
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W24
+// 043   ----------------------------------------
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 045   ----------------------------------------
+	BYTE		N08     Dn4   v092
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W24
+// 046   ----------------------------------------
+	BYTE	W12
+	BYTE		N08   
+	BYTE	W36
+	BYTE		N08   
+	BYTE	W24
+	BYTE		N08   
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	FF4BossFin_FINAL_6_B1
+FF4BossFin_FINAL_6_B2:
+// 047   ----------------------------------------
+	BYTE		BENDR   12
+	BYTE		        12
+	BYTE		        12
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+FF4BossFin_FINAL_7:
+	BYTE	KEYSH   FF4BossFin_FINAL_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		VOL     85*FF4BossFin_FINAL_mvl/mxv
+	BYTE		PAN     c_v-2
+	BYTE		BENDR   12
+	BYTE		        12
+	BYTE		        12
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+FF4BossFin_FINAL_7_001:
+	BYTE		N24     Gs1   v088
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+FF4BossFin_FINAL_7_B1:
+// 003   ----------------------------------------
+FF4BossFin_FINAL_7_003:
+	BYTE		N12     Gs1   v088
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		N06     Gs1 
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_003
+// 027   ----------------------------------------
+	BYTE	W24
+	BYTE		N48     Cs2   v127
+	BYTE	W48
+	BYTE		N48   
+	BYTE	W24
+// 028   ----------------------------------------
+	BYTE	W24
+	BYTE		N48   
+	BYTE	W48
+	BYTE		N24   
+	BYTE	W24
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_001
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_001
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_001
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_001
+// 035   ----------------------------------------
+FF4BossFin_FINAL_7_035:
+	BYTE		N12     As1   v088
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE	PEND
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FF4BossFin_FINAL_7_035
+// 045   ----------------------------------------
+	BYTE		N36     Cs2   v127
+	BYTE	W36
+	BYTE		N36   
+	BYTE	W36
+	BYTE		N36   
+	BYTE	W24
+// 046   ----------------------------------------
+	BYTE	W12
+	BYTE		N36   
+	BYTE	W36
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	FF4BossFin_FINAL_7_B1
+FF4BossFin_FINAL_7_B2:
+// 047   ----------------------------------------
+	BYTE		BENDR   12
+	BYTE		        12
+	BYTE		        12
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+FF4BossFin_FINAL:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	FF4BossFin_FINAL_pri	// Priority
+	BYTE	FF4BossFin_FINAL_rev	// Reverb.
+
+	POIN2	FF4BossFin_FINAL_grp
+
+	POIN2	FF4BossFin_FINAL_1
+	POIN2	FF4BossFin_FINAL_2
+	POIN2	FF4BossFin_FINAL_3
+	POIN2	FF4BossFin_FINAL_4
+	POIN2	FF4BossFin_FINAL_5
+	POIN2	FF4BossFin_FINAL_6
+	POIN2	FF4BossFin_FINAL_7
+
+	

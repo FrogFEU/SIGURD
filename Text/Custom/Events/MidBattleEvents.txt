@@ -1,0 +1,119 @@
+## AthenaTextPreSummon12
+[MR][LoadMA][CloseEyes]
+Hmhmhm[Beat][OpenEyes] Those were cute little[N]
+tales you have spun there.[AN]
+But playtime's over now.[AN]
+Let me show you some real[N]
+Lore Weaving.[A][X]
+
+## AthenaTextPreSummon3
+[MR][LoadMA]
+Are you ready for another exquisite[N]
+tale by yours truly?[A][X]
+
+## AthenaTextPostSummon3
+[MR][LoadMA]
+And as for my last one[Beat][AN]
+I fear that one is reserved[N]
+to the worthy.[AN]
+I'm not one to waste my breath[N]
+on mere rabble, after all.[AN][CloseEyes]
+Hmhmhm[Beat][A][X]
+
+## AthenaTextPreSummon4
+[MR][LoadMA]
+It is time.[N]
+Farewell.[A][X]
+
+## AthenaTextEOCDeath1
+[MR][LoadMA]
+Oh, how precious.[AN]
+You've managed to defeat[N]
+one of my creations.[AN]
+I suppose I must take this[N]
+battle seriously now.[A][X]
+
+## AthenaTextEOCDeath2
+[MR][LoadMA]
+Hmhmhm[Beat] Interesting.[AN]
+I fail to remember the last time someone[N]
+felled two of my stories in one battle.[AN]
+Savour this small taste of victory, Mad[N]
+Chicken, for it shall be your last.[A][X]
+
+## AthenaTextEOCDeath3
+[MR][LoadMA][MMR]
+Tch! [MMR]What insolence![AN]
+Do you not realise who[N]
+you stand against?[AN]
+Cease this embarrassment at[N]
+once and lose already![A][X]
+
+
+## MCTextOCDeath1
+[ML][LoadMC]
+Hmph. No battle can be won[N]
+without sacrifices.[AN]
+This is far from the end.[A][X]
+
+## MCTextOCDeath2
+[MR][LoadApprentice]
+[ML][LoadMC]
+[MR]
+Oof, things aren't looking exactly[N]
+peachy right now, are they?[A]
+[ML]
+[Beat]It will be all right.[AN]
+This is not the first time one[N]
+of my creations has failed me.[A]
+[MR]
+Yeah, that's not exactly reassuring[Beat][A][X]
+
+## MCTextOCDeath3
+[ML][LoadMC]
+[MR][LoadApprentice]
+[ML]
+Ah[Beat][CloseEyes] This is it, isn't it?[A]
+[MR][MMR]
+H-Hey, don't give up now![N]
+We still have one more character![AN]
+A-And hope shines brightest in the[N]
+face of despair and all that![A]
+[ML]
+[Beat][A][X]
+
+## PreGameOverText
+[Right][LoadGameMaster][ToggleColorInvert]
+[ToggleMouthMove].[.6].[.6].[.6][ToggleMouthMove][AN][LoadOverworldFaces]
+Athena Perfect is victorious.[A][X]
+
+
+## DeathQuoteMC
+[ML][LoadMC]
+Ah! It appears to be[Beat][N]
+my time to leave[Beat][A][X]
+
+## DeathQuoteKenri
+[ML][LoadApprentice][MML]
+Ouch! Welp, I'm out.[AN]
+Good luck with the rest -[N]
+you've got this![A][X]
+
+## DeathQuoteAthena
+[ML][LoadMA][MML]
+Hnrk! Insolent fool![AN]
+I will[Beat] remember this[Beat][A][X]
+
+## DeathQuoteNogist
+[ML][LoadEvilApprentice]
+Thanks.[A][X]
+
+
+## BattleQuoteAthena
+[ML][LoadMA]
+Attacking me?[.5] Seriously?[.5][N]
+Have you gone mad?[A][X]
+
+## BattleQuoteNogist
+[ML][LoadEvilApprentice]
+Make this quick, please.[A][X]

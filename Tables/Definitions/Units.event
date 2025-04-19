@@ -1,0 +1,38 @@
+#define MC 0x01
+#define Apprentice 0x02
+#define PirateQueenPast 0x03
+#define PirateQueenPresent 0x04
+#define PirateQueenFuture 0x05
+#define PirateQueenFanFic 0x06
+#define MorbiusPast 0x07
+#define MorbiusPresent 0x08
+#define MorbiusFuture 0x09
+#define MorbiusFanFic 0x0A
+#define EternalSoldierPast 0x0B
+#define EternalSoldierPresent 0x0C
+#define EternalSoldierFuture 0x0D
+#define EternalSoldierFanFic 0x0E
+#define DragonSlayerPast 0x0F
+#define DragonSlayerPresent 0x10
+#define DragonSlayerFuture 0x11
+#define DragonSlayerFanFic 0x12
+
+#define MorbiusSummon1 0x13
+#define MorbiusSummon2 0x14
+#define MorbiusSummon3 0x15
+#define MorbiusSummon4 0x16
+
+#define MA 0x17
+#define EvilApprentice 0x18
+
+#define EOC3811 0x20
+#define EOC6048 0x21
+#define EOC2136 0x22
+#define EOC5397Phase1 0x23
+#define EOC5397Phase2 0x24
+#define EOC5397Phase3 0x25
+#define EOC5397Phase4 0x26
+#define EOC3811Doll 0x27
+#define EOC3811DollSummoned 0x28
+
+#define EOC2136MemoryStorage 0x29

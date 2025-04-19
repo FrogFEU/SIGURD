@@ -1,0 +1,58 @@
+#define SoundRoomEntry(songid,length,name) "WORD songid length 0 name"
+#define SoundRoomTerminator "WORD 0xFFFFFFFF 0 0 0"
+
+PUSH
+ORG 0x1BC14   
+POIN NewSoundRoom
+ORG 0x1BCC4
+POIN NewSoundRoom
+ORG 0xAECA8
+POIN NewSoundRoom
+ORG 0xAECD0
+POIN NewSoundRoom
+ORG 0xAED2C
+POIN NewSoundRoom
+ORG 0xAEEBC
+POIN NewSoundRoom
+ORG 0xAF438
+POIN NewSoundRoom
+ORG 0xAF830
+POIN NewSoundRoom
+ORG 0xAFE30
+POIN NewSoundRoom
+ORG 0xB0080
+POIN NewSoundRoom
+ORG 0xB042C
+POIN NewSoundRoom
+POP
+
+ALIGN 4
+NewSoundRoom:
+// Event themes
+SoundRoomEntry(SongYatagarasuID, 0, SongYatagarasuName)
+SoundRoomEntry(SongUnendingPreludeID, 0, SongUnendingPreludeName)
+SoundRoomEntry(SongFurioTigreID, 0, SongFurioTigreName)
+SoundRoomEntry(SongCrossExaminationModerato2007ID, 0, SongCrossExaminationModerato2007Name)
+SoundRoomEntry(SongPowerHungryFoolID, 0, SongPowerHungryFoolName)
+SoundRoomEntry(SongWhatComesFromDarknessID, 0, SongWhatComesFromDarknessName)
+SoundRoomEntry(SongEmperorArvisID, 0, SongEmperorArvisName)
+SoundRoomEntry(SongSceneryAtDuskyBridgeID, 0, SongSceneryAtDuskyBridgeName)
+SoundRoomEntry(SongOrganJawsID, 0, SongOrganJawsName)
+SoundRoomEntry(SongABleedingFightID, 0, SongABleedingFightName)
+SoundRoomEntry(SongFF4BossID, 0, SongFF4BossName)
+SoundRoomEntry(SongBloodyTearsID, 0, SongBloodyTearsName)
+SoundRoomEntry(SongKayFaradayID, 0, SongKayFaradayName)
+SoundRoomEntry(SongTurnaboutAirlinesIntroID, 0, SongTurnaboutAirlinesIntroName)
+SoundRoomEntry(SongAAISolutionID, 0, SongAAISolutionName)
+SoundRoomEntry(SongAnEmptyTomeID, 0, SongAnEmptyTomeName)
+// Player phase themes
+SoundRoomEntry(SongNormalBattleID, 0, SongNormalBattleName)
+SoundRoomEntry(SongRhapsodyOfTheForsakenID, 0, SongRhapsodyOfTheForsakenName)
+SoundRoomEntry(SongUncontrollableID, 0, SongUncontrollableName)
+SoundRoomEntry(SongVenusLighthouseID, 0, SongVenusLighthouseName)
+// Enemy phase themes
+SoundRoomEntry(SongHeathernID, 0, SongHeathernName)
+SoundRoomEntry(SongScatteredAndLostID, 0, SongScatteredAndLostName)
+SoundRoomEntry(SongDeepSeaBassID, 0, SongDeepSeaBassName)
+SoundRoomEntry(SongCombatAdversityID, 0, SongCombatAdversityName)
+SoundRoomTerminator

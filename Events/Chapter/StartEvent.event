@@ -1,0 +1,38 @@
+// ENUT 0x1 //no more boss quotes
+// ENUT 0x2 //no more death quotes
+
+CALL OpeningCutscenePreMap
+
+// Important characters
+LOAD1 0x0 MCUnitPlacement //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x0 MAUnitPlacement
+ENUN
+LOAD1 0x0 EOC2136MemoryStoragePlacement
+ENUN
+HIDEUNIT EOC2136MemoryStorage
+
+// Generic enemies
+LOAD1 0x0 NormalEnemies
+ENUN
+LOAD1 0x0 EOC3811Group
+ENUN
+LOAD1 0x0 EOC6048Group
+ENUN
+LOAD1 0x0 EOC5397Group
+ENUN
+LOAD1 0x0 PenultimateGroup
+ENUN
+
+ENUT FlagEOC2136SpawnBlocker
+SilentGiveItem(MC, RecapStaff)
+SilentGiveItem(MA, Exposition)
+CHECK_HARD
+BNE 20 sC s0
+SilentGiveItem(Apprentice, HoplonShield)
+SilentGiveItem(Apprentice, Elixir)
+LABEL 20
+
+CALL OpeningCutscenePostMap
+NoFade
+ENDA

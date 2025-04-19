@@ -1,0 +1,192 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.0.0.0                              //
+// Game: FE8                                      //
+// File: FE8_clean.gba                            //
+// Offset: $9EC66C                                //
+//                                                //
+////////////////////////////////////////////////////
+
+EventPointerTable(0x7, PointerList)
+
+#ifdef DRAGON_VEINS
+VeinEffect(0, FreezeAllEnemies)
+#endif // DRAGON_VEINS
+
+setText(0x160, NewChName)
+
+ALIGN 4
+NewChName:
+String("Boss Rush")
+BYTE 0
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x10,TalkEvent, Eirika, Ephraim)
+END_MAIN
+
+LocationBasedEvents:
+Vendor(ShopItems,2,7)
+Armory(ArmoryItems,10,26)
+Village(0x8,VillageEvent,18,27)
+House(0,HouseEvent,6,24)
+Seize(10,2)
+DurabilityChest(SkillScroll,CelerityID,11,23)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT MC  0x0 0x1 Level(1, Ally, 0)   [9,24] 0b 0x0 0x0 0x0 [0x0, 0x0, 0x0, 0x0] [0x0,0x0,0x0,0x0]
+UNIT PirateQueenPresent  0x0 0x1 Level(1, Ally, 0)  [7,24] 0b 0x0 0x0 0x0 [IronAxe, IronSword, 0x0, 0x0] [0x0,0x0,0x0,0x0]
+UNIT MorbiusPresent  0x0 0x1 Level(1, Ally, 0)     [11,24] 0b 0x0 0x0 0x0 [Heal, Flux,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT EternalSoldierPresent  0x0 0x1 Level(1, Ally, 0)  [8,25] 0b 0x0 0x0 0x0 [IronLance, ShortSpear, BraveLance, 0x0] [0x0,0x0,0x0,0x0]
+UNIT DragonSlayerPresent  0x0 0x1 Level(1, Ally, 0)  [8,24] 0b 0x0 0x0 0x0 [IronBow, Longbow, 0x0, 0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+Units2:
+UNIT
+
+MoreUnits:
+UNIT
+
+EnemyUnits:
+UNIT Morva_Ch20 0x3B 0x40 Level(1, Enemy, 0)    [15,2] 0b 0x0 0x0 0x0 [WretchedAir,0x0,0x0,0x0] AttackInRangeAI
+UNIT ONeill Fighter 0x40 Level(20, Enemy, 1)     [8,21] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT 0x80 Fighter 0x40 Level(1, Enemy, 1)     [8,22] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT 0x80 Fighter 0x40 Level(1, Enemy, 1)     [9,22] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT 0x80 Fighter 0x40 Level(1, Enemy, 1)     [7,22] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT
+
+EnemyUnits2:
+UNIT
+
+Traps1:
+#ifdef DRAGON_VEINS
+Vein(9,23,0x0,DV1Desc) //freeze enemies
+#endif // DRAGON_VEINS
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+ENUT 0x1 //no more boss quotes
+ENUT 0x2 //no more death quotes
+LOAD1 0x1 EnemyUnits
+ENUN
+LOAD1 0x1 EnemyUnits2
+ENUN
+LOAD1 0x0 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x0 Units2
+ENUN
+LOAD1 0x0 MoreUnits
+ENUN
+// FADI 10
+// MOVE 0 Carlyle [7,10]
+// ENUN
+//   StartBattle //scripted fight setup
+//   MissedAttack(0,0) //Seth misses
+//   NormalDamage(1,0) //Valter hits
+//   EndAttack
+// FIG1 Carlyle Aias 0
+// STAL 60
+// FADU 10
+AssignFormsEvent(PirateQueenPresent, PirateQueenPast, PirateQueenFuture)
+AssignFormsEvent(MorbiusPresent, MorbiusPast, MorbiusFuture)
+AssignFormsEvent(EternalSoldierPresent, EternalSoldierPast, EternalSoldierFuture)
+AssignFormsEvent(DragonSlayerPresent, DragonSlayerPast, DragonSlayerFuture)
+NoFade
+ENDA
+
+EndingScene:
+ASMC 0x85C71 0x381F5 0x37CF9 //show records screen
+STAL 120
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
+NoFade
+ENDA
+
+VillageEvent:
+	VillageEventItem(VillageText, Village, Boots)
+
+HouseEvent:
+	// Set parameters
+	SVAL r1 NiceThighsID
+	SVAL r2 (-1) // (-1) is active unit
+	
+	// Check if unit has skill
+	// If they have, goto label #0 (end)
+	ASMC (ASMC_HasSkill|1)
+	BNE 0 rC r0
+	
+	// Learn skill to unit
+	ASMC (ASMC_LearnNewSkill|1)
+	
+LABEL 0
+	// end
+	
+	Text(HouseText)
+	
+	NoFade
+	ENDA
+	
+	// HouseEvent(HouseText, HouseBG)
+
+#ifdef DRAGON_VEINS
+FreezeAllEnemies:
+VeinActivation
+ASMC FreezeAllASMC|1
+NoFade
+ENDA
+#endif // DRAGON_VEINS
+
+TalkEvent:
+Text(0xc0a)
+NoFade
+ENDA
+
+ShopItems:
+SHLI Thunder Elfire Nosferatu Divine Mend Physic PureWater Elixir
+ALIGN 4
+
+ArmoryItems:
+
+BYTE SteelAxe 0
+BYTE SkillScroll 20
+SHLI SteelLance SteelBow SteelSword HandAxe Javelin
+ALIGN 4

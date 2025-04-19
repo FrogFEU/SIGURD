@@ -1,0 +1,10 @@
+ALIGN 4
+#include "GeneratedInstaller.event"
+
+ALIGN 4
+#include "CustomSkills/SkillIDLinks.event"
+#include "CustomEvents/CustomEvents.event"
+#include "FanFic/Procs.event"
+#include "AutoRefreshingWeapons/AutoRefreshingWeapons.event"
+#include "CustomItems/Wrappers.event"
+#include "UnitLevelUps/UnitGrowthDisplay.event"

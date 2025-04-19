@@ -1,0 +1,36 @@
+#define EndConvo "CALL $9EE2C4"
+
+#define MoveLeft(speed, charID) "MOVE_1STEP speed charID 0"
+#define MoveRight(speed, charID) "MOVE_1STEP speed charID 1"
+#define MoveDown(speed, charID) "MOVE_1STEP speed charID 2"
+#define MoveUp(speed, charID) "MOVE_1STEP speed charID 3"
+
+#define HighlightChar(charID) "CAMERA charID; CURSOR_FLASHING charID; STAL 60; REMOVE_CURSORS"
+
+#define HighlightPos(x, y) "CAMERA [x, y]; CURSOR_FLASHING [x, y]; STAL 60; REMOVE_CURSORS"
+
+#define StartGameOver "ASMC 0x800D391" // Game over ASMC
+
+#define ClearAll "CLEA 0x0; CLEE 0x0; CLEN 0x0" 
+
+//The following unset the event flag if they return false
+#define ContinueIfIDMatch(UnitID) "SVAL 0x2 UnitID; CALL 0x9EE19C"
+#define ContinueIfFactionMatch(AllegianceID) "SVAL 0x2 AllegianceID; CALL 0x9EE1B8"
+
+#define TutorialText(textID) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textID; TEXTEND; REMA"
+#define CGText(textID) "CGTEXTSTART; TEXTSHOW textID; TEXTEND; REMA"
+
+#define BranchIfFlagOff(flag, label) "CHECK_EVENTID flag; BEQ label sC s0"
+#define BranchIfFlagOn(flag, label) "CHECK_EVENTID flag; BNE label sC s0"
+
+#define MoveMemorySlot(dst, src) "SADD dst src s0"
+
+#define BranchIfDead(unit, label) "CHECK_ALIVE unit; BEQ label sC s0;"
+#define BranchIfAlive(unit, label) "CHECK_ALIVE unit; BNE label sC s0;"
+
+#define FlagDefeatBoss 0x2
+#define FlagSieze 0x3
+#define FlagGameOver GameOverID // 0x65
+
+#define ShowYesNoAndBranchIfYes(textID, postLabel) "EVBIT_MODIFY 0x4; EVBIT_F 2; FADU 255; TutorialText(textID); EVBIT_MODIFY 0x0; SVAL 0x7 0x1; BEQ postLabel 0xC 0x7;"
+#define ShowYesNoAndBranchIfNo(textID, postLabel) "EVBIT_MODIFY 0x4; EVBIT_F 2; FADU 255; TutorialText(textID); EVBIT_MODIFY 0x0; SVAL 0x7 0x1; BNE postLabel 0xC 0x7;"

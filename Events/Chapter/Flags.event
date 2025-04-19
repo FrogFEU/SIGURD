@@ -1,0 +1,30 @@
+#define FlagPirateQueenFanFicFirstTime 0x10
+#define FlagMorbiusFanFicFirstTime 0x11
+#define FlagEternalSoldierFanFicFirstTime 0x12
+#define FlagDragonSlayerFanFicFirstTime 0x13
+#define FlagPlayerOCDied 0x14
+
+#define FlagFinishedSelectionTutorials 0x15
+#define FlagMCTutorial 0x16
+#define FlagKenriTutorial 0x17
+#define FlagMorbiusTutorial 0x18
+
+#define FlagSkipTales 0x19
+
+#define FlagEOC2136SpawnBlocker 0x1D
+
+#define FlagEnemyOCDied 0x1E
+#define FlagEOC2136Died 0x1F
+
+#define FlagEOCKillerValoria 0x20
+#define FlagEOCKillerMorbius 0x21
+#define FlagEOCKillerBill 0x22
+#define FlagEOCKillerSintel 0x23
+#define FlagEOCKillerOther 0x24
+
+#define FlagNogistBattle 0x25
+#define FlagAthenaBattle 0x26
+
+#define CounterPlayerOCs 0x1
+#define CounterEnemyOCs 0x2
+#define CounterSelectionTutorials 0x3

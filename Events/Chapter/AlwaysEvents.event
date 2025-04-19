@@ -1,0 +1,6 @@
+// AFEV flagID eventOffset activationFlag
+
+DefeatBoss(EndingScene)
+AFEV 0 PlayerOCDeathEvent FlagPlayerOCDied
+AFEV 0 EnemyOCDeathEvent FlagEnemyOCDied
+AFEV 0 EOC2136DeathEvent FlagEOC2136Died

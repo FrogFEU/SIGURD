@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="27" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="3C00683E" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="../Tilesets/desert bastion but wide/3C00683E.png" width="512" height="512"/>
+ </tileset>
+ <layer id="2" name="Tile Layer 2" width="27" height="27">
+  <data encoding="base64" compression="zlib">
+   eJztVUtrU0EUnszFhdL6+ANCKZIWtbbd6trqog+z8LFykaUWaX1UfKzaSEDR9oLQvbEWWtFcAikBhdRHk1axdS0FN9bUiv9A/I7zHe54q39AMvAxM+fMfOecb85NjGmO5miO/2HMp4ypAc8DY7qBWaxL1pg65mUgBPKwdwB12DeJHYGzl+HPAC2w9Vt3fglYAYbgnwQ+Bi6W8H3A+h3mBvAWiIBpxhGeJfhXwPMSuIf1OuaGdXaJVQXPIez38/xjoAjfM6AH9vOs634Q1xYyzqzYgFbreG6S/wUwAOyxbn8L9gr5Q29+IzrBX7TOJnnIUK0ynhY1qRMYpiY3gjiO5jGI9W3mU+LdyOPJsF61yQg9+0NgizEkl0fACN/lONDl5dFHu9YfkkNrEx33wr4PuMy6/HyEX9874tkocO+SZ22KPO3zzK3i9VGZOkp/DGL/IIjrqnr1fbfubJHvKj35hbxVYBF4xf0G8DRw/ffT/Hlf+OR95lKuH/y6VNsFr06d5Z7Ea6O2w4yv/VcxrgfDxP3fHMzXf68wwS88U3a7X3S9hDir/G6S/n/NyfcatfF7Kqes1b8m3NS2aLfnN8S7V2ysk8yjrEt9Wm+3dd/1MvWueXy9zLM30XM619kPPuck89bvS/yiR+Tpq/c7gHWgC5jA+R/GzYexTyfqith/8vsjHKKD/vbJKHnf95RxvGnteeA6fEeBA0AaOMb9aetidjLOV2/tx9ffChmixSZwCvst5izYMO7+BOxZzHeAGePWOeDsX3Ioyxuy3yTvhqezDNFogffajbszBiwy5mv4xzH3AwOMNwKcYEyJfSHlcjmHewex7hFgvzPRhxLjjHUcF/kmmrPEvQbcha1F/n+My2EOeALsYrzPwG7gqqfve9b3iW9tmFeBHOPct/JugXV0Mk6Oe60nx9rbhI86ZxlTtR3juxrvfpazxDkCtLPGvoRequ2Mp6vvKzDmN+AkOKapj4xf0UHxMA==
+  </data>
+ </layer>
+ <layer id="1" name="Tile Layer 1" width="27" height="27">
+  <properties>
+   <property name="Anims1" value="5"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="1"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="6"/>
+   <property name="MapID" value="14"/>
+   <property name="ObjectType" value="1"/>
+   <property name="PaletteID" value="2"/>
+   <property name="TileConfig" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzlVVEKwjAMLasfu4dHmzcR9qW30DFwl5jC8MODqPUQZqyFUJImlG0gfjzSV3hJ2rx1zhrzATghbgEXv6b2Jf0YrwrcfM7Oa7B+3O+VeTRnCjm5c3XKPLjvPsFrQAnYeFgfa0GHOdaUEd+j3A2gAuwiNISO41VhzMlrzgk+MLUGQYf5G+CKSfMSOFdL0gV+sBOegKPV8xxd7KulYlgvXccRNbWxtfpvCteIdRIf4x3wEOpTPNZJnIuaPDnzCj2vMa/Qc44P1/A9NVvNPaV8yOWhZqu5p5RfuDzcGbk+U76W/KKZF+4z5WvJL/88r7libp1feDdy3nmNX+Z65zX/GYp/AaVxVJA=
+  </data>
+ </layer>
+</map>

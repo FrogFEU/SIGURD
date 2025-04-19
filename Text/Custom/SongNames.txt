@@ -1,0 +1,71 @@
+## SongTurnaboutAirlinesIntroName
+[OpenQuote]Turnabout Airlines[CloseQuote] (AAI: ME)[X]
+
+## SongYatagarasuName
+Yatagarasu (AAI: ME)[X]
+
+## SongWhatComesFromDarknessName ^
+What Comes from Darkness (FE 7)[X]
+
+## SongCombatAdversityName
+Combat ~ Adversity (TS)[X]
+
+## SongCrossExaminationModerato2007Name ^
+Cross-Examination - Moderato (AJ: AA)[X]
+
+## SongFurioTigreName ^
+Furio Tigre ~ Swingin' Tiger (AA:T&T)[X]
+
+## SongNormalBattleName ^
+Normal Battle (Pokemon Conquest)[X]
+
+## SongRhapsodyOfTheForsakenName ^
+Rhapsody of the Forsaken (C: OoE)[X]
+
+## SongUncontrollableName
+Uncontrollable (XC: X)[X]
+
+## SongVenusLighthouseName
+Venus Lighthouse (Golden Sun)[X]
+
+## SongHeathernName
+Heathern (Lock's Quest)[X]
+
+## SongScatteredAndLostName
+Scattered and Lost (Celeste)[X]
+
+## SongDeepSeaBassName ^
+Deep Sea Bass/Coral Reef (CotN)[X]
+
+## SongUnendingPreludeName
+Unending Prelude (AA: T&T)[X]
+
+## SongEmperorArvisName
+Emperor Arvis (FE 4)[X]
+
+## SongPowerHungryFoolName
+Power-Hungry Fool (FE 9)[X]
+
+## SongSceneryAtDuskyBridgeName ^
+Scenery at Dusky Bridge (AA: T&T)[X]
+
+## SongOrganJawsName
+Organ Jaws (EBF 2)[X]
+
+## SongABleedingFightName
+A Bleeding Fight (EBF 4)[X]
+
+## SongFF4BossName
+Boss (Final Fantasy 4)[X]
+
+## SongBloodyTearsName
+Bloody Tears (Castlevania II)[X]
+
+## SongKayFaradayName
+Kay Faraday (AAI: ME)[X]
+
+## SongAAISolutionName ^
+Solution!~ Splendid Deduction (AAI:ME)[X]
+
+## SongAnEmptyTomeName
+An Empty Tome (C: OoE)[X]

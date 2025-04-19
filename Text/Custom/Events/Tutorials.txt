@@ -1,0 +1,66 @@
+## TutorialStart
+Matches in The Pen are held between[N]
+[Red]two opposing Lore Weavers[Red].[.4][N]
+Each Lore Weaver can summon [Red]four[N]
+characters[Red] to battle with,[N]
+[Red]up to two[Red] per turn.[AN]
+The first Lore Weaver to defeat [Red]all[N]
+opposing summoned characters[Red] wins.[AN]
+Defeating the Lore Weaver themself[N]
+is irrelevant.[.4][N]
+Defeating their assistant is also[N]
+irrelevant.[A][X]
+
+## TutorialGameplayChanges
+[Red]Important gameplay changes[Red]:[AN]
+Infantry units have shove,[N]
+and mounts canto.[AN]
+Aid is gone: [Red]everyone can[N]
+rescue anyone[Red].[.4][N]
+In addition, [Red]there are no[N]
+rescue penalties[Red].[AN]
+Units send their items to[N]
+the convoy on death.[A][X]
+
+## TutorialMC
+M. C. Illios' summons have three forms:[N]
+[Red]Past[Red], [Red]Present[Red] and [Red]Future[Red].[AN]
+Their Past form has high growths but low[N]
+bases;[.4] their Present form has good bases[N]
+but cannot grow;[.4] and their Future form has[N]
+legendary weapons but [Red]negative[Red] growths.[AN]
+Experience and Levels are gone: instead,[N]
+units with growths Level Up after [Red]every[Red][N]
+battle, [Red]regardless of damage dealt[Red].[AN]
+Shifting forms is a [Red]free, cancelable action[Red].[.4][N]
+Stat changes carry over between forms.[AN]
+M. C. also has [Red]supply access[Red] and Recap,[N]
+an [Red]infinite use Rescue staff[Red].[A][X]
+
+## TutorialKenri
+Kenri isn't a normal Bard, and cannot Play -[.4][N]
+instead, he can [Red]Rewrite[Red] adjacent summoned[N]
+characters, giving them a [Red]different form[Red][N]
+for [Red]1 turn[Red] in addition to refreshing them.[AN]
+The first time you Rewrite a character, a[N]
+short cutscene will play, and they will[N]
+[Red]gain an item[Red].[AN]
+Kenri cannot Rewrite units incapable of[N]
+switching forms.[A][X]
+
+## TutorialMorbius
+Unlike other summons, Morbius [Red]cannot freely[N]
+access his Future form[Red].[.4][N]
+Instead, he must use the [Red]Book of Death[Red][N]
+to switch to it.[AN]
+After using the Book, Morbius will be [Red]locked[Red][N]
+into his Future form.[.4][N]
+This form [Red]cannot be Rewritten[Red].[A][X]
+
+## TutorialAskEnable
+Show tutorials?[N]
+[Yes][X]
+
+## TutorialAskSkipTales
+Skip tale cutscenes?[N]
+[No][X]

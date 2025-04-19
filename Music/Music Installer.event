@@ -1,0 +1,116 @@
+#include "MusicDefinitions.event"
+
+#ifdef _FE6_
+  #define SongTableOffset  0x3994D8
+  voicegroup000:
+  //include your voicemap here, FE6 has no native instrument map at this time
+#endif
+
+#ifdef _FE7_
+  #define SongTableOffset  0x69d6E0
+  voicegroup000:
+  #include "FE7_NI_Map.bin"
+#endif
+
+#ifdef _FE8_
+  #define SongTableOffset  0x224470
+  //2263B0 is the end maybe?
+  #include "drumfix_fe8.event"
+  voicegroup000:
+  #incbin "FE8_NI_2.bin"
+#endif
+
+#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+// Event
+#include "Songs/AAI-Yatagarasu.event"
+SongTable(SongYatagarasuID, aai_yatagarasu, BattleMusicGroup)
+#include "Songs/AAI-TurnaboutAirlines-intro.event"
+SongTable(SongTurnaboutAirlinesIntroID, turnabout_airlines_intro, BattleMusicGroup)
+#include "Songs/FE7-WhatComesFromDarkness.event"
+SongTable(SongWhatComesFromDarknessID, what_comes_from_darkness, BattleMusicGroup)
+#include "Songs/AJ-TestimonyModerato.event"
+SongTable(SongCrossExaminationModerato2007ID, Moderato2009Fin_FINAL, BattleMusicGroup)
+#include "Songs/PWTT-FurioTigre~SwinginTiger.event"
+SongTable(SongFurioTigreID, FurioTigreFin_FINAL, BattleMusicGroup)
+#include "Songs/PWTT-SceneryAtDuskyBridge.event"
+SongTable(SongSceneryAtDuskyBridgeID, SceneryAtDuskyBridge, BattleMusicGroup)
+#include "Songs/PWTT-UnendingPrelude.event"
+SongTable(SongUnendingPreludeID, UnendingPrelude, BattleMusicGroup)
+#include "Songs/FE4-EmperorArvis.event"
+SongTable(SongEmperorArvisID, EmperorArvis, BattleMusicGroup)
+#include "Songs/FE9-PowerHungryFool.event"
+SongTable(SongPowerHungryFoolID, PowerHungryFool, BattleMusicGroup)
+#include "Songs/EBF2-OrganJaws.event"
+SongTable(SongOrganJawsID, OrganJawsFin_FINAL, BattleMusicGroup)
+#include "Songs/EBF4-ABleedingFight.event"
+SongTable(SongABleedingFightID, ABleedingFight, BattleMusicGroup)
+#include "Songs/FF4-Boss.event"
+SongTable(SongFF4BossID, FF4BossFin_FINAL, BattleMusicGroup)
+#include "Songs/Castlevania-BloodyTears.event"
+SongTable(SongBloodyTearsID, BloodyTears, BattleMusicGroup)
+#include "Songs/AAI-Solution.event"
+SongTable(SongAAISolutionID, AAISolution, BattleMusicGroup)
+#include "Songs/AAI-KayFaraday.event"
+SongTable(SongKayFaradayID, KayFaraday, BattleMusicGroup)
+#include "Songs/COOE-AnEmptyTome.event"
+SongTable(SongAnEmptyTomeID, AnEmptyTome, BattleMusicGroup)
+
+// Map
+#include "Songs/PokemonConquest-NormalBattle.event"
+SongTable(SongNormalBattleID, NormalBattle, MapMusicGroup)
+#include "Songs/Lock'sQuest-Heathern.event"
+SongTable(SongHeathernID, Heathern_FINAL, MapMusicGroup)
+#include "Songs/COOE-RhapsodyOfTheForsaken.event"
+SongTable(SongRhapsodyOfTheForsakenID, RhapsodyFin_FINAL, MapMusicGroup)
+#include "Songs/Celeste-ScatteredAndLost.event"
+SongTable(SongScatteredAndLostID, ScatteredAndLost, MapMusicGroup)
+#include "Songs/XCX-Uncontrollable.event"
+SongTable(SongUncontrollableID, Uncontrollable, BattleMusicGroup)
+#include "Songs/COFN-DeepSeaBassCoralRiff.event"
+SongTable(SongDeepSeaBassID, DeepSeaBass, MapMusicGroup)
+#include "Songs/CombatAdversity.event"
+SongTable(SongCombatAdversityID, combat_adversity, MapMusicGroup)
+#include "Songs/GoldenSun-VenusLighthouse.event"
+SongTable(SongVenusLighthouseID, VenusLighthouse, MapMusicGroup)
+
+// #include "Songs/AAI-CrisesOfFate.event"
+// SongTable(SongCrisesOfFateID, aai_crises_of_fate, BattleMusicGroup)
+// #include "Songs/HyzantesSchemes.event"
+// SongTable(SongHyzantesSchemesID, hyzantes_schemes, BattleMusicGroup)
+// #include "Songs/FE4-Conversation1.event"
+// SongTable(SongFE4Conversation1ID, fe4_conversation1, BattleMusicGroup)
+// #include "Songs/FE11OffToWar.event"
+// SongTable(SongOffToWarID, FE11_off_to_war, BattleMusicGroup)
+// #include "Songs/ElegyofBattle.event"
+// SongTable(SongElegyOfBattleID, elegy_of_battle, BattleMusicGroup)
+// #include "Songs/FE9-WithUs.event"
+// SongTable(SongWithUsID, WithUs, BattleMusicGroup)
+// #include "Songs/AA2-AnotherVictory.event"
+// SongTable(SongAnotherVictoryID, aa2_another_victory, BattleMusicGroup)
+
+// #include "Songs/LandofFrozenForest.event"
+// SongTable(SongLandOfFrozenForestID, land_of_frozen_forest, MapMusicGroup)
+// #include "Songs/FE11Onset.event"
+// SongTable(SongOnsetID, L_FE11_Onset, MapMusicGroup)
+// #include "Songs/Sortie_Formation.event"
+// SongTable(SongSortieFormationID, L_Sortie_Formation, MapMusicGroup)
+// #include "Songs/WAV/IconoclastsMoonlightInstaller.event"
+// SongTable(SongMoonlightID, IconoclastsMoonlight, MapMusicGroup)
+
+
+
+
+FE8SoundMixer:
+#incbin "FE8_Improved_Sound_Mixer.bin"
+PUSH
+ORG $D01CC 
+POIN FE8SoundMixer
+ORG $D01D0
+BYTE $B0 $6C $00 $03 $18 $02
+ORG $CF53C
+BYTE $B1 $6C $00 $03
+POP

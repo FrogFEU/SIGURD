@@ -1,0 +1,8 @@
+#include "FanFics.txt"
+#include "PlayerSummons.txt"
+#include "EnemySummons.txt"
+#include "Tutorials.txt"
+#include "StartEvent.txt"
+#include "MidBattleEvents.txt"
+#include "EndEvent.txt"
+#include "CharacterEndings.txt"

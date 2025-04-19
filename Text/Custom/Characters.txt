@@ -1,0 +1,178 @@
+## MCName
+M. C. Illios[X]
+
+## MCDesc
+A long-time participant in The Pen who[N]
+nevertheless failed to win a single[N]
+match. Brooding and unfriendly.[X]
+
+## ApprenticeName
+Kenri[X]
+
+## ApprenticeDesc
+A determined bard who believes in the[N]
+boundless power of happy endings.[X]
+
+
+
+## PirateQueenName
+Valoria[X]
+
+## PirateQueenPastDesc
+The captain of a reckless pirate crew,[N]
+who would plunder anyone and anything[N]
+without fear.[X]
+
+## PirateQueenPresentDesc
+The missing daughter of a beloved king,[N]
+returned to her land at last and ready[N]
+to claim her birthright.[X]
+
+## PirateQueenFutureDesc
+A tyrannical queen who cares not[N]
+for the lives of her subjects -[N]
+only their valuables.[X]
+
+## PirateQueenFanFicDesc
+The infamous Queen of Pirates,[N]
+ruler of the only land inhabited[N]
+exclusively by pirates.[X]
+
+## MorbiusName
+Morbius[X]
+
+## MorbiusPastDesc
+A scheming cleric who hides nefarious[N]
+goals behind his unassuming appearance.[X]
+
+## MorbiusPresentDesc
+The triumphant acolyte of the[N]
+Goddess of Death, ready to revive[N]
+his patron at long last.[X]
+
+## MorbiusFutureDesc
+An empty husk.[X]
+
+## MorbiusFanFicDesc
+The beloved bishop who managed to[N]
+revive the Goddess of Life against[N]
+all odds.[X]
+
+## EternalSoldierName
+Bill[X]
+
+## EternalSoldierPastDesc
+A former farm hand, who picked up[N]
+arms to serve Prince Saturn and[N]
+protect his homeland.[X]
+
+## EternalSoldierPresentDesc
+A soldier in King Saturn's glorious[N]
+army, fighting any and all who would[N]
+oppose his kingdom.[X]
+
+## EternalSoldierFutureDesc
+A lieutenant in Emperor Saturn's[N]
+endless legions, smiting down all[N]
+those who do not serve the empire.[X]
+
+## EternalSoldierFanFicDesc
+A happy-go-lucky werewolf living[N]
+in Werewolf Village alongside his[N]
+werewolf friends.[X]
+
+## DragonSlayerName
+Sintel[X]
+
+## DragonSlayerPastDesc
+A quiet huntress and the sole survivor[N]
+of a devastating dragon's attack on[N]
+the town of Rowance.[X]
+
+## DragonSlayerPresentDesc
+A determined adventurer, seeking a way[N]
+to slay the dragon who burned all she[N]
+knew and loved.[X]
+
+## DragonSlayerFutureDesc
+The latest wielder of Oldwane's Fang,[N]
+consumed by the blade's insatiable[N]
+hunger for death and destruction.[X]
+
+## DragonSlayerFanFicDesc
+The brave dragon rider who found it[N]
+within herself to forgive her adversary,[N]
+and forge an eternal friendship instead.[X]
+
+
+## MAName
+Athena[X]
+
+## MADesc
+The world-renowned writer of[N]
+Zigludo's Records. Considers[N]
+everyone else beneath her.[X]
+
+## EvilApprenticeName
+Nogist[X]
+
+## EvilApprenticeDesc
+A long suffering assistant working[N]
+for The Pen. Hates everyone and[N]
+everything in it.[X]
+
+
+## EOC3811Name
+[hashtag]3811[X]
+
+## EOC3811Desc
+You are now familiar[N]
+with this tale.[X]
+
+## EOC6048Name
+[hashtag]6048[X]
+
+## EOC6048Desc
+You are now familiar[N]
+with this tale.[X]
+
+## EOC2136Name
+[hashtag]2136[X]
+
+## EOC2136Desc
+You are now familiar[N]
+with this tale.[X]
+
+## EOC5397Name
+[hashtag]5397[X]
+
+## EOC5397Phase1Desc
+You are now familiar[N]
+with this tale.[X]
+
+## EOC5397Phase2Desc
+You are now familiar[N]
+with this tale.[X]
+
+## EOC5397Phase3Desc
+You are now familiar[N]
+with this tale.[X]
+
+## EOC5397Phase4Desc
+You are now familiar[N]
+with this tale.[X]
+
+## EOC3811DollName
+Doll[X]
+
+## EOC3811DollDesc
+A life-like doll wielding[N]
+fresh-rending saws.[X]
+
+
+## GenericEnemyName
+Extra[X]
+
+## GenericEnemyDesc
+Easy to ignore, up until the[N]
+point where they kill you.[X]

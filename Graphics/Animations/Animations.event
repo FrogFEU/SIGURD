@@ -1,0 +1,139 @@
+ALIGN 4
+
+/* Ref:
+
+NAME_Anim:
+SwordAnim(NAME_Sword_AnimData)
+LanceAnim(NAME_Lance_AnimData)
+AxeAnim(NAME_Axe_AnimData)
+HandAxeAnim(NAME_Handaxe_AnimData)
+BowAnim(NAME_Bow_AnimData)
+LightAnim(NAME_Magic_AnimData)
+AnimaAnim(NAME_Magic_AnimData)
+DarkAnim(NAME_Magic_AnimData)
+StaffAnim(NAME_Staff_AnimData)
+MonsterAnim(NAME_Monster_AnimData)
+UnarmedAnim(NAME_Unarmed_AnimData)
+WORD 0
+
+*/
+
+AdventurerF_Anim:
+SwordAnim(AdventurerF_Sword_AnimData)
+BowAnim(AdventurerF_Bow_AnimData)
+UnarmedAnim(AdventurerF_Magic_AnimData)
+WORD 0
+
+BardM_Anim:
+UnarmedAnim(BardM_Refresh_AnimData)
+WORD 0
+
+BerserkerF_Anim:
+AxeAnim(BerserkerF_Axe_AnimData)
+HandAxeAnim(BerserkerF_Handaxe_AnimData)
+UnarmedAnim(BerserkerF_Unarmed_AnimData)
+WORD 0
+
+DragonRider_Anim:
+LanceAnim(DragonRider_Lance_AnimData)
+BowAnim(DragonRider_Bow_AnimData)
+UnarmedAnim(DragonRider_Unarmed_AnimData)
+WORD 0
+
+DreadFighterF_Anim:
+SwordAnim(DreadFighterF_Sword_AnimData)
+UnarmedAnim(DreadFighterF_Unarmed_AnimData)
+WORD 0
+
+Halberdier_Anim:
+LanceAnim(Halberdier_Lance_AnimData)
+UnarmedAnim(Halberdier_Unarmed_AnimData)
+WORD 0
+
+HunterF_Anim:
+BowAnim(HunterF_Bow_AnimData)
+UnarmedAnim(HunterF_Unarmed_AnimData)
+WORD 0
+
+Lich_Anim:
+DarkAnim(Lich_Magic_AnimData)
+UnarmedAnim(Lich_Magic_AnimData)
+WORD 0
+
+PirateF_Anim:
+AxeAnim(PirateF_Axe_AnimData)
+HandAxeAnim(PirateF_Handaxe_AnimData)
+UnarmedAnim(PirateF_Unarmed_AnimData)
+WORD 0
+
+Princess_Anim:
+SwordAnim(Princess_Sword_AnimData)
+AxeAnim(Princess_Axe_AnimData)
+HandAxeAnim(Princess_Hand_Axe_AnimData)
+UnarmedAnim(Princess_Unarmed_AnimData)
+WORD 0
+
+Queen_Anim:
+StaffAnim(Queen_Staff_AnimData)
+UnarmedAnim(Queen_Magic_AnimData)
+WORD 0
+
+Sentinel_Anim:
+LanceAnim(Sentinel_Lance_AnimData)
+UnarmedAnim(Sentinel_Unarmed_AnimData)
+WORD 0
+
+Tactician_Anim:
+UnarmedAnim(Tactician_Magic_AnimData)
+WORD 0
+
+Werewolf_Anim:
+MonsterAnim(Werewolf_Monster_AnimData)
+UnarmedAnim(Werewolf_Unarmed_AnimData)
+WORD 0
+
+// EOCs
+
+Mechanist_Anim:
+MonsterAnim(Mechanist_Knife_AnimData)
+UnarmedAnim(Mechanist_Magic_AnimData)
+WORD 0
+
+Vengeance_Anim:
+DarkAnim(Vengeance_Magic_AnimData)
+UnarmedAnim(Vengeance_Magic_AnimData)
+WORD 0
+
+Spirit_Anim:
+LightAnim(Spirit_Magic_AnimData)
+UnarmedAnim(Spirit_Magic_AnimData)
+WORD 0
+
+Sceptre_Anim:
+UnarmedAnim(Sceptre_lorm_sp1_AnimData)
+WORD 0
+
+LivingBlade_Anim:
+SwordAnim(LivingBlade_Sword_AnimData)
+UnarmedAnim(LivingBlade_Sword_AnimData)
+WORD 0
+
+LivingArmour_Anim:
+SwordAnim(LivingArmour_Sword_AnimData)
+UnarmedAnim(LivingArmour_Unarmed_AnimData)
+WORD 0
+
+LivingMasterpiece_Anim:
+SwordAnim(LivingMasterpiece_Sword_AnimData)
+UnarmedAnim(LivingMasterpiece_Sword_AnimData)
+WORD 0
+
+Doll_Anim:
+MonsterAnim(Doll_Handaxe_AnimData)
+UnarmedAnim(Doll_Handaxe_AnimData)
+WORD 0
+
+ClericM_Anim:
+StaffAnim(ClericM_Staff_AnimData)
+UnarmedAnim(ClericM_Unarmed_AnimData)
+WORD 0

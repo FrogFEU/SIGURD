@@ -1,0 +1,38 @@
+
+#define DesertBastionObjectsID 1
+#define DesertBastionPaletteID 2
+#define DesertBastionTilesID 3
+#define DesertBastionAnimationID 5
+
+//#define DesertBastionNightPaletteID 0x4C
+//#define DesertBastionSunsetPaletteID 0x38
+
+//#include "AnimationInstaller.event"
+
+ALIGN 4
+DesertBastionObjects:
+#incbin "dmp/DesertBastion_object.dmp"
+
+ALIGN 4
+DesertBastionTiles:
+#incbin "dmp/DesertBastion_config.dmp"
+
+ALIGN 4
+DesertBastionPalette:
+#incbin "dmp/DesertBastion_palette.dmp"
+
+//ALIGN 4
+//DesertBastionNightPalette:
+//#incbin "dmp/DesertBastion_palette_2.dmp"
+
+//ALIGN 4
+//DesertBastionSunsetPalette:
+//#incbin "dmp/DesertBastion_palette_3.dmp"
+
+EventPointerTable(DesertBastionObjectsID, DesertBastionObjects)
+EventPointerTable(DesertBastionPaletteID, DesertBastionPalette)
+EventPointerTable(DesertBastionTilesID, DesertBastionTiles)
+
+//EventPointerTable(DesertBastionNightPaletteID, DesertBastionNightPalette)
+//EventPointerTable(DesertBastionSunsetPaletteID, DesertBastionSunsetPalette)
+MESSAGE "Tilesets Installed"

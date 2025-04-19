@@ -1,0 +1,186 @@
+Buildfile bases, references & tools:
+-SkillSystem
+-fe8-chax-template by MokhaLeee
+-SRR_FEGBA by Vesly
+-TMGC by Retina
+
+ASM/C:
+-7743 - Handaxe Wildcards
+-7743 - Add Event: Display and recover the effect when using the item
+-7743 - Add Event: Silent Give Item
+-7743 - Even in fog, it ensures visibility at specific coordinates. ver3
+-7743 - Change Map BGM
+-7743 - Change Battle BGM By Chapter
+-7743 - Continue Battle BGM
+-Vesly - ExtendWeaponDescBox
+-Vesly - TiaMfLNiAyotDI
+-Vesly - Autosave (modified to be autosave killer)
+-Vesly - PreventAttacking
+-Dragz/GigaExcalibur - Auto-Refreshing Weapons
+-Dragz/GigaExcalibur - GrowthGrades (not used directly, but heavily modified for negative growth display)
+-Leonarth - GetKillerUnitID
+-Leonarth - GetDeathUnitCoords
+-circleseverywhere - Monster Weapon display fix
+-HyperGammaSpaces - Always show BWL
+-Kyrads - Support disable
+-Huichelaar - Multipalette Colour BGs
+-Nintenlord - No Easy Mode
+-PhantomSentine - AI4 as Group AI
+-Zane - Modular Minimug Box
+-Contro - SendInventoryOnDeath
+-Tiki, Aera - Hackbox Extension
+
+Portraits:
+-LaurentLacroix - M. C. Illios
+-Eden, L95 - Morbius (Future)
+-ZessDynamite - Athena
+-ZessDynamite - Game Master
+-SSHX - Nogist
+-JiroPaiPai - Emcee
+-JiroPaiPai - #3811
+-Alexsplode - #2136
+-Alexsplode - #6048
+
+Battle Animations:
+-Pirate (F) - [Pirate-Reskin] Variant [F] by Nuramon: Nuramon, MarioKirby, Wan.
+-Princess - [FE8 Ephraim-Custom] [F] T2 Heavy Infantry by Nuramon:
+ Original animation by Nuramon.
+ Female variant by ZoramineFae.
+-Queen - [T3 Bishop-Reskin] [F] AS Aylanda T2:
+ Matriarch (F) by MrNight48.
+ Aylanda edit by NamelessX.
+-Halberdier - [Custom Halb] Halberdier +Axes [M] by TBA:
+ Base animation by TheBlindArcher. Further improvements added by Spud, MeatofJustice.
+ Lance by TheBlindArcher.
+ Unarmed by TheBlindArcher.
+-Sentinel - [Custom Lance] Sentinel [U] by Nuramon: Nuramon.
+-Lich - [Skeleton-Custom] [U] Specter by Alexsplode:
+ Vanilla Shaman animation by IS.
+ Vanilla Sage animation by IS.
+ Vanilla Skelton animation by IS.
+ Specter animation by Alexsplode.
+ Scripting by Alexsplode.
+-Hunter - [HunterM] Hunter [F] by MeatOfJustice: Leo_link, Spud, MeatOfJustice.
+-Adventurer - [Trickster] [F] Trickster V.2 by Leo_Link:
+ Original Animation by Leo_Link.
+ Script by Epicer and Kanto Emblem.
+ Female Edit by Sable Mage.
+-Dragon Slayer - [Sword FE16 Custom] [F] Dread Fighter by Nuramon: Nuramon.
+-Berserker (F) - [Berserker-Reskin] Armored v2 Repal [F] by eCut:
+ Made by eCut.
+ Scripted by Skitty.
+ This is a variant made by Natsumi, AKA Serif.
+-Werewolf - [Manakete-Custom] [M] Faoladh by Sirknite31:
+ Animation by Sirknite31.
+ Kitsune base by ZoramineFae and Clendo.
+-Dragon Rider - [WL Base] [U] Vanilla +Weapons:
+ Vanilla animation by IS.
+ Bow by PrincessKilvas, Spud.
+ Bow (Fixed Palette) by PrincessKilvas, Spud, Blue Druid.
+-Bard - [Bard-Base] [M] Elffin +Weapons:
+ Vanilla animation by IS.
+ Refresh (FE7-8) by Eldritch Abomination.
+-Tactician - [Tactician] [U] Tactician by SALVAGED: SALVAGED.
+-Mechanist - [T2 Summoner-Reskin] Plague Doctor [F] by DATonDemand:
+ Reskin by DatonDemand.
+ Base body by Velvet.
+-Doll - [Monster-Custom] [F] Living Doll by DatonDemand:
+ Axe by DATonDemand.
+ Bow by DATonDemand.
+ Handaxe by DATonDemand.
+ Scripting done by Sable Mage.
+-Vengeance - [Monster-Custom] [F] Nether Dryad by Alexsplode: 
+ Original Fire Centaur sprite from Demon Hunter Legend 4.
+ Nether Dryad animations by Alexsplode.
+ Scripting by Alexsplode.
+-Sceptre - [Monster-Custom] [U] Ghost - Breath of Fire: Eldritch Abomination.
+-Living Blade - [Monster-Custom] [U] Cursed Sword by SALVAGED: DerTheVaporeon, Team SALVAGED.
+-Living Armour - [Monster-Custom] [U] Living Armor by Sphealnuke: 
+ Animation by Sphealnuke.
+ Commissioned by ZarG.
+-Living Masterpiece - [Monster-Custom] [U] Blast Golem by Alexsplode:
+ Original Balrog sprite from Pocket Kingdom: Own the World.
+ Blast Golem animations by Alexsplode.
+ Scripting by Alexsplode.
+-Spirit - [Monster-Custom] [M] Sylph by Alexsplode:
+ Sylph animations by Alexsplode.
+ Scripting by Alexsplode.
+-Cleric (M) - [Priest-Base] [M] Repal v2 by Eldritch: Flasuban, Eldritch Abomination
+ 
+Map Sprites:
+-Pirate (F) - StreetHero
+-Princess - blood
+-Sentinel - Der, Pushwall
+-Lich - Ryn, N426
+-Hunter - MeatOfJustice
+-Adventurer - StreetHero, blood
+-Dread Fighter - Nuramon
+-Berserker (F) - Pikmin, Der
+-Werewolf - UltraxBlade
+-Tactician - SALVAGED
+-Mechanist - DATonDemand, Unknown
+-Doll - DATonDemand
+-Sceptre - Eldritch Abomination
+-Living Blade - Der
+-Living Armour - Sphealnuke, topazlight
+-Living Masterpiece - Alexsplode
+-Vengeance - Alexsplode
+-Spirit - Alexsplode
+-Zombie - Pikmin
+
+Class Cards:
+-Sceptre - Eldritch Abomination
+-Living Blade - Der
+-Living Armour - Sphealnuke
+-Living Masterpiece - SamirPlayz
+-Halberdier - TBA
+-Sentinel - Der
+-Dread Fighter - Nuramon
+-Hunter - Spud, Jj09
+-Berserker - ZoramineFae, Der
+-Pirate - HyperGammaSpaces
+
+Music:
+-TrikkiNikki - Rhapsody of the Forsaken (Castlevania Order of Ecclesia)
+-TrikkiNikki - An Empty Tome (Castlevania Order of Eccelsia)
+-TrikkiNikki - Heathern (Lock's Quest)
+-TrikkiNikki - Furio Tigre ~ Swinging the Tiger (Ace Attorney: Trials & Tribulations)
+-TrikkiNikki - Reminiscence ~ Shadow on Dusky Bridge (Ace Attorney: Trials & Tribulations)
+-TrikkiNikki - Cross-Examination - Moderato 2007 (Apollo Justice: Ace Attorney)
+-TrikkiNikki - Organ Jaws (Epic Battle Fantasy 2)
+-TrikkiNikki - A Bleeding Fight (Epic Battle Fantasy 4)
+-TrikkiNikki - Boss (Final Fantasy 4)
+-ArcherBias - Scattered and Lost (Celeste)
+-ArcherBias - Normal Battle (Pokémon Conquest)
+-ArcherBias - Deep Sea BassCoral Riff (Crypt of the Necrodancer)
+-SurfingKyogre - Uncontrollable (Xenoblade Chronicles X)
+-SurfingKyogre - Emperor Arvis (Fire Emblem 4)
+-SurfingKyogre - Power-Hungry Fool (Fire Emblem 9)
+-Sme - Venus Lighthouse (Golden Sun)
+-Sme - Bloody Tears (Castlevania II Simon's Quest)
+-Kaidras - Combat ~ Adversity (Triangle Strategy)
+
+Item Icons:
+-GoudaGrabber - Steel Longbow
+-GoudaGrabber - Command
+-GoudaGrabber - Book of Death
+-GoudaGrabber - Inevitable End
+-GoudaGrabber - Oldwane's Fang
+-GoudaGrabber - Acid Flask
+-GoudaGrabber - Character Scroll
+-GoudaGrabber - Perfect Reflection
+-GoudaGrabber - Dollcraft
+-GoudaGrabber - Encroaching Fog, Fog Level
+-GoudaGrabber - Eternal Blade
+-GoudaGrabber - Self-Assembly
+-GoudaGrabber - Promotion Tier
+-Zelix - Recap
+-Zelix - Saw
+-Zarg, SmithyGCN - Recurring
+-Zarg - Avenger
+-Ryan914 - Pistol
+-Batima - Flame Lance
+-FuriousHaunter - Finishing Touch
+
+Tilesets:
+-Desert Bastion - HyperGammaSpaces, ZoramineFae, Venobennu

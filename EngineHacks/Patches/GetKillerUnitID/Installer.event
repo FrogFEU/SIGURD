@@ -1,0 +1,8 @@
+
+ALIGN 4
+ASMC_GetKillerUnitID:
+#incbin "ASMC_GetKillerUnitID.dmp"
+
+ALIGN 4
+
+#define GetKillerUnitID "ASMC ASMC_GetKillerUnitID|1;"

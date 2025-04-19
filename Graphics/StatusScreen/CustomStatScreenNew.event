@@ -1,0 +1,29 @@
+ALIGN 4
+StatScreenPalette:
+#incext Png2Dmp --palette-only "ACSS2Red3.png"
+#incext Png2Dmp --palette-only "ACSS2Red3.png"
+#incext Png2Dmp --palette-only "ACSS2Red3.png"
+#incext Png2Dmp --palette-only "ACSS2Red3.png"
+
+ALIGN 4
+StatScreenBackground:
+#incext Png2Dmp --lz77 "ACSS2Red3.png"
+
+ALIGN 4
+RemoveGlowy:
+#incext Png2Dmp "RemoveGlowy.png" --lz77
+
+ALIGN 4
+StatScreenTSA:
+#incbin "8A05F10.bin"
+
+PUSH
+//ORG $88644
+//POIN StatScreenTSA
+ORG $88638
+POIN StatScreenBackground
+ORG $88640
+POIN StatScreenPalette
+ORG $88620
+POIN RemoveGlowy
+POP

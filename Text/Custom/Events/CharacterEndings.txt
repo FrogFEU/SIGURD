@@ -1,0 +1,69 @@
+## CharacterEndingTextMCTitle
+M. C., One-Hit Wonder[X]
+
+## CharacterEndingTextMCCard
+M. C. proceeded to lose in round 2 following his[N]
+first victory, and has never won a match since.[N]
+However, his one success inspired him to write[N]
+his 5th tale at last - featuring a pink-haired[N]
+bard saving his friend. It had a happy ending.[X]
+
+## CharacterEndingTextKenriTitle
+Kenri, Disaster Master[X]
+
+## CharacterEndingTextKenriCard
+Kenri kept assisting whichever Lore Weaver he[N]
+deemed most hopeless - usually to disastrous[N]
+results, but always a good story. He never saw[N]
+M. C. again, yet fondly remembered their time[N]
+together despite his newfound phobia of extras.[X]
+
+## CharacterEndingTextAthenaTitle
+Athena, Chicken Mad[X]
+
+## CharacterEndingTextAthenaCard
+Following her disastrous showing at The Pen, all[N]
+future Zigludo's Records entries featured horrid[N]
+beasts masquerading as chickens. She quickly[N]
+faded into obscurity, until 50 years later when[N]
+the genre of avian horror was established.[X]
+
+## CharacterEndingTextNogistTitle
+Nogist, Free At Last[X]
+
+## CharacterEndingTextNogistCard
+Nogist assisted a Lore Weaver one more time,[N]
+which led to the most one-sided match in The[N]
+Pen's history. She was then forbidden from[N]
+ever stepping foot in the arena again, to[N]
+everyone's relief - especially hers.[X]
+
+## CharacterEndingTextEmceeTitle
+Emcee, Forever Loud[X]
+
+## CharacterEndingTextEmceeCard
+While the aptly-named Emcee loved his job at[N]
+The Pen, it had an unfortunate impact on his[N]
+ability to speak at non-ear shattering volumes.[N]
+Still, he claimed it was but a small price to pay[N]
+in order to see every single match first hand.[X]
+
+## CharacterEndingTextGameMasterTitle
+The Game Master[X]
+
+## CharacterEndingTextGameMasterCard
+Nobody knows the Game Master's real name,[N]
+where she came from, how her powers work,[N]
+why she runs The Pen, who is the skeleton[N]
+in her closet, what she ate for breakfast,[N]
+or when will her cat leave my lap.[X]
+
+## CharacterEndingTextButlerTitle
+Random Guard, Storyteller[X]
+
+## CharacterEndingTextButlerCard
+And that was the story of M. C.'s first victory[N]
+and everything that happened afterwards.[N]
+What's that? Oh, you were asking about Seris'[N]
+first match? Of course, silly me. Our story begins[N]
+at May 14th, 11:54, in the arena's entrance...[X]

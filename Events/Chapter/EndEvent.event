@@ -1,0 +1,46 @@
+FADI 15
+ClearAll
+CAMERA_CENTERED [12, 9]
+LOAD2 0x2 CutsceneEndEventPlacement
+FADU 15
+STAL(15)
+MUSCSLOW 0x7FFF
+WARPIN [13, 1]
+LOAD2 0x2 CutsceneEndEventGameMasterPlacement
+ENUN
+ENDWARP
+// Enter GM text
+TEXTSTART
+TEXTSHOW EndEventTextGM1
+TEXTEND
+MUSC SongCrossExaminationModerato2007ID
+TEXTCONT
+TEXTEND
+REMA
+WARPOUT [14,9]
+REMU 0x72 // MA
+ENDWARP
+Text(EndEventTextGM2)
+WARPOUT [12,9]
+REMU 0x76 // GM
+ENDWARP
+STAL(30)
+MUSCSLOW 0x7FFF
+FADI 5
+SetBackground(0x0A) // Hallway
+CGText(EndEventTextLocationCard)
+MUSC SongAAISolutionID
+Text(EndEventTextMCKenri)
+STAL(30)
+MUSCSLOW 0x7FFF
+FADI 2
+DISA MC
+DISA Apprentice
+LOAD1 1 CutsceneEndEventRecruitAllCharactersPlacement
+MUSC SongAnEmptyTomeID
+CALL 0xA0036C //Character Endings
+SetBackground(FinCG_BG)
+STAL(180)
+MNTS 0x1 //return to title screen
+NoFade
+ENDA

@@ -1,0 +1,49 @@
+#define SteelLongbow 0xbd
+#define CommandStaff 0xbe
+#define BookOfDeath 0xbf
+#define InevitableEnd 0xc0
+#define EternalSoldierFangs 0xc1
+#define FlameLance 0xc2
+#define OldwanesThorn 0xc3
+#define RecapStaff 0xc4
+#define Pistol 0xc5
+#define AcidFlask 0xc6
+#define PirateQueenSummonItem 0xc7
+#define MorbiusSummonItem 0xc8
+#define EternalSoldierSummonItem 0xc9
+#define DragonSlayerSummonItem 0xca
+#define Provoking 0xe7
+
+#define FinishingTouch 0xcb
+#define PerfectReflection 0xcc
+#define Dollcraft 0xcd
+#define BlindingLight 0xce
+#define EncroachingFog 0xcf
+#define FogLevel 0xd0
+#define EternalBlade 0xd1
+#define UnfinishedMasterwork 0xd2
+#define MasterworkProgress 0xd3
+#define Dethrone 0xd4
+#define Turn 0xd5
+#define Judge 0xd6
+#define Soultaker 0xd7
+#define Erase 0xd8
+#define Recurring 0xd9
+#define Avenger 0xda
+#define DollcraftPlus 0xdb
+#define EncroachingFogPlus 0xdc
+#define UnfinishedMasterworkPlus 0xdd
+#define Saw 0xde
+#define Incorporeal 0xdf
+#define Regenerating 0xe0
+#define AvengerPlus 0xe1
+#define SoulLink 0xe9
+
+#define EOC2136SummonItem 0xe3
+#define EOC3811SummonItem 0xe4
+#define EOC5397SummonItem 0xe5
+#define EOC6048SummonItem 0xe6
+#define Exposition 0xe8
+
+
+#define Arbalest 0xe2

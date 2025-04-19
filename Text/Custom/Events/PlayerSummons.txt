@@ -1,0 +1,100 @@
+## PirateQueenSummonTaleName
+Summon the Pirate Queen[X]
+
+## PirateQueenSummonTalePast
+It was pure luck which reunited the kindly[N]
+King Leonard and his long-lost daughter,[AN]
+when Valoria and her reckless pirate crew[N]
+boarded the royal flagship.[A][X]
+
+## PirateQueenSummonTalePresent
+It was a joyous occasion for both,[AN]
+as he had no heirs, and she was quick[N]
+to adapt to life in the palace.[AN]
+All in the kingdom praised the miracle,[N]
+yet the celebration was short-lived -[AN]
+for the King passed soon after from a[N]
+mysterious illness.[A][X]
+
+## PirateQueenSummonTaleFuture
+The populace grieved the loss of their[N]
+beloved king,[A] but their troubles were[N]
+only just beginning.[AN]
+For the newly crowned Queen paid little[N]
+mind to the well-being of her subjects -[AN]
+her true goal had always been treasure, and[N]
+she now had an entire kingdom to pillage.[A][X]
+
+## MorbiusSummonTaleName
+Summon the Dark Lord[X]
+
+## MorbiusSummonTalePast
+The church of the Goddess of Life gladly[N]
+welcomed the noble Morbius into its ranks.[AN]
+However, he cared not for Her teachings -[AN]
+rather, he was seeking a way to revive Her[N]
+dreaded sister, the Goddess of Death.[A][X]
+
+## MorbiusSummonTalePresent
+By the time the church found out about his[N]
+vile machinations, it was too late.[AN]
+The mercenaries they sent to dispose of him[N]
+arrived only to witness the Goddess' revival.[A][X]
+
+## MorbiusSummonTaleFuture
+Yet death does not give, it only takes.[AN]
+And as Morbius was gloating to his[N]
+adversaries, she struck him down.[AN]
+Her legions needed an undead figurehead,[N]
+and he seemed perfect for the task.[A][X]
+
+## EternalSoldierSummonTaleName
+Summon the Eternal Soldier[X]
+
+## EternalSoldierSummonTalePast
+When Prince Saturn came to Bill's village[N]
+recruiting soldiers to fight the invaders,[AN]
+Bill answered the call.[AN]
+For he was a simple man,[N]
+and he did what he was told.[A][X]
+
+## EternalSoldierSummonTalePresent
+And as King Saturn's campaign expanded[N]
+ever further,[A] engulfing the entire continent[N]
+in the flames of wars,[A] Bill continued fighting[N]
+without question.[AN]
+For he was but a soldier,[N]
+and he did what he was told.[A][X]
+
+## EternalSoldierSummonTaleFuture
+So once Emperor Saturn begun purging all[N]
+his lands of the growing rebellion,[AN]
+Bill willingly burned his own village[N]
+down for the glory of the Empire.[AN]
+For all he knew was loyalty,[N]
+and he did what he was told.[A][X]
+
+## DragonSlayerSummonTaleName
+Summon the Dragon Slayer[X]
+
+## DragonSlayerSummonTalePast
+Sintel was away on a hunt while the dragon[N]
+burned the town of Rowance down.[AN]
+By the time she returned,[AN]
+she found only the ashes of the dead and[N]
+the dragon's retreating silhouette.[A][X]
+
+## DragonSlayerSummonTalePresent
+She journeyed far and wide, seeking a way to[N]
+slay the monster and avenge the fallen.[AN]
+Until, at long last, she found the legendary[N]
+Oldwane's Fang - and with it in hand,[AN]
+set out to end the beast's reign of terror.[A][X]
+
+## DragonSlayerSummonTaleFuture
+But such power always comes with a price.[AN]
+The blade's hunger was not sated by the[N]
+dragon's blood alone,[A] and it took Sintel's[N]
+soul as well with it.[AN]
+And so, her tale ended as it had begun -[N]
+with nothing but death and destruction.[A][X]

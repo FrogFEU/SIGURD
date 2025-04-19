@@ -1,0 +1,25 @@
+#define SongTurnaboutAirlinesIntroID 0x3F // Unit death
+#define SongCrossExaminationModerato2007ID 0x3 // No idea
+#define SongWhatComesFromDarknessID 0x5 // No idea
+#define SongYatagarasuID 0x43 // Main theme
+#define SongFurioTigreID 0x6 // No idea
+#define SongUnendingPreludeID 0x4 // No idea
+#define SongEmperorArvisID 0x7 // No idea
+#define SongPowerHungryFoolID 0x8 // No idea
+#define SongSceneryAtDuskyBridgeID 0x28 // No idea
+#define SongOrganJawsID 0x3E // Game over
+#define SongABleedingFightID 0x29 // No idea
+#define SongFF4BossID 0x2A // No idea
+#define SongBloodyTearsID 0x2B // No idea
+#define SongKayFaradayID 0x2C // No idea
+#define SongAAISolutionID 0x2D // No idea
+#define SongAnEmptyTomeID 0x2E // No idea
+
+#define SongNormalBattleID 0x9 // Distant Roads
+#define SongRhapsodyOfTheForsakenID 0xA // Uh map theme 2
+#define SongUncontrollableID 0xB // Uh map theme 3
+#define SongVenusLighthouseID 0xC // Uh map theme 4 (?)
+#define SongHeathernID 0x13 // Enemy theme 1
+#define SongScatteredAndLostID 0x12 // Enemy theme 2
+#define SongDeepSeaBassID 0x11 // ???
+#define SongCombatAdversityID 0x14 // ???

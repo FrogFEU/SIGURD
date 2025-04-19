@@ -1,0 +1,72 @@
+// OC Classes
+
+#define OCCPirate 0x80
+#define OCCPrincess 0x81 
+#define OCCQueen 0x82
+#define OCCBerserker 0x83
+#define OCCPriest 0x84 
+#define OCCDruid 0x85 
+#define OCCLich 0x86
+#define OCCBishop 0x87
+#define OCCSoldier 0x88
+#define OCCHalberdier 0x89
+#define OCCSentinel 0x8A 
+#define OCCWerewolf 0x8B 
+#define OCCHunter 0x8C 
+#define OCCAdventurer 0x8D 
+#define OCCDreadFighter 0x8E 
+#define OCCDragonRider 0x8F 
+#define LoreWeaver 0x90 
+#undef Bard
+#define Bard 0x91 
+
+#define EOCCMechanist 0x92
+#define EOCCVengeance 0x93
+#define EOCCSpirit 0x94
+#define EOCCSceptre 0x95
+#define EOCCLivingBlade 0x96
+#define EOCCLivingArmour 0x97
+#define EOCCLivingMasterpiece 0x98
+#define EOCCDoll 0x99
+
+// Generic Enemies
+
+#undef Myrmidon
+#undef Soldier
+#undef Pirate
+//#undef Hunter
+#undef Cleric
+#undef Mage
+#undef Revenant
+
+#define Myrmidon 0xa0
+#define Soldier 0xa1
+#define Pirate 0xa2
+#define Hunter 0xa3
+#define Cleric 0xa4
+#define Mage 0xa5
+#define Revenant 0xa6
+
+#undef Swordmaster
+//#undef Halberdier
+#undef Berserker
+//#undef Adventurer
+#undef Bishop
+#undef Druid
+#undef WyvernLord
+
+#define Swordmaster 0xb0
+#define Halberdier 0xb1
+#define Berserker 0xb2
+#define Adventurer 0xb3
+#define Bishop 0xb4
+#define Druid 0xb5
+#define WyvernLord 0xb6
+
+//#undef DreadFighter
+//#undef Sentinel
+#undef Necromancer
+
+#define DreadFighter 0xc0
+#define Sentinel 0xc1 
+#define Necromancer 0xc4

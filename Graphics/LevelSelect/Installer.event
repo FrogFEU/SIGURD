@@ -1,0 +1,10 @@
+ALIGN 4
+LevelSelect:
+#incbin "LevelSelect_08A28A0C.dmp" 
+
+PUSH
+ORG $AC188
+POIN LevelSelect
+//ORG 0xAC190
+//POIN DifficultySelectPal
+POP

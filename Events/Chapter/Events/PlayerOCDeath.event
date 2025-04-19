@@ -1,0 +1,48 @@
+PlayerOCDeathEvent:
+ENUF FlagPlayerOCDied
+COUNTER_DEC CounterPlayerOCs
+COUNTER_CHECK CounterPlayerOCs
+BNE 20 sC s0
+Text(PreGameOverText)
+StartGameOver
+GOTO 120
+LABEL 20
+CALL POCDeathUpdateMusic
+CALL POCDeathMCReaction
+LABEL 120
+NoFade
+ENDA
+
+POCDeathUpdateMusic:
+COUNTER_CHECK CounterEnemyOCs
+SVAL 1 1
+BEQ 20 sC s1
+SetChapterSong(SongUncontrollableID, SongDeepSeaBassID, SongUncontrollableID, 1)
+GOTO 120
+LABEL 20
+SetChapterSong(SongCombatAdversityID, SongVenusLighthouseID, SongCombatAdversityID, 1)
+LABEL 120
+NoFade
+ENDA
+
+POCDeathMCReaction:
+MUSC SongTurnaboutAirlinesIntroID
+SVAL 1 1
+SVAL 2 2
+SVAL 3 3
+COUNTER_CHECK CounterPlayerOCs
+BNE 21 sC s1
+Text(MCTextOCDeath3)
+GOTO 120
+LABEL 21
+BNE 22 sC s2
+Text(MCTextOCDeath2)
+GOTO 120
+LABEL 22
+BNE 23 sC s3
+Text(MCTextOCDeath1)
+GOTO 120
+LABEL 23
+LABEL 120
+NoFade
+ENDA

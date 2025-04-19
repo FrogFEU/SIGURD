@@ -1,0 +1,98 @@
+
+// Generated
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+#define FirstClassCardID 0xA9
+
+#define PirateClassCard (FirstClassCardID + 0)
+#define LivingArmourClassCard (FirstClassCardID + 1)
+#define SentinelClassCard (FirstClassCardID + 2)
+#define SceptreClassCard (FirstClassCardID + 3)
+#define DreadFighterClassCard (FirstClassCardID + 4)
+#define HunterClassCard (FirstClassCardID + 5)
+#define LivingBladeClassCard (FirstClassCardID + 6)
+#define HalberdierClassCard (FirstClassCardID + 7)
+#define BerserkerClassCard (FirstClassCardID + 8)
+#define LivingMasterpieceClassCard (FirstClassCardID + 9)
+
+
+
+ALIGN 4
+PirateClassCardData:
+#incbin "Dmp/Pirate.dmp"
+ALIGN 4
+PirateClassCardPal:
+#incbin "Dmp/Pirate.png_pal.dmp"
+setCardEntry(PirateClassCard, PirateClassCardData, PirateClassCardPal)
+
+ALIGN 4
+LivingArmourClassCardData:
+#incbin "Dmp/LivingArmour.dmp"
+ALIGN 4
+LivingArmourClassCardPal:
+#incbin "Dmp/LivingArmour.png_pal.dmp"
+setCardEntry(LivingArmourClassCard, LivingArmourClassCardData, LivingArmourClassCardPal)
+
+ALIGN 4
+SentinelClassCardData:
+#incbin "Dmp/Sentinel.dmp"
+ALIGN 4
+SentinelClassCardPal:
+#incbin "Dmp/Sentinel.png_pal.dmp"
+setCardEntry(SentinelClassCard, SentinelClassCardData, SentinelClassCardPal)
+
+ALIGN 4
+SceptreClassCardData:
+#incbin "Dmp/Sceptre.dmp"
+ALIGN 4
+SceptreClassCardPal:
+#incbin "Dmp/Sceptre.png_pal.dmp"
+setCardEntry(SceptreClassCard, SceptreClassCardData, SceptreClassCardPal)
+
+ALIGN 4
+DreadFighterClassCardData:
+#incbin "Dmp/DreadFighter.dmp"
+ALIGN 4
+DreadFighterClassCardPal:
+#incbin "Dmp/DreadFighter.png_pal.dmp"
+setCardEntry(DreadFighterClassCard, DreadFighterClassCardData, DreadFighterClassCardPal)
+
+ALIGN 4
+HunterClassCardData:
+#incbin "Dmp/Hunter.dmp"
+ALIGN 4
+HunterClassCardPal:
+#incbin "Dmp/Hunter.png_pal.dmp"
+setCardEntry(HunterClassCard, HunterClassCardData, HunterClassCardPal)
+
+ALIGN 4
+LivingBladeClassCardData:
+#incbin "Dmp/LivingBlade.dmp"
+ALIGN 4
+LivingBladeClassCardPal:
+#incbin "Dmp/LivingBlade.png_pal.dmp"
+setCardEntry(LivingBladeClassCard, LivingBladeClassCardData, LivingBladeClassCardPal)
+
+ALIGN 4
+HalberdierClassCardData:
+#incbin "Dmp/Halberdier.dmp"
+ALIGN 4
+HalberdierClassCardPal:
+#incbin "Dmp/Halberdier.png_pal.dmp"
+setCardEntry(HalberdierClassCard, HalberdierClassCardData, HalberdierClassCardPal)
+
+ALIGN 4
+BerserkerClassCardData:
+#incbin "Dmp/Berserker.dmp"
+ALIGN 4
+BerserkerClassCardPal:
+#incbin "Dmp/Berserker.png_pal.dmp"
+setCardEntry(BerserkerClassCard, BerserkerClassCardData, BerserkerClassCardPal)
+
+ALIGN 4
+LivingMasterpieceClassCardData:
+#incbin "Dmp/LivingMasterpiece.dmp"
+ALIGN 4
+LivingMasterpieceClassCardPal:
+#incbin "Dmp/LivingMasterpiece.png_pal.dmp"
+setCardEntry(LivingMasterpieceClassCard, LivingMasterpieceClassCardData, LivingMasterpieceClassCardPal)
+

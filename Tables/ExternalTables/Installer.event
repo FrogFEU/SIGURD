@@ -1,0 +1,26 @@
+ALIGN 4
+#include "SoundRoom.event"
+
+ALIGN 4
+#include "PortraitHeight.event"
+
+ALIGN 4
+//#include "PersonalSkillLists.event"
+
+ALIGN 4
+#include "WeaponTriangle.event"
+
+ALIGN 4
+#include "BossBGM.event"
+
+ALIGN 4
+#include "CharacterEndings.event"
+
+ALIGN 4
+#include "FanFics.event"
+
+ALIGN 4
+#include "Summons.event"
+
+ALIGN 4
+#include "EOC2136Data.event"

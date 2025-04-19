@@ -1,0 +1,89 @@
+// Forms
+
+#define AssignFormsEvent(UnitID, PrevID, NextID) "SVAL 1 UnitID; SVAL 2 PrevID; SVAL 3 NextID; ASMC AssignFormsEventInternal;"
+
+#define ReplaceUnitIDEvent(UnitID, NewID) "SVAL 1 UnitID; SVAL 2 NewID; ASMC ReplaceUnitIDEventInternal;"
+#define ReplaceUnitIDEventNoArgs "ASMC ReplaceUnitIDEventInternal;"
+
+// Fan Fics
+
+#define RefreshUnitEvent(UnitID) "SVAL 1 UnitID; ASMC RefreshUnitEventInternal;"
+#define RefreshUnitEventNoArgs "ASMC RefreshUnitEventInternal;"
+
+#define GetFanFicRevertUnitEvent "ASMC GetFanFicRevertUnitEventInternal;"
+
+// Summons
+
+#define HasSummonItemsEvent(UnitID) "SVAL 1 UnitID; ASMC HasSummonItemsEventInternal;"
+#define SummonItemsToSplitMenuChoicesEvent(UnitID) "SVAL 1 UnitID; ASMC SummonItemsToSplitMenuChoicesEventInternal;"
+
+// Choice result in s2
+#define SplitMenuChoiceToSummonUnitIDEvent(UnitID) "SVAL 1 UnitID; ASMC SplitMenuChoiceToSummonUnitIDEventInternal;"
+
+#define MoveToSummonPositionEventNoArgs "ASMC MoveToSummonPositionEventInternal;"
+#define MoveToSummonPositionEvent(SummonerID, ToSummonID) "SVAL 1 SummonerID; SVAL 2 ToSummonID; ASMC MoveToSummonPositionEventInternal;"
+
+// Split Menus
+
+// Params: s1-s7, representing text IDs, terminated by 0.
+
+#define ShowSplitMenuEvent                                                                          "EVBIT_MODIFY 3; FADU 255; ASMC ShowSplitMenuEventInternal;                                                                                                                 EVBIT_MODIFY 0;"
+#define ShowSplitMenuEvent1Option(Option1)                                                          "EVBIT_MODIFY 3; FADU 255; SVAL 1 Option1; SVAL 2 0      ; ASMC ShowSplitMenuEventInternal;                                                                                 EVBIT_MODIFY 0;"
+#define ShowSplitMenuEvent2Options(Option1, Option2)                                                "EVBIT_MODIFY 3; FADU 255; SVAL 1 Option1; SVAL 2 Option2; SVAL 3 0      ; ASMC ShowSplitMenuEventInternal;                                                                 EVBIT_MODIFY 0;"
+#define ShowSplitMenuEvent3Options(Option1, Option2, Option3)                                       "EVBIT_MODIFY 3; FADU 255; SVAL 1 Option1; SVAL 2 Option2; SVAL 3 Option3; SVAL 4 0      ; ASMC ShowSplitMenuEventInternal;                                                 EVBIT_MODIFY 0;"
+#define ShowSplitMenuEvent4Options(Option1, Option2, Option3, Option4)                              "EVBIT_MODIFY 3; FADU 255; SVAL 1 Option1; SVAL 2 Option2; SVAL 3 Option3; SVAL 4 Option4; SVAL 5 0      ; ASMC ShowSplitMenuEventInternal;                                 EVBIT_MODIFY 0;"
+#define ShowSplitMenuEvent5Options(Option1, Option2, Option3, Option4, Option5)                     "EVBIT_MODIFY 3; FADU 255; SVAL 1 Option1; SVAL 2 Option2; SVAL 3 Option3; SVAL 4 Option4; SVAL 5 Option5; SVAL 6 0      ; ASMC ShowSplitMenuEventInternal;                 EVBIT_MODIFY 0;"
+#define ShowSplitMenuEvent6Options(Option1, Option2, Option3, Option4, Option5, Option6)            "EVBIT_MODIFY 3; FADU 255; SVAL 1 Option1; SVAL 2 Option2; SVAL 3 Option3; SVAL 4 Option4; SVAL 5 Option5; SVAL 6 Option6; SVAL 7 0      ; ASMC ShowSplitMenuEventInternal; EVBIT_MODIFY 0;"
+#define ShowSplitMenuEvent7Options(Option1, Option2, Option3, Option4, Option5, Option6, Option7)   "EVBIT_MODIFY 3; FADU 255; SVAL 1 Option1; SVAL 2 Option2; SVAL 3 Option3; SVAL 4 Option4; SVAL 5 Option5; SVAL 6 Option6; SVAL 7 Option7; ASMC ShowSplitMenuEventInternal; EVBIT_MODIFY 0;"
+
+// Enemy OCs
+
+// #6048
+
+#define IncreaseFogLevelEvent "ASMC IncreaseFogLevelEventInternal;"
+
+// #3811
+
+#define GetStrongestPlayerSummonEvent "ASMC GetStrongestPlayerSummonEventInternal;"
+
+#define CopyStatsEventNoArgs "ASMC CopyStatsEventInternal;"
+#define CopyStatsEvent(DestinationID, SourceID) "SVAL 1 DestinationID; SVAL 2 SourceID; ASMC CopyStatsEventInternal;"
+
+// #2136
+
+#define EOCKillerUnitIDToFlagEventNoArgs "ASMC EOCKillerUnitIDToFlagEventInternal;"
+#define EOCKillerUnitIDToFlagEvent(KillerID) "SVAL 1 KillerID; ASMC EOCKillerUnitIDToFlagEventInternal;"
+
+#define EOCKillerFlagToWeaponEvent "ASMC EOCKillerFlagToWeaponEventInternal;"
+
+#define EOCDeathStoreCoordsSomewhereDumbEventNoArgs "ASMC EOCDeathStoreCoordsSomewhereDumbEventInternal;"
+#define EOCDeathStoreCoordsSomewhereDumbEvent(UnitID, Coords) "SVAL 1 UnitID; SVAL 2 Coords; ASMC EOCDeathStoreCoordsSomewhereDumbEventInternal;"
+
+#define EOCDeathRecoverCoordsFromSomewhereDumbEventNoArgs "ASMC EOCDeathRecoverCoordsFromSomewhereDumbEventInternal;"
+#define EOCDeathRecoverCoordsFromSomewhereDumbEvent(UnitID) "SVAL 1 UnitID; ASMC EOCDeathRecoverCoordsFromSomewhereDumbEventInternal;"
+
+#define EOCDeathStoreActiveUnitSomewhereDumbEvent(UnitID) "SVAL 1 UnitID; ASMC EOCDeathStoreActiveUnitSomewhereDumbEventInternal;"
+#define EOCDeathRecoverActiveUnitFromSomewhereDumbEventInternal(UnitID) "SVAL 1 UnitID; ASMC EOCDeathRecoverActiveUnitFromSomewhereDumbEventInternal;"
+
+// Misc
+
+#define SilentRemoveItemEventNoArgs "ASMC SilentRemoveItemEventInternal;"
+#define SilentRemoveItemEvent(UnitID, ItemID) "SVAL 1 UnitID; SVAL 2 ItemID; ASMC SilentRemoveItemEventInternal;"
+
+#define HasItemEvent(UnitID, ItemID) "SVAL 1 UnitID; SVAL 2 ItemID; ASMC HasItemEventInternal"
+#define HasItemWithFullUsesEvent(UnitID, ItemID) "SVAL 1 UnitID; SVAL 2 ItemID; ASMC HasItemWithFullUsesEventInternal"
+
+#define RemoveAllStatModsEvent "ASMC RemoveAllStatModsEventInternal;"
+
+#define SetItemUsesEvent(UnitID, ItemID, Uses) "SVAL 1 UnitID; SVAL 2 ItemID; SVAL 3 Uses; ASMC SetItemUsesEventInternal;"
+#define RestoreItemUsesEvent(UnitID, ItemID, Uses) "SVAL 1 UnitID; SVAL 2 ItemID; SVAL 3 Uses; ASMC RestoreItemUsesEventInternal;"
+
+#define SetItemByIndexEventNoArgs "ASMC SetItemByIndexEventInternal;"
+#define SetItemByIndexEvent(UnitID, ItemID, Index) "SVAL 1 UnitID; SVAL 2 ItemID; SVAL 3 Index; ASMC SetItemByIndexEventInternal;"
+
+#define InstantMoveToPositionEventNoArgs "ASMC InstantMoveToPositionEventInternal;"
+#define InstantMoveToPositionEvent(UnitID, Coords) "SVAL 1 UnitID; SVAL 2 Coords; ASMC InstantMoveToPositionEventInternal;"
+
+#define ShallowReclassEvent(UnitID, ClassID) "SVAL 1 UnitID; SVAL 2 ClassID; ASMC ShallowReclassEventInternal;"
+
+#define TakeNonLethalDamageEvent(UnitID, Amount) "SVAL 1 UnitID; SVAL 2 Amount; ASMC TakeNonLethalDamageEventInternal;"

@@ -1,0 +1,310 @@
+//Generated! Do not edit!
+
+ALIGN 4
+BlankMugData:
+#incbin "png/Blank_mug.dmp"
+#incbin "png/Blank_frames.dmp"
+#incbin "png/Blank_palette.dmp"
+#incbin "png/Blank_minimug.dmp"
+#ifndef BlankMug
+  #define BlankMug (FirstMugID+1)
+#endif
+MugEntry(BlankMug, BlankMugData, 2, 5, 3, 3)
+
+ALIGN 4
+EOC3811MugData:
+#incbin "png/EnemyOCs/EOC3811_mug.dmp"
+#incbin "png/EnemyOCs/EOC3811_frames.dmp"
+#incbin "png/EnemyOCs/EOC3811_palette.dmp"
+#incbin "png/EnemyOCs/EOC3811_minimug.dmp"
+#ifndef EOC3811Mug
+  #define EOC3811Mug (FirstMugID+2)
+#endif
+MugEntry(EOC3811Mug, EOC3811MugData, 3, 5, 3, 2)
+
+ALIGN 4
+EOC2136MugData:
+#incbin "png/EnemyOCs/EOC2136_mug.dmp"
+#incbin "png/EnemyOCs/EOC2136_frames.dmp"
+#incbin "png/EnemyOCs/EOC2136_palette.dmp"
+#incbin "png/EnemyOCs/EOC2136_minimug.dmp"
+#ifndef EOC2136Mug
+  #define EOC2136Mug (FirstMugID+3)
+#endif
+MugEntry(EOC2136Mug, EOC2136MugData, 2, 6, 2, 4)
+
+ALIGN 4
+EOC6048MugData:
+#incbin "png/EnemyOCs/EOC6048_mug.dmp"
+#incbin "png/EnemyOCs/EOC6048_frames.dmp"
+#incbin "png/EnemyOCs/EOC6048_palette.dmp"
+#incbin "png/EnemyOCs/EOC6048_minimug.dmp"
+#ifndef EOC6048Mug
+  #define EOC6048Mug (FirstMugID+4)
+#endif
+MugEntry(EOC6048Mug, EOC6048MugData, 2, 7, 3, 5)
+
+ALIGN 4
+MCMirroredMugData:
+#incbin "png/Characters/MCMirrored_mug.dmp"
+#incbin "png/Characters/MCMirrored_frames.dmp"
+#incbin "png/Characters/MCMirrored_palette.dmp"
+#incbin "png/Characters/MCMirrored_minimug.dmp"
+#ifndef MCMirroredMug
+  #define MCMirroredMug (FirstMugID+5)
+#endif
+MugEntry(MCMirroredMug, MCMirroredMugData, 5, 5, 5, 3)
+
+ALIGN 4
+MCMugData:
+#incbin "png/Characters/MC_mug.dmp"
+#incbin "png/Characters/MC_frames.dmp"
+#incbin "png/Characters/MC_palette.dmp"
+#incbin "png/Characters/MC_minimug.dmp"
+#ifndef MCMug
+  #define MCMug (FirstMugID+6)
+#endif
+MugEntry(MCMug, MCMugData, 3, 5, 3, 3)
+
+ALIGN 4
+EmceeMugData:
+#incbin "png/Characters/Emcee_mug.dmp"
+#incbin "png/Characters/Emcee_frames.dmp"
+#incbin "png/Characters/Emcee_palette.dmp"
+#incbin "png/Characters/Emcee_minimug.dmp"
+#ifndef EmceeMug
+  #define EmceeMug (FirstMugID+7)
+#endif
+MugEntry(EmceeMug, EmceeMugData, 3, 4, 2, 2)
+
+ALIGN 4
+EvilApprenticeMugData:
+#incbin "png/Characters/EvilApprentice_mug.dmp"
+#incbin "png/Characters/EvilApprentice_frames.dmp"
+#incbin "png/Characters/EvilApprentice_palette.dmp"
+#incbin "png/Characters/EvilApprentice_minimug.dmp"
+#ifndef EvilApprenticeMug
+  #define EvilApprenticeMug (FirstMugID+8)
+#endif
+MugEntry(EvilApprenticeMug, EvilApprenticeMugData, 3, 6, 3, 4)
+
+ALIGN 4
+MAMugData:
+#incbin "png/Characters/MA_mug.dmp"
+#incbin "png/Characters/MA_frames.dmp"
+#incbin "png/Characters/MA_palette.dmp"
+#incbin "png/Characters/MA_minimug.dmp"
+#ifndef MAMug
+  #define MAMug (FirstMugID+9)
+#endif
+MugEntry(MAMug, MAMugData, 2, 5, 3, 3)
+
+ALIGN 4
+ApprenticeMugData:
+#incbin "png/Characters/Apprentice_mug.dmp"
+#incbin "png/Characters/Apprentice_frames.dmp"
+#incbin "png/Characters/Apprentice_palette.dmp"
+#incbin "png/Characters/Apprentice_minimug.dmp"
+#ifndef ApprenticeMug
+  #define ApprenticeMug (FirstMugID+10)
+#endif
+MugEntry(ApprenticeMug, ApprenticeMugData, 3, 5, 3, 3)
+
+ALIGN 4
+GameMasterMugData:
+#incbin "png/Characters/GameMaster_mug.dmp"
+#incbin "png/Characters/GameMaster_frames.dmp"
+#incbin "png/Characters/GameMaster_palette.dmp"
+#incbin "png/Characters/GameMaster_minimug.dmp"
+#ifndef GameMasterMug
+  #define GameMasterMug (FirstMugID+11)
+#endif
+MugEntry(GameMasterMug, GameMasterMugData, 3, 5, 3, 3)
+
+ALIGN 4
+ButlerMugData:
+#incbin "png/Characters/Butler_mug.dmp"
+#incbin "png/Characters/Butler_frames.dmp"
+#incbin "png/Characters/Butler_palette.dmp"
+#incbin "png/Characters/Butler_minimug.dmp"
+#ifndef ButlerMug
+  #define ButlerMug (FirstMugID+12)
+#endif
+MugEntry(ButlerMug, ButlerMugData, 3, 5, 3, 3)
+
+ALIGN 4
+DragonSlayerFanFicMugData:
+#incbin "png/PlayerOCs/DragonSlayerFanFic_mug.dmp"
+#incbin "png/PlayerOCs/DragonSlayerFanFic_frames.dmp"
+#incbin "png/PlayerOCs/DragonSlayerFanFic_palette.dmp"
+#incbin "png/PlayerOCs/DragonSlayerFanFic_minimug.dmp"
+#ifndef DragonSlayerFanFicMug
+  #define DragonSlayerFanFicMug (FirstMugID+13)
+#endif
+MugEntry(DragonSlayerFanFicMug, DragonSlayerFanFicMugData, 3, 6, 3, 4)
+
+ALIGN 4
+DragonSlayer1MugData:
+#incbin "png/PlayerOCs/DragonSlayer1_mug.dmp"
+#incbin "png/PlayerOCs/DragonSlayer1_frames.dmp"
+#incbin "png/PlayerOCs/DragonSlayer1_palette.dmp"
+#incbin "png/PlayerOCs/DragonSlayer1_minimug.dmp"
+#ifndef DragonSlayer1Mug
+  #define DragonSlayer1Mug (FirstMugID+14)
+#endif
+MugEntry(DragonSlayer1Mug, DragonSlayer1MugData, 3, 6, 3, 4)
+
+ALIGN 4
+Morbius1MugData:
+#incbin "png/PlayerOCs/Morbius1_mug.dmp"
+#incbin "png/PlayerOCs/Morbius1_frames.dmp"
+#incbin "png/PlayerOCs/Morbius1_palette.dmp"
+#incbin "png/PlayerOCs/Morbius1_minimug.dmp"
+#ifndef Morbius1Mug
+  #define Morbius1Mug (FirstMugID+15)
+#endif
+MugEntry(Morbius1Mug, Morbius1MugData, 3, 5, 3, 3)
+
+ALIGN 4
+MorbiusFanFicMugData:
+#incbin "png/PlayerOCs/MorbiusFanFic_mug.dmp"
+#incbin "png/PlayerOCs/MorbiusFanFic_frames.dmp"
+#incbin "png/PlayerOCs/MorbiusFanFic_palette.dmp"
+#incbin "png/PlayerOCs/MorbiusFanFic_minimug.dmp"
+#ifndef MorbiusFanFicMug
+  #define MorbiusFanFicMug (FirstMugID+16)
+#endif
+MugEntry(MorbiusFanFicMug, MorbiusFanFicMugData, 3, 5, 3, 3)
+
+ALIGN 4
+EternalSoldier3MugData:
+#incbin "png/PlayerOCs/EternalSoldier3_mug.dmp"
+#incbin "png/PlayerOCs/EternalSoldier3_frames.dmp"
+#incbin "png/PlayerOCs/EternalSoldier3_palette.dmp"
+#incbin "png/PlayerOCs/EternalSoldier3_minimug.dmp"
+#ifndef EternalSoldier3Mug
+  #define EternalSoldier3Mug (FirstMugID+17)
+#endif
+MugEntry(EternalSoldier3Mug, EternalSoldier3MugData, 3, 6, 3, 4)
+
+ALIGN 4
+PirateQueenFanFicMugData:
+#incbin "png/PlayerOCs/PirateQueenFanFic_mug.dmp"
+#incbin "png/PlayerOCs/PirateQueenFanFic_frames.dmp"
+#incbin "png/PlayerOCs/PirateQueenFanFic_palette.dmp"
+#incbin "png/PlayerOCs/PirateQueenFanFic_minimug.dmp"
+#ifndef PirateQueenFanFicMug
+  #define PirateQueenFanFicMug (FirstMugID+18)
+#endif
+MugEntry(PirateQueenFanFicMug, PirateQueenFanFicMugData, 3, 6, 3, 4)
+
+ALIGN 4
+DragonSlayer3MugData:
+#incbin "png/PlayerOCs/DragonSlayer3_mug.dmp"
+#incbin "png/PlayerOCs/DragonSlayer3_frames.dmp"
+#incbin "png/PlayerOCs/DragonSlayer3_palette.dmp"
+#incbin "png/PlayerOCs/DragonSlayer3_minimug.dmp"
+#ifndef DragonSlayer3Mug
+  #define DragonSlayer3Mug (FirstMugID+19)
+#endif
+MugEntry(DragonSlayer3Mug, DragonSlayer3MugData, 3, 6, 3, 4)
+
+ALIGN 4
+PirateQueen3MugData:
+#incbin "png/PlayerOCs/PirateQueen3_mug.dmp"
+#incbin "png/PlayerOCs/PirateQueen3_frames.dmp"
+#incbin "png/PlayerOCs/PirateQueen3_palette.dmp"
+#incbin "png/PlayerOCs/PirateQueen3_minimug.dmp"
+#ifndef PirateQueen3Mug
+  #define PirateQueen3Mug (FirstMugID+20)
+#endif
+MugEntry(PirateQueen3Mug, PirateQueen3MugData, 3, 6, 3, 4)
+
+ALIGN 4
+EternalSoldier2MugData:
+#incbin "png/PlayerOCs/EternalSoldier2_mug.dmp"
+#incbin "png/PlayerOCs/EternalSoldier2_frames.dmp"
+#incbin "png/PlayerOCs/EternalSoldier2_palette.dmp"
+#incbin "png/PlayerOCs/EternalSoldier2_minimug.dmp"
+#ifndef EternalSoldier2Mug
+  #define EternalSoldier2Mug (FirstMugID+21)
+#endif
+MugEntry(EternalSoldier2Mug, EternalSoldier2MugData, 3, 6, 3, 4)
+
+ALIGN 4
+DragonSlayer2MugData:
+#incbin "png/PlayerOCs/DragonSlayer2_mug.dmp"
+#incbin "png/PlayerOCs/DragonSlayer2_frames.dmp"
+#incbin "png/PlayerOCs/DragonSlayer2_palette.dmp"
+#incbin "png/PlayerOCs/DragonSlayer2_minimug.dmp"
+#ifndef DragonSlayer2Mug
+  #define DragonSlayer2Mug (FirstMugID+22)
+#endif
+MugEntry(DragonSlayer2Mug, DragonSlayer2MugData, 3, 6, 3, 4)
+
+ALIGN 4
+Morbius3MugData:
+#incbin "png/PlayerOCs/Morbius3_mug.dmp"
+#incbin "png/PlayerOCs/Morbius3_frames.dmp"
+#incbin "png/PlayerOCs/Morbius3_palette.dmp"
+#incbin "png/PlayerOCs/Morbius3_minimug.dmp"
+#ifndef Morbius3Mug
+  #define Morbius3Mug (FirstMugID+23)
+#endif
+MugEntry(Morbius3Mug, Morbius3MugData, 2, 5, 2, 3)
+
+ALIGN 4
+PirateQueen1MugData:
+#incbin "png/PlayerOCs/PirateQueen1_mug.dmp"
+#incbin "png/PlayerOCs/PirateQueen1_frames.dmp"
+#incbin "png/PlayerOCs/PirateQueen1_palette.dmp"
+#incbin "png/PlayerOCs/PirateQueen1_minimug.dmp"
+#ifndef PirateQueen1Mug
+  #define PirateQueen1Mug (FirstMugID+24)
+#endif
+MugEntry(PirateQueen1Mug, PirateQueen1MugData, 3, 6, 3, 4)
+
+ALIGN 4
+PirateQueen2MugData:
+#incbin "png/PlayerOCs/PirateQueen2_mug.dmp"
+#incbin "png/PlayerOCs/PirateQueen2_frames.dmp"
+#incbin "png/PlayerOCs/PirateQueen2_palette.dmp"
+#incbin "png/PlayerOCs/PirateQueen2_minimug.dmp"
+#ifndef PirateQueen2Mug
+  #define PirateQueen2Mug (FirstMugID+25)
+#endif
+MugEntry(PirateQueen2Mug, PirateQueen2MugData, 3, 6, 3, 4)
+
+ALIGN 4
+EternalSoldier1MugData:
+#incbin "png/PlayerOCs/EternalSoldier1_mug.dmp"
+#incbin "png/PlayerOCs/EternalSoldier1_frames.dmp"
+#incbin "png/PlayerOCs/EternalSoldier1_palette.dmp"
+#incbin "png/PlayerOCs/EternalSoldier1_minimug.dmp"
+#ifndef EternalSoldier1Mug
+  #define EternalSoldier1Mug (FirstMugID+26)
+#endif
+MugEntry(EternalSoldier1Mug, EternalSoldier1MugData, 3, 6, 3, 4)
+
+ALIGN 4
+Morbius2MugData:
+#incbin "png/PlayerOCs/Morbius2_mug.dmp"
+#incbin "png/PlayerOCs/Morbius2_frames.dmp"
+#incbin "png/PlayerOCs/Morbius2_palette.dmp"
+#incbin "png/PlayerOCs/Morbius2_minimug.dmp"
+#ifndef Morbius2Mug
+  #define Morbius2Mug (FirstMugID+27)
+#endif
+MugEntry(Morbius2Mug, Morbius2MugData, 3, 5, 3, 3)
+
+ALIGN 4
+EternalSoldierFanFicMugData:
+#incbin "png/PlayerOCs/EternalSoldierFanFic_mug.dmp"
+#incbin "png/PlayerOCs/EternalSoldierFanFic_frames.dmp"
+#incbin "png/PlayerOCs/EternalSoldierFanFic_palette.dmp"
+#incbin "png/PlayerOCs/EternalSoldierFanFic_minimug.dmp"
+#ifndef EternalSoldierFanFicMug
+  #define EternalSoldierFanFicMug (FirstMugID+28)
+#endif
+MugEntry(EternalSoldierFanFicMug, EternalSoldierFanFicMugData, 3, 6, 3, 4)
+

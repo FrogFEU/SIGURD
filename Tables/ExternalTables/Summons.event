@@ -1,0 +1,22 @@
+ALIGN 4
+PlayerSummonOCItems:
+BYTE PirateQueenSummonItem
+BYTE MorbiusSummonItem
+BYTE EternalSoldierSummonItem
+BYTE DragonSlayerSummonItem
+BYTE 0
+
+ALIGN 4
+PlayerSummonOCEventPointer:
+POIN PlayerSummonOCEvent
+
+#define SummonItemToTextListItem(itemID, unitID, taleNameTextID) "BYTE itemID unitID 0 0; WORD taleNameTextID;"
+#define SummonItemToTextListTerminator "BYTE 0 0 0 0; WORD 0;"
+
+ALIGN 4
+SummonItemToTextList:
+SummonItemToTextListItem(PirateQueenSummonItem, PirateQueenPresent, PirateQueenSummonTaleName)
+SummonItemToTextListItem(MorbiusSummonItem, MorbiusPresent, MorbiusSummonTaleName)
+SummonItemToTextListItem(EternalSoldierSummonItem, EternalSoldierPresent, EternalSoldierSummonTaleName)
+SummonItemToTextListItem(DragonSlayerSummonItem, DragonSlayerPresent, DragonSlayerSummonTaleName)
+SummonItemToTextListTerminator

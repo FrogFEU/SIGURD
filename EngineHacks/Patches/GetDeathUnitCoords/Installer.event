@@ -1,0 +1,8 @@
+
+ALIGN 4
+ASMC_GetDeathUnitCoord:
+#incbin "ASMC_GetDeathUnitCoord.dmp"
+
+ALIGN 4
+
+#define GetDeathUnitCoord "ASMC ASMC_GetDeathUnitCoord|1;"

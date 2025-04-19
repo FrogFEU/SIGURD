@@ -1,0 +1,130 @@
+ErrorFanFicEvent:
+STAL(15)
+Text(ErrorFanFicText)
+NoFade
+ENDA
+
+PirateQueenFanFicEvent:
+STAL(15)
+BranchIfFlagOn(FlagPirateQueenFanFicFirstTime, 17)
+ENUT FlagPirateQueenFanFicFirstTime
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSC SongKayFaradayID
+SetBackground(ValoriaFanFicEdit_BG)
+CGText(PirateQueenFanFicText)
+EndConvo
+LABEL 10
+CALL CommonFanFicEvent
+SVAL 3 KillerAxe
+GIVEITEMTO PirateQueenFanFic
+BranchIfFlagOn(FlagSkipTales, 18)
+CHECK_ALIVE MC
+BEQ 18 sC s0
+CAMERA MC
+Text(PirateQueenFanFicReactionText)
+GOTO 18
+LABEL 17
+CALL CommonFanFicEvent
+LABEL 18
+NoFade
+ENDA
+
+MorbiusFanFicEvent:
+STAL(15)
+BranchIfFlagOn(FlagMorbiusFanFicFirstTime, 17)
+ENUT FlagMorbiusFanFicFirstTime
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSC SongKayFaradayID
+SetBackground(MorbiusFanFicEdit_BG)
+CGText(MorbiusFanFicText)
+EndConvo
+LABEL 10
+CALL CommonFanFicEvent
+SVAL 3 Shine
+GIVEITEMTO MorbiusFanFic
+BranchIfFlagOn(FlagSkipTales, 18)
+CHECK_ALIVE MC
+BEQ 18 sC s0
+CAMERA MC
+Text(MorbiusFanFicReactionText)
+GOTO 18
+LABEL 17
+CALL CommonFanFicEvent
+LABEL 18
+NoFade
+ENDA
+
+EternalSoldierFanFicEvent:
+STAL(15)
+BranchIfFlagOn(FlagEternalSoldierFanFicFirstTime, 17)
+ENUT FlagEternalSoldierFanFicFirstTime
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSC SongKayFaradayID
+SetBackground(BillFanFicEdit_BG)
+CGText(EternalSoldierFanFicText)
+EndConvo
+LABEL 10
+CALL CommonFanFicEvent
+SVAL 3 EternalSoldierFangs
+GIVEITEMTO EternalSoldierFanFic
+BranchIfFlagOn(FlagSkipTales, 18)
+CHECK_ALIVE MC
+BEQ 18 sC s0
+CAMERA MC
+Text(EternalSoldierFanFicReactionText)
+GOTO 18
+LABEL 17
+CALL CommonFanFicEvent
+LABEL 18
+NoFade
+ENDA
+
+DragonSlayerFanFicEvent:
+STAL(15)
+BranchIfFlagOn(FlagDragonSlayerFanFicFirstTime, 17)
+ENUT FlagDragonSlayerFanFicFirstTime
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSC SongKayFaradayID
+SetBackground(SintelFanFicEdit_BG)
+CGText(DragonSlayerFanFicText)
+EndConvo
+LABEL 10
+CALL CommonFanFicEvent
+SVAL 3 FlameLance
+GIVEITEMTO DragonSlayerFanFic
+BranchIfFlagOn(FlagSkipTales, 18)
+CHECK_ALIVE MC
+BEQ 18 sC s0
+CAMERA MC
+Text(DragonSlayerFanFicReactionText)
+GOTO 18
+LABEL 17
+CALL CommonFanFicEvent
+LABEL 18
+NoFade
+ENDA
+
+CommonFanFicEvent:
+MoveMemorySlot(s2, s3) // Move s3 to s2
+RefreshUnitEventNoArgs
+ReplaceUnitIDEventNoArgs
+MoveMemorySlot(s1, s2) // Update old unit ID (s1) with new one (s2)
+ASMC ASMC_HealBadStatusLikeBoon|1 // HealBadStatusLikeBoon()
+NoFade
+ENDA
+
+FanFicRevertEvent:
+LABEL 1
+GetFanFicRevertUnitEvent
+BEQ 2 sC s0
+MoveMemorySlot(s2, s1)
+CAMERA -3
+MoveMemorySlot(s2, sC)
+ReplaceUnitIDEventNoArgs
+MoveMemorySlot(s1, s2) // Update old unit ID (s1) with new one (s2)
+ASMC ASMC_HealBadStatusLikeBoon|1 // HealBadStatusLikeBoon()
+GOTO 1
+LABEL 2
+NoFade
+ENDA
+

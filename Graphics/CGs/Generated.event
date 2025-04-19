@@ -1,0 +1,199 @@
+//Generated! Do not edit!
+
+BGEntry(BillFanFicEdit_BGData, BillFanFicEdit_BGPal)
+BGEntry(ValoriaFutureEdit_BGData, ValoriaFutureEdit_BGPal)
+BGEntry(BillPastEdit_BGData, BillPastEdit_BGPal)
+BGEntry(MorbiusPastEdit_BGData, MorbiusPastEdit_BGPal)
+BGEntry(ValoriaPastEdit_BGData, ValoriaPastEdit_BGPal)
+BGEntry(MorbiusFutureEdit_BGData, MorbiusFutureEdit_BGPal)
+BGEntry(BillFutureEdit_BGData, BillFutureEdit_BGPal)
+BGEntry(MorbiusFanFicEdit_BGData, MorbiusFanFicEdit_BGPal)
+BGEntry(ValoriaPresentEdit_BGData, ValoriaPresentEdit_BGPal)
+BGEntry(FinCG_BGData, FinCG_BGPal)
+BGEntry(SintelPastEdit_BGData, SintelPastEdit_BGPal)
+BGEntry(ValoriaFanFicEdit_BGData, ValoriaFanFicEdit_BGPal)
+BGEntry(BillPresentEdit_BGData, BillPresentEdit_BGPal)
+BGEntry(SintelPresentEdit_BGData, SintelPresentEdit_BGPal)
+BGEntry(MorbiusPresentEdit_BGData, MorbiusPresentEdit_BGPal)
+BGEntry(SintelFutureEdit_BGData, SintelFutureEdit_BGPal)
+BGEntry(SintelFanFicEdit_BGData, SintelFanFicEdit_BGPal)
+
+ALIGN 12
+WORD 0xFFFFFFFF // Febuilder terminator 
+
+
+ALIGN 4
+BillFanFicEdit_BGData:
+#incbin "data/BillFanFicEdit.dmp"
+ALIGN 4
+BillFanFicEdit_BGPal:
+#incbin "data/BillFanFicEditPal.dmp"
+#ifndef BillFanFicEdit_BG
+  #define BillFanFicEdit_BG (FirstBG_ID+1)
+#endif
+
+ALIGN 4
+ValoriaFutureEdit_BGData:
+#incbin "data/ValoriaFutureEdit.dmp"
+ALIGN 4
+ValoriaFutureEdit_BGPal:
+#incbin "data/ValoriaFutureEditPal.dmp"
+#ifndef ValoriaFutureEdit_BG
+  #define ValoriaFutureEdit_BG (FirstBG_ID+2)
+#endif
+
+ALIGN 4
+BillPastEdit_BGData:
+#incbin "data/BillPastEdit.dmp"
+ALIGN 4
+BillPastEdit_BGPal:
+#incbin "data/BillPastEditPal.dmp"
+#ifndef BillPastEdit_BG
+  #define BillPastEdit_BG (FirstBG_ID+3)
+#endif
+
+ALIGN 4
+MorbiusPastEdit_BGData:
+#incbin "data/MorbiusPastEdit.dmp"
+ALIGN 4
+MorbiusPastEdit_BGPal:
+#incbin "data/MorbiusPastEditPal.dmp"
+#ifndef MorbiusPastEdit_BG
+  #define MorbiusPastEdit_BG (FirstBG_ID+4)
+#endif
+
+ALIGN 4
+ValoriaPastEdit_BGData:
+#incbin "data/ValoriaPastEdit.dmp"
+ALIGN 4
+ValoriaPastEdit_BGPal:
+#incbin "data/ValoriaPastEditPal.dmp"
+#ifndef ValoriaPastEdit_BG
+  #define ValoriaPastEdit_BG (FirstBG_ID+5)
+#endif
+
+ALIGN 4
+MorbiusFutureEdit_BGData:
+#incbin "data/MorbiusFutureEdit.dmp"
+ALIGN 4
+MorbiusFutureEdit_BGPal:
+#incbin "data/MorbiusFutureEditPal.dmp"
+#ifndef MorbiusFutureEdit_BG
+  #define MorbiusFutureEdit_BG (FirstBG_ID+6)
+#endif
+
+ALIGN 4
+BillFutureEdit_BGData:
+#incbin "data/BillFutureEdit.dmp"
+ALIGN 4
+BillFutureEdit_BGPal:
+#incbin "data/BillFutureEditPal.dmp"
+#ifndef BillFutureEdit_BG
+  #define BillFutureEdit_BG (FirstBG_ID+7)
+#endif
+
+ALIGN 4
+MorbiusFanFicEdit_BGData:
+#incbin "data/MorbiusFanFicEdit.dmp"
+ALIGN 4
+MorbiusFanFicEdit_BGPal:
+#incbin "data/MorbiusFanFicEditPal.dmp"
+#ifndef MorbiusFanFicEdit_BG
+  #define MorbiusFanFicEdit_BG (FirstBG_ID+8)
+#endif
+
+ALIGN 4
+ValoriaPresentEdit_BGData:
+#incbin "data/ValoriaPresentEdit.dmp"
+ALIGN 4
+ValoriaPresentEdit_BGPal:
+#incbin "data/ValoriaPresentEditPal.dmp"
+#ifndef ValoriaPresentEdit_BG
+  #define ValoriaPresentEdit_BG (FirstBG_ID+9)
+#endif
+
+ALIGN 4
+FinCG_BGData:
+#incbin "data/FinCG.dmp"
+ALIGN 4
+FinCG_BGPal:
+#incbin "data/FinCGPal.dmp"
+#ifndef FinCG_BG
+  #define FinCG_BG (FirstBG_ID+10)
+#endif
+
+ALIGN 4
+SintelPastEdit_BGData:
+#incbin "data/SintelPastEdit.dmp"
+ALIGN 4
+SintelPastEdit_BGPal:
+#incbin "data/SintelPastEditPal.dmp"
+#ifndef SintelPastEdit_BG
+  #define SintelPastEdit_BG (FirstBG_ID+11)
+#endif
+
+ALIGN 4
+ValoriaFanFicEdit_BGData:
+#incbin "data/ValoriaFanFicEdit.dmp"
+ALIGN 4
+ValoriaFanFicEdit_BGPal:
+#incbin "data/ValoriaFanFicEditPal.dmp"
+#ifndef ValoriaFanFicEdit_BG
+  #define ValoriaFanFicEdit_BG (FirstBG_ID+12)
+#endif
+
+ALIGN 4
+BillPresentEdit_BGData:
+#incbin "data/BillPresentEdit.dmp"
+ALIGN 4
+BillPresentEdit_BGPal:
+#incbin "data/BillPresentEditPal.dmp"
+#ifndef BillPresentEdit_BG
+  #define BillPresentEdit_BG (FirstBG_ID+13)
+#endif
+
+ALIGN 4
+SintelPresentEdit_BGData:
+#incbin "data/SintelPresentEdit.dmp"
+ALIGN 4
+SintelPresentEdit_BGPal:
+#incbin "data/SintelPresentEditPal.dmp"
+#ifndef SintelPresentEdit_BG
+  #define SintelPresentEdit_BG (FirstBG_ID+14)
+#endif
+
+ALIGN 4
+MorbiusPresentEdit_BGData:
+#incbin "data/MorbiusPresentEdit.dmp"
+ALIGN 4
+MorbiusPresentEdit_BGPal:
+#incbin "data/MorbiusPresentEditPal.dmp"
+#ifndef MorbiusPresentEdit_BG
+  #define MorbiusPresentEdit_BG (FirstBG_ID+15)
+#endif
+
+ALIGN 4
+SintelFutureEdit_BGData:
+#incbin "data/SintelFutureEdit.dmp"
+ALIGN 4
+SintelFutureEdit_BGPal:
+#incbin "data/SintelFutureEditPal.dmp"
+#ifndef SintelFutureEdit_BG
+  #define SintelFutureEdit_BG (FirstBG_ID+16)
+#endif
+
+ALIGN 4
+SintelFanFicEdit_BGData:
+#incbin "data/SintelFanFicEdit.dmp"
+ALIGN 4
+SintelFanFicEdit_BGPal:
+#incbin "data/SintelFanFicEditPal.dmp"
+#ifndef SintelFanFicEdit_BG
+  #define SintelFanFicEdit_BG (FirstBG_ID+17)
+#endif
+
+
+ALIGN 12
+MaxBGID:
+WORD 17
+

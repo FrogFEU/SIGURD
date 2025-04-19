@@ -1,0 +1,105 @@
+Summon3811Event:
+EOCTurnEventHeader(MA, EOC3811SummonItem, 120)
+SilentRemoveItemEvent(MA, EOC3811SummonItem)
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSCSLOW 0x7FFF
+SetBackground(0x35) // Black
+TutorialText(EOC3811SummonTale)
+EndConvo
+MUSCSLOW SongHeathernID
+LABEL 10
+CAMERA EOC3811Pos
+WARPIN EOC3811Pos
+LOAD1 0x1 EOC3811UnitPlacement
+ENUN
+ENDWARP
+SetItemUsesEvent(EOC3811, Dollcraft, 0)
+CHECK_HARD
+BEQ 20 sC s0
+SilentRemoveItemEvent(EOC3811, Dollcraft)
+SilentGiveItem(EOC3811, DollcraftPlus)
+SetItemUsesEvent(EOC3811, DollcraftPlus, 1)
+LABEL 20
+COUNTER_INC CounterEnemyOCs
+LABEL 120
+NoFade
+ENDA
+
+Summon6048Event:
+EOCTurnEventHeader(MA, EOC6048SummonItem, 120)
+SilentRemoveItemEvent(MA, EOC6048SummonItem)
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSCSLOW 0x7FFF
+SetBackground(0x35) // Black
+TutorialText(EOC6048SummonTale)
+EndConvo
+MUSCSLOW SongHeathernID
+LABEL 10
+CAMERA EOC6048Pos
+WARPIN EOC6048Pos
+LOAD1 0x1 EOC6048UnitPlacement
+ENUN
+ENDWARP
+SetItemUsesEvent(EOC6048, FogLevel, 0)
+CHECK_HARD
+BEQ 20 sC s0
+SilentRemoveItemEvent(EOC6048, EncroachingFog)
+SilentGiveItem(EOC6048, EncroachingFogPlus)
+LABEL 20
+COUNTER_INC CounterEnemyOCs
+LABEL 120
+NoFade
+ENDA
+
+Summon5397Event:
+EOCTurnEventHeader(MA, EOC5397SummonItem, 120)
+SilentRemoveItemEvent(MA, EOC5397SummonItem)
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSCSLOW 0x7FFF
+SetBackground(0x35) // Black
+TutorialText(EOC5397SummonTale)
+EndConvo
+MUSCSLOW SongHeathernID
+LABEL 10
+CAMERA EOC5397Pos
+WARPIN EOC5397Pos
+LOAD1 0x1 EOC5397UnitPlacement
+ENUN
+ENDWARP
+SetItemUsesEvent(EOC5397Phase1, UnfinishedMasterwork, 2)
+SetItemUsesEvent(EOC5397Phase1, MasterworkProgress, 0)
+CHECK_HARD
+BEQ 20 sC s0
+SilentRemoveItemEvent(EOC5397Phase1, UnfinishedMasterwork)
+SilentGiveItem(EOC5397Phase1, UnfinishedMasterworkPlus)
+SetItemUsesEvent(EOC5397Phase1, UnfinishedMasterworkPlus, 2)
+LABEL 20
+COUNTER_INC CounterEnemyOCs
+LABEL 120
+NoFade
+ENDA
+
+Summon2136Event:
+EOCTurnEventHeader(MA, EOC2136SummonItem, 120)
+SilentRemoveItemEvent(MA, EOC2136SummonItem)
+BranchIfFlagOn(FlagSkipTales, 10)
+MUSCSLOW 0x7FFF
+SetBackground(0x35) // Black
+TutorialText(EOC2136SummonTale)
+EndConvo
+MUSCSLOW SongScatteredAndLostID
+LABEL 10
+LOAD1 0x1 EOC2136UnitPlacement
+ENUN
+HIDEUNIT EOC2136
+CALL EOC2136UpdateWeapon
+CALL EOC2136UpdatePosition
+CHECK_HARD
+BEQ 20 sC s0
+SilentRemoveItemEvent(EOC2136, Avenger)
+SilentGiveItem(EOC2136, AvengerPlus)
+LABEL 20
+COUNTER_INC CounterEnemyOCs
+LABEL 120
+NoFade
+ENDA

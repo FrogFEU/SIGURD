@@ -1,0 +1,3 @@
+ALIGN 4
+tile_origin:
+WORD 0x02003C94

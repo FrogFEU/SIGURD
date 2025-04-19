@@ -1,0 +1,110 @@
+OpeningCutscenePreMap:
+// Setup cutscene map
+LOMA 0x1
+CAMERA_CENTERED [13, 5]
+LOAD2 0x2 CutsceneCrowd
+ENUN
+// Prelude scene
+SetBackground(0x17) // Arena Entrance
+CGText(StartEventTextArenaEntranceTitle)
+MUSC SongUnendingPreludeID
+Text(StartEventTextArenaEntrance)
+EndConvo
+// Begin emcee
+MUSC SongFurioTigreID
+LOAD2 0x2 EmceePlacement
+ENUN
+MoveDown(0, 0x71) // Emcee
+Text(StartEventTextEmcee1)
+EARTHQUAKE 0 1
+SOUN 0x81 // Crowd cheer
+STAL(50)
+SOUN 0x81 // Crowd cheer
+STAL(50)
+EARTHQUAKE_END
+STAL(15)
+MoveRight(0, 0x71) // Emcee
+Text(StartEventTextEmcee2)
+CAMERA_CENTERED [23, 18]
+LOAD2 0x2 CutsceneMAPlacement
+EARTHQUAKE 0 1
+SOUN 0x81 // Crowd cheer
+STAL(50)
+SOUN 0x81 // Crowd cheer
+STAL(50)
+SOUN 0x81 // Crowd cheer
+STAL(50)
+EARTHQUAKE_END
+ENUN
+Text(StartEventTextEnterAthena)
+CAMERA_CENTERED [13, 5]
+MoveLeft(0, 0x71) // Emcee
+MoveLeft(0, 0x71) // Emcee
+Text(StartEventTextEmcee3)
+MUSCSLOW 0x7FFF
+CAMERA_CENTERED [5, 18]
+LOAD2 0x2 CutsceneMCPlacement
+ENUN
+Text(StartEventTextEnterMC)
+MUSCSLOW SongFurioTigreID
+CAMERA_CENTERED [13, 5]
+MoveRight(0, 0x71) // Emcee
+MoveRight(0, 0x71) // Emcee
+Text(StartEventTextEmcee4)
+MUSCSLOW 0x7FFF
+WARPIN [13, 1]
+LOAD2 0x2 GameMasterPlacement
+ENUN
+ENDWARP
+// Enter GM text
+TEXTSTART
+TEXTSHOW StartEventTextEnterGameMaster
+TEXTEND
+MUSC SongCrossExaminationModerato2007ID
+TEXTCONT
+TEXTEND
+REMA
+WARPOUT [13, 1]
+REMU 0x76 // GM
+ENDWARP
+EARTHQUAKE 0 1
+CAMERA_CENTERED [13, 18]
+FADI 2
+ClearAll
+LOMA 0x0
+NoFade
+ENDA
+
+OpeningCutscenePostMap:
+CAMERA_CENTERED [12, 9]
+STAL(30)
+FADU 2
+EARTHQUAKE_END
+STAL(60)
+CAMERA [0, 9]
+STAL(60)
+CAMERA [25, 9]
+STAL(60)
+CAMERA_CENTERED [12, 9]
+STAL(30)
+Text(StartEventTextEmcee5)
+CAMERA [0, 9]
+STAL(30)
+MUSC SongYatagarasuID
+Text(StartEventTextExtrasReaction)
+CALL Tutorials
+NoFade
+ENDA
+
+Tutorials:
+ShowYesNoAndBranchIfYes(TutorialAskEnable, 20)
+ENUT FlagFinishedSelectionTutorials
+ShowYesNoAndBranchIfNo(TutorialAskSkipTales, 120)
+ENUT FlagSkipTales
+GOTO 120
+LABEL 20
+TutorialText(TutorialStart)
+TutorialText(TutorialGameplayChanges)
+LABEL 120
+NoFade
+ENDA
