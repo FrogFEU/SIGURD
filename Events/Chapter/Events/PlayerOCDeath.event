@@ -14,7 +14,7 @@ NoFade
 ENDA
 
 POCDeathUpdateMusic:
-COUNTER_CHECK CounterEnemyOCs
+COUNTER_CHECK CounterPlayerOCs
 SVAL 1 1
 BEQ 20 sC s1
 SetChapterSong(SongUncontrollableID, SongDeepSeaBassID, SongUncontrollableID, 1)

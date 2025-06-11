@@ -1,0 +1,256 @@
+INLINE WalkingSoundTable,Sound
+0x0,0
+Ephraim Lord,0
+Eirika Lord,0
+Ephraim Master Lord,1
+Eirika Master Lord,1
+Lance Cav,1
+Lance Cav (F),1
+Paladin,1
+Paladin (F),1
+Warden,4
+Warden (F),4
+General,4
+General (F),4
+Thief,0
+Manakete,0
+Mercenary,0
+Mercenary (F),0
+Hero,0
+Hero (F),0
+Myrmidon,0
+Myrmidon (F),0
+Swordmaster,0
+Swordmaster (F),0
+Assassin,0
+Assassin (F),0
+Archer,0
+Archer (F),0
+Sniper,0
+Sniper (F),0
+Ranger,1
+Ranger (F),1
+Dragon Rider,2
+Dragon Rider (F),2
+Wyvern Lord,2
+Wyvern Lord (F),2
+Wyvern Knight,2
+Wyvern Knight (F),2
+Mage,0
+Mage (F),0
+Sage,0
+Sage (F),0
+Mage Knight,1
+Mage Knight (F),1
+Bishop,0
+Bishop (F),0
+Shaman,0
+Shaman (F),0
+Druid,0
+Druid (F),0
+Summoner,0
+Summoner (F),0
+Rogue,0
+Gorgon Egg,0
+Cataphract,1
+Cataphract (F),1
+Recruit (2),0
+Journeyman (3),0
+Pupil (3),0
+Recruit (3),0
+Manakete,0
+Manakete (F),0
+Journeyman (1),0
+Pupil (1),0
+Fighter,0
+Warrior,0
+Brigand,0
+Pirate,0
+Berserker,0
+Monk,0
+Priest,0
+Bard,0
+Recruit (1),0
+Pegasus Knight,3
+Falcon Knight,3
+Cleric,0
+Troubadour,1
+Valkyrie,1
+Dancer,0
+Soldier,0
+Necromancer,0
+Fleet,5
+Phantom,11
+Revenant,0
+Entombed,4
+Bonewalker,0
+Bonewalker (Bow),0
+Wight,0
+Wight (Bow),0
+Bael,0
+Elder Bael,0
+Cyclops,0
+Mauthe Doog,0
+Gwyllgi,0
+Tarvos,0
+Maelduin,0
+Mogall,0
+Arch Mogall,0
+Gorgon,0
+Gorgon Egg,0
+Gargoyle,0
+Deathgoyle,0
+Dracozombie,6
+Demon King,0
+Archer on Ballista,0
+Archer on Iron Ballista,0
+Archer on Killer Ballista,0
+Ballista,0
+Iron Ballista,0
+Killer Ballista,0
+Civilian,0
+Civilian (F),0
+Civilian,0
+Civilian (F),0
+Civilian,0
+Civilian (F),0
+Peer,0
+Queen,0
+Prince,0
+Queen,0
+(empty),0
+Fallen Prince,0
+Tent,0
+Pontifex,0
+Dead Peer,0
+Cyclops,0
+Elder Bael,0
+Journeyman (2),0
+Pupil (2),0
+OC Pirate,InfantrySound
+OC Princess,InfantrySound
+OC Queen,InfantrySound
+OC Berserker,InfantrySound
+OC Priest,InfantrySound
+OC Druid,InfantrySound
+OC Lich,BonewalkerSound
+OC Bishop,InfantrySound
+OC Soldier,InfantrySound
+OC Halberdier,InfantrySound
+OC Sentinel,InfantrySound
+OC Werewolf,DogSound
+OC Hunter,InfantrySound
+OC Adventurer,InfantrySound
+OC Dread Fighter,InfantrySound
+OC Dragon Rider,WyvernSound
+Lore Weaver,InfantrySound
+Bard,InfantrySound
+EOC Mechanist,InfantrySound
+EOC Vengeance,CavalrySound
+EOC Spirit,InfantrySound
+EOC Sceptre,InfantrySound
+EOC Living Blade,InfantrySound
+EOC Living Armour,ArmorSound
+EOC Living Masterpiece,ArmorSound
+EOC Doll,BonewalkerSound
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+Myrmidon,InfantrySound
+Soldier,InfantrySound
+Pirate,InfantrySound
+Hunter,InfantrySound
+Cleric,InfantrySound
+Mage (F),InfantrySound
+Revenant,RevenantSound
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+Swordmaster,InfantrySound
+Halberdier,InfantrySound
+Berserker,InfantrySound
+Adventurer,InfantrySound
+Bishop,InfantrySound
+Druid,InfantrySound
+Wyvern Lord,WyvernSound
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+Dread Fighter,InfantrySound
+Sentinel,0
+(empty),0
+(empty),0
+Necromancer,InfantrySound
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0
+(empty),0

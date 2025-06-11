@@ -40,6 +40,22 @@
 //item ID for skill scroll
 #define SkillScroll 0xBC
 
+//Defines for movement sounds (I wasn't sure where else to put them lol)
+
+#define InfantrySound 0
+#define CavalrySound 1
+#define WyvernSound 2
+#define PegasusSound 3
+#define ArmorSound 4
+#define ShipSound 5
+#define ManaketeSound 6
+#define RevenantSound 7
+#define BonewalkerSound 8
+#define SpiderSound 9
+#define DogSound 0xA
+#define MogallSound 0xB
+#define GorgonSound 0xC
+
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p

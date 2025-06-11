@@ -67,16 +67,16 @@ UNIT
 // Enemies
 
 NormalEnemies:
-UNIT 0x70 Revenant 0x00 Level(1, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI
-UNIT 0x70 Revenant 0x00 Level(1, Enemy, 1) [4,10] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI
-UNIT 0x70 Soldier 0x00 Level(1, Enemy, 1) [9,15] 0x00 0x00 0x0 0x00 [Javelin] DelayedPursueWithoutHeedAI
-UNIT 0x70 Soldier 0x00 Level(1, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [Javelin] DelayedPursueWithoutHeedAI
-UNIT 0x70 WyvernLord 0x00 Level(1, Enemy, 1) [6,17] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x70 WyvernLord 0x00 Level(1, Enemy, 1) [6,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x70 Pirate 0x00 Level(1, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
-UNIT 0x70 Myrmidon 0x00 Level(1, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI
-UNIT 0x70 Adventurer 0x00 Level(1, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [KillerBow] DelayedPursueWithoutHeedAI
-UNIT 0x70 Bishop 0x00 Level(1, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [Lightning] DelayedPursueWithoutHeedAI
+UNIT EnemyUnit Revenant 0x00 Level(1, Enemy, 1) [4,8] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI
+UNIT EnemyUnit Revenant 0x00 Level(1, Enemy, 1) [4,10] 0x00 0x00 0x0 0x00 [RottenClaw] PursueWithoutHeedAI
+UNIT EnemyUnit Soldier 0x00 Level(1, Enemy, 1) [9,15] 0x00 0x00 0x0 0x00 [Javelin] DelayedPursueWithoutHeedAI
+UNIT EnemyUnit Soldier 0x00 Level(1, Enemy, 1) [11,13] 0x00 0x00 0x0 0x00 [Javelin] DelayedPursueWithoutHeedAI
+UNIT EnemyUnit WyvernLord 0x00 Level(1, Enemy, 1) [6,17] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT EnemyUnit WyvernLord 0x00 Level(1, Enemy, 1) [6,0] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT EnemyUnit Pirate 0x00 Level(1, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT EnemyUnit Myrmidon 0x00 Level(1, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [KillingEdge] PursueWithoutHeedAI
+UNIT EnemyUnit Adventurer 0x00 Level(1, Enemy, 1) [11,8] 0x00 0x00 0x0 0x00 [ShortBow] DelayedPursueWithoutHeedAI
+UNIT EnemyUnit Bishop 0x00 Level(1, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [Lightning] DelayedPursueWithoutHeedAI
 //UNIT 0x70 Swordmaster 0x00 Level(1, Enemy, 1) [15,9] 0x00 0x00 0x0 0x00 [SilverSword] ChaseOnceApproachedAI
 //UNIT 0x70 Halberdier 0x00 Level(1, Enemy, 1) [17,13] 0x00 0x00 0x0 0x00 [Spear] NeverMoveAI
 //UNIT 0x70 Halberdier 0x00 Level(1, Enemy, 1) [16,13] 0x00 0x00 0x0 0x00 [Spear] NeverMoveAI
@@ -84,36 +84,36 @@ UNIT
 
 EOC3811Group: // Group 1
 //UNIT 0x70 Bishop 0x00 Level(1, Enemy, 1) [12,1] 0x00 0x00 0x0 0x00 [Purge] [AttackInPlace, NoAI2, NoRecovery, 0x21]
-UNIT 0x70 Sentinel 0x00 Level(1, Enemy, 1) [13,2] 0x00 0x00 0x0 0x00 [Vidofnir, IronLance] GroupOneAI
-UNIT 0x70 Sentinel 0x00 Level(1, Enemy, 1) [11,2] 0x00 0x00 0x0 0x00 [Reginleif, IronLance] GroupOneAI
-UNIT 0x70 Druid 0x00 Level(1, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [Nosferatu] GroupOneAI
-UNIT 0x70 Berserker 0x00 Level(1, Enemy, 1) [19,3] 0x00 0x00 0x0 0x00 [Swordslayer] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x01]
-UNIT 0x70 Berserker 0x00 Level(1, Enemy, 1) [18,2] 0x00 0x00 0x0 0x00 [DevilAxe] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x01]
-UNIT 0x70 Revenant 0x00 Level(1, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [SharpClaw] AttackInRangeAI
-UNIT 0x70 Revenant 0x00 Level(1, Enemy, 1) [15,3] 0x00 0x00 0x0 0x00 [SharpClaw] AttackInRangeAI
+UNIT EnemyUnitGroup1 Sentinel 0x00 Level(1, Enemy, 1) [13,2] 0x00 0x00 0x0 0x00 [Vidofnir, IronLance] GroupOneAI
+UNIT EnemyUnitGroup1 Sentinel 0x00 Level(1, Enemy, 1) [11,2] 0x00 0x00 0x0 0x00 [Reginleif, IronLance] GroupOneAI
+UNIT EnemyUnitGroup1 Druid 0x00 Level(1, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [Nosferatu] GroupOneAI
+UNIT EnemyUnitGroup1 Berserker 0x00 Level(1, Enemy, 1) [19,3] 0x00 0x00 0x0 0x00 [Swordslayer] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x01]
+UNIT EnemyUnitGroup1 Berserker 0x00 Level(1, Enemy, 1) [18,2] 0x00 0x00 0x0 0x00 [DevilAxe] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x01]
+UNIT EnemyUnit Revenant 0x00 Level(1, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [SharpClaw] AttackInRangeAI
+UNIT EnemyUnit Revenant 0x00 Level(1, Enemy, 1) [15,3] 0x00 0x00 0x0 0x00 [SharpClaw] AttackInRangeAI
 UNIT
 
 EOC6048Group: // Group 2
 //UNIT 0x70 Druid 0x00 Level(1, Enemy, 1) [12,17] 0x00 0x00 0x0 0x00 [Eclipse] [AttackInPlace, NoAI2, NoRecovery, 0x22]
-UNIT 0x70 DreadFighter 0x00 Level(1, Enemy, 1) [16,17] 0x00 0x00 0x0 0x00 [Shamshir, IronSword] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x02]
-UNIT 0x70 DreadFighter 0x00 Level(1, Enemy, 1) [17,16] 0x00 0x00 0x0 0x00 [Audhulma, IronSword] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x02]
-UNIT 0x70 Bishop 0x00 Level(1, Enemy, 1) [12,14] 0x00 0x00 0x0 0x00 [Aura] GroupTwoAI
+UNIT EnemyUnitGroup2 DreadFighter 0x00 Level(1, Enemy, 1) [16,17] 0x00 0x00 0x0 0x00 [Shamshir, IronSword] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x02]
+UNIT EnemyUnitGroup2 DreadFighter 0x00 Level(1, Enemy, 1) [17,16] 0x00 0x00 0x0 0x00 [Audhulma, IronSword] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x02]
+UNIT EnemyUnitGroup2 Bishop 0x00 Level(1, Enemy, 1) [12,14] 0x00 0x00 0x0 0x00 [Aura] GroupTwoAI
 //UNIT 0x70 Hunter 0x00 Level(1, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [IronBow] GroupTwoAI
 //UNIT 0x70 Hunter 0x00 Level(1, Enemy, 1) [11,15] 0x00 0x00 0x0 0x00 [IronBow] GroupTwoAI
 UNIT
 
 EOC5397Group: // Group 3
-UNIT 0x70 Druid 0x00 Level(1, Enemy, 1) [25,10] 0x00 0x00 0x0 0x00 [Luna] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x03]
-UNIT 0x70 Druid 0x00 Level(1, Enemy, 1) [25,8] 0x00 0x00 0x0 0x00 [Luna] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x03]
+UNIT EnemyUnitGroup3 Druid 0x00 Level(1, Enemy, 1) [25,10] 0x00 0x00 0x0 0x00 [Luna] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x03]
+UNIT EnemyUnitGroup3 Druid 0x00 Level(1, Enemy, 1) [25,8] 0x00 0x00 0x0 0x00 [Luna] [AttackInRange, ChaseOnceApproached, NoRecovery, 0x03]
 //UNIT 0x70 WyvernLord 0x00 Level(1, Enemy, 1) [23,9] 0x00 0x00 0x0 0x00 [KillerLance] GroupThreeAI
 UNIT
 
 PenultimateGroup: // Group 4
-UNIT 0x70 Adventurer 0x00 Level(1, Enemy, 1) [20,9] 0x00 0x00 0x0 0x00 [Arbalest] [AttackInPlace, NoAI2, NoRecovery, 0x24]
-UNIT 0x70 Myrmidon 0x00 Level(1, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SteelSword] GroupFourAI
-UNIT 0x70 Myrmidon 0x00 Level(1, Enemy, 1) [18,10] 0x00 0x00 0x0 0x00 [SteelSword] GroupFourAI
-UNIT 0x70 Adventurer 0x00 Level(1, Enemy, 1) [19,11] 0x00 0x00 0x0 0x00 [SilverBow] GroupFourAI
-UNIT 0x70 Adventurer 0x00 Level(1, Enemy, 1) [19,7] 0x00 0x00 0x0 0x00 [SilverBow] GroupFourAI
+UNIT EnemyUnitGroup4 Adventurer 0x00 Level(1, Enemy, 1) [20,9] 0x00 0x00 0x0 0x00 [Arbalest] [AttackInPlace, NoAI2, NoRecovery, 0x24]
+UNIT EnemyUnitGroup4 Revenant 0x00 Level(1, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [SharpClaw] GroupFourAI
+UNIT EnemyUnitGroup4 Revenant 0x00 Level(1, Enemy, 1) [18,10] 0x00 0x00 0x0 0x00 [SharpClaw] GroupFourAI
+UNIT EnemyUnitGroup4 Swordmaster 0x00 Level(1, Enemy, 1) [19,11] 0x00 0x00 0x0 0x00 [SilverSword] GroupFourAI
+UNIT EnemyUnitGroup4 Swordmaster 0x00 Level(1, Enemy, 1) [19,7] 0x00 0x00 0x0 0x00 [SilverSword] GroupFourAI
 UNIT
 
 // Cutscene

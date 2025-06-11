@@ -90,7 +90,7 @@ CGText(DragonSlayerFanFicText)
 EndConvo
 LABEL 10
 CALL CommonFanFicEvent
-SVAL 3 FlameLance
+SVAL 3 KillerBow
 GIVEITEMTO DragonSlayerFanFic
 BranchIfFlagOn(FlagSkipTales, 18)
 CHECK_ALIVE MC

@@ -53,7 +53,9 @@ Start with a Hoplon[N]
 Guard and an Elixir.[X]
 
 # 0x14B HardDifficultyDesc
-No mercy.[X]
+No mercy.[N]
+Not recommended for[N]
+first-time players.[X]
 
 # 0x851 LockedFormText
 This form is locked.[X]

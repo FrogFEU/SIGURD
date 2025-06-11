@@ -176,3 +176,21 @@ Extra[X]
 ## GenericEnemyDesc
 Easy to ignore, up until the[N]
 point where they kill you.[X]
+
+
+## GenericEnemyGroup1Name
+Squad 1[X]
+
+## GenericEnemyGroup2Name
+Squad 2[X]
+
+## GenericEnemyGroup3Name
+Squad 3[X]
+
+## GenericEnemyGroup4Name
+Squad 4[X]
+
+## GenericEnemyGroupDesc
+All enemies in the same squad[N]
+will charge once one of them[N]
+enters combat.[X]

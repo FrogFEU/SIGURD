@@ -185,6 +185,10 @@ resemblance to a certain person.[X]
 Talented swordsmen skilled in[N]
 swift killing strokes. Equip: [sword][X]
 
+## SwordmasterDesc
+Lightning-fast swordsmen of peerless[N]
+and lethal skill. Equip: [sword][X]
+
 ## MageDesc
 Magic wielders with solid skills but[N]
 low physical strength. Equip: [anima].[X]

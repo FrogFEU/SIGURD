@@ -17,6 +17,7 @@ ALIGN 4
 #include "SendInventoryOnDeath/Installer.event"
 #include "ModularMinimugBox/Installers/MMBInstallerMine.event"
 #include "MugExceed/EA.txt"
+#include "FE8-Walking_Sounds_Fix/FE8-Walking_Sounds_EA.event"
 
 ALIGN 4
 #include "ExtendCGText/FixCGText.lyn.event"

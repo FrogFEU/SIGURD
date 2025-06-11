@@ -36,3 +36,9 @@
 #define EOC3811DollSummoned 0x28
 
 #define EOC2136MemoryStorage 0x29
+
+#define EnemyUnit 0x70
+#define EnemyUnitGroup1 0x6F
+#define EnemyUnitGroup2 0x6E
+#define EnemyUnitGroup3 0x6D
+#define EnemyUnitGroup4 0x6C

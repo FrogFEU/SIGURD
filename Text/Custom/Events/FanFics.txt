@@ -33,12 +33,12 @@ Actually, [ToggleRed]does she really[N]
 have to be evil?[ToggleRed][A][ToggleSmile] Hm[Beat][A][X]
 
 ## MorbiusFanFicText
-But once Morbius revived her, the Goddess[N]
+But once Morbius revived Her, the Goddess[N]
 of Death became the Goddess of Life -[AN]
 for she was no longer dead![AN]
 She and Morbius quickly explained the[N]
 misunderstanding to the church,[AN]
-and set out to spread her holy teachings[N]
+and set out to spread Her holy teachings[N]
 of love and mercy throughout the world.[A][X]
 
 ## MorbiusFanFicReactionText
